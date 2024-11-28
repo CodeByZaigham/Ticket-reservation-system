@@ -4,3 +4,9 @@ C:\Users\NABEEL\source\repos\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug
 C:\Users\SP24-BSCS-0001\Downloads\oopTest1\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.AssemblyReference.cache
 C:\Users\SP24-BSCS-0001\Downloads\oopTest1\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.Form1.resources
 C:\Users\SP24-BSCS-0001\Downloads\oopTest1\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.GenerateResource.cache
+C:\Users\NABEEL\Downloads\oopTest2\oopTest1\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.AssemblyReference.cache
+C:\Users\NABEEL\Downloads\oopTest2\oopTest1\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.Form1.resources
+C:\Users\NABEEL\Downloads\oopTest2\oopTest1\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.GenerateResource.cache
+C:\Users\hp\Documents\29-11(OOP-UI)\oopTest2\oopTest1\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.AssemblyReference.cache
+C:\Users\hp\Documents\29-11(OOP-UI)\oopTest2\oopTest1\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.Form1.resources
+C:\Users\hp\Documents\29-11(OOP-UI)\oopTest2\oopTest1\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.GenerateResource.cache
