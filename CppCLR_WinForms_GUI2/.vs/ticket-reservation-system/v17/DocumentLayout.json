@@ -1,9 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\",
+  "WorkspaceRootPath": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\EcoCabin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\EcoCabin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\BussCabin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\BussCabin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Cabin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Cabin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\BussTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\BussTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\EcoTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\EcoTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Ticket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Ticket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -13,7 +41,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 928,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -23,15 +51,113 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.h",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Form1.h",
-              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Form1.h",
-              "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Form1.h",
-              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Form1.h",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBQAAAAYAAAAAAAAAA==",
+              "Title": "EcoCabin.h",
+              "DocumentMoniker": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\EcoCabin.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\EcoCabin.h",
+              "ToolTip": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\EcoCabin.h",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\EcoCabin.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-25T16:33:23.824Z",
+              "WhenOpened": "2024-11-27T14:37:08.031Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BussCabin.h",
+              "DocumentMoniker": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\BussCabin.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\BussCabin.h",
+              "ToolTip": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\BussCabin.h",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\BussCabin.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-27T14:36:46.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cabin.h",
+              "DocumentMoniker": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Cabin.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Cabin.h",
+              "ToolTip": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Cabin.h",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Cabin.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-27T14:23:08.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BussTicket.h",
+              "DocumentMoniker": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\BussTicket.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\BussTicket.h",
+              "ToolTip": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\BussTicket.h",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\BussTicket.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-27T12:02:56.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EcoTicket.h",
+              "DocumentMoniker": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\EcoTicket.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\EcoTicket.h",
+              "ToolTip": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\EcoTicket.h",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\EcoTicket.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-27T12:01:01.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ticket.h",
+              "DocumentMoniker": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Ticket.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Ticket.h",
+              "ToolTip": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Ticket.h",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Ticket.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-27T11:48:40.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.h",
+              "DocumentMoniker": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Form1.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Form1.h",
+              "ToolTip": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Form1.h",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Form1.h",
+              "ViewState": "AgIAACwJAAAAAAAAAAAIwG8JAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-25T17:54:29.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.h [Design]",
+              "DocumentMoniker": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Form1.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Form1.h",
+              "ToolTip": "G:\\ticket reservation system\\Ticket-reservation-system\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Form1.h [Design]",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Form1.h [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-25T17:54:17.239Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 283,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
