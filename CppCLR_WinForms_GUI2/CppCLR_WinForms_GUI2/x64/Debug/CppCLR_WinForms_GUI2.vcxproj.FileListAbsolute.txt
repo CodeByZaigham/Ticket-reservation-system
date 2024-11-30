@@ -4,3 +4,6 @@ C:\Users\NABEEL\source\repos\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug
 C:\Users\SP24-BSCS-0001\Downloads\oopTest1\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.AssemblyReference.cache
 C:\Users\SP24-BSCS-0001\Downloads\oopTest1\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.Form1.resources
 C:\Users\SP24-BSCS-0001\Downloads\oopTest1\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\PROJECT\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\PROJECT\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.Form1.resources
+C:\Users\Lenovo\Desktop\PROJECT\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.GenerateResource.cache

@@ -134,20 +134,28 @@
     <ResourceCompile Include="app.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Admin.h" />
     <ClInclude Include="CppCLR_Utils.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="EconomyCustomer.h" />
     <ClInclude Include="Form1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Header1.h" />
     <ClInclude Include="Header2.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Person.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="rk1_Utils_demo.h" />
+    <ClInclude Include="Schedule.h" />
     <ClInclude Include="SimpleUnitTests.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="CppCLR_WinFormsProject.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="EconomyCustomer.cpp" />
     <ClCompile Include="Form1.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -155,6 +163,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Schedule.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico" />
