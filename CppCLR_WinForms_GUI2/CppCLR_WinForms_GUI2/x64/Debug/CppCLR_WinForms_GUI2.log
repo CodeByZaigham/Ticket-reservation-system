@@ -1,0 +1,6 @@
+﻿  Admin.cpp
+  Customer.cpp
+  EconomyCustomer.cpp
+  Generating Code...
+C:\Users\Lenovo\Desktop\PROJECT\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Customer.h(28,1): error C4716: 'Customer::login': must return a value
+C:\Users\Lenovo\Desktop\PROJECT\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Customer.h(28,1): error C4716: 'Customer::login': must return a value
