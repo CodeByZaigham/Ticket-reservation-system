@@ -29,8 +29,9 @@ public:
 		if (id->IsNullOrEmpty || id->IsNullOrWhiteSpace) {
 			return;
 		}
-
-		this->id = id;
+		else {
+			this->id = id;
+		}
 	}
 
 	String^ getTo() {
@@ -41,8 +42,9 @@ public:
 		if (to->IsNullOrEmpty || to->IsNullOrWhiteSpace) {
 			return;
 		}
-
-		this->to = to;
+		else {
+			this->to = to;
+		}
 	}
 
 	String^ getFrom() {
@@ -53,8 +55,9 @@ public:
 		if (from->IsNullOrEmpty || from->IsNullOrWhiteSpace) {
 			return;
 		}
-
-		this->from = from;
+		else {
+			this->from = from;
+		}
 	}
 
 	int getPrice() {
@@ -65,8 +68,9 @@ public:
 		if (price < 1) {
 			return;
 		}
-
-		this->price = price;
+		else {
+			this->price = price;
+		}
 	}
 
 	String^ generateID(const std::string ticketType) {

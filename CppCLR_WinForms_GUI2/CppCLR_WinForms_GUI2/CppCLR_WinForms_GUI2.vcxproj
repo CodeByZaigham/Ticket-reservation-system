@@ -153,7 +153,7 @@
     <ClInclude Include="rk1_Utils_demo.h" />
     <ClInclude Include="SimpleUnitTests.h" />
     <ClInclude Include="Ticket.h" />
-    <ClInclude Include="Train.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Admin.cpp" />

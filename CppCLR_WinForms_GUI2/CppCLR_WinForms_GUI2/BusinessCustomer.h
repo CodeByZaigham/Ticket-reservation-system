@@ -1,5 +1,7 @@
 #pragma once
+
 #include "Customer.h"
+
 ref class BusinessCustomer : public Customer
 {
 public:

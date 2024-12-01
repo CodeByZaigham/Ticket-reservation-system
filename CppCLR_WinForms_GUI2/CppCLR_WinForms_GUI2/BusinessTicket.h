@@ -1,9 +1,8 @@
 #pragma once
 
 #include "Ticket.h"
-#include<iostream>
+
 using namespace System;
-using namespace System::IO;
 
 ref class BusinessTicket : public Ticket
 {

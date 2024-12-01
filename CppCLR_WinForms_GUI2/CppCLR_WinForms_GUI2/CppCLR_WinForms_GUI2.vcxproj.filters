@@ -80,7 +80,7 @@
     <ClInclude Include="Admin.h">
       <Filter>Header Files\Other Classes</Filter>
     </ClInclude>
-    <ClInclude Include="Train.h">
+    <ClInclude Include="Vehicle.h">
       <Filter>Header Files\Other Classes</Filter>
     </ClInclude>
     <ClInclude Include="Database.h">

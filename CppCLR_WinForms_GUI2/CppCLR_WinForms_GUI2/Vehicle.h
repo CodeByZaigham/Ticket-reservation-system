@@ -6,58 +6,63 @@
 using namespace System;
 using namespace System::Collections::Generic;
 
-ref class Train
+ref class Vehicle
 {
-	String^ trainID;
+	String^ vehicleID;
 	String^ deparetureTime;
 	List<EconomyTicket^>^ economyTickets = nullptr;
 	List<BusinessTicket^>^ businessTickets = nullptr;
 
 private:
 
-	void setTrainID(String^ trainID) {
-		if (trainID->IsNullOrEmpty || trainID->IsNullOrWhiteSpace || trainID->Length < 4) {
+	void setVehicleID(String^ vehicleID) {
+		if (vehicleID->IsNullOrEmpty || vehicleID->IsNullOrWhiteSpace || vehicleID->Length < 4) {
 			return;
 		}
-
-		this->trainID = trainID;
-	}
-
-	String^ getTrainID() {
-		return trainID;
-	}
-
-	void setBusinessSeatsLimit(int seatLimit, Ticket^ ticket) {
-
-		if (seatLimit < 1) {
-			return;
+		else {
+			this->vehicleID = vehicleID;
 		}
+	}
 
-		List<EconomyTicket^>^ economyTickets = gcnew List<EconomyTicket^>();
-
-		for (int i = 0; i < seatLimit; i++) {
-
-			EconomyTicket^ economyTicket = gcnew EconomyTicket(ticket);
-			economyTickets->Add(economyTicket);
-		} 
-
-		this->economyTickets = economyTickets;
+	String^ getVehicleID() {
+		return vehicleID;
 	}
 
 	void setEconomySeatsLimit(int seatLimit, Ticket^ ticket) {
+
 		if (seatLimit < 1) {
 			return;
 		}
+		else {
 
-		List<BusinessTicket^>^ businessTickets = gcnew List<BusinessTicket^>();
+			List<EconomyTicket^>^ economyTickets = gcnew List<EconomyTicket^>();
 
-		for (int i = 0; i < seatLimit; i++) {
+			for (int i = 0; i < seatLimit; i++) {
 
-			BusinessTicket^ economyTicket = gcnew BusinessTicket(ticket);
-			businessTickets->Add(economyTicket);
+				EconomyTicket^ economyTicket = gcnew EconomyTicket(ticket);
+				economyTickets->Add(economyTicket);
+			}
+
+			this->economyTickets = economyTickets;
 		}
+	}
 
-		this->businessTickets = businessTickets;
+	void setBusinessSeatsLimit(int seatLimit, Ticket^ ticket) {
+		if (seatLimit < 1) {
+			return;
+		}
+		else {
+
+			List<BusinessTicket^>^ businessTickets = gcnew List<BusinessTicket^>();
+
+			for (int i = 0; i < seatLimit; i++) {
+
+				BusinessTicket^ businessTicket = gcnew BusinessTicket(ticket);
+				businessTickets->Add(businessTicket);
+			}
+
+			this->businessTickets = businessTickets;
+		}
 	}
 
 	int getBusinessSeatsAmount() {

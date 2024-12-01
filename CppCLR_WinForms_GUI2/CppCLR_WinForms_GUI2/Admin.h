@@ -2,7 +2,6 @@
 
 #include "Person.h"
 #include "Ticket.h"
-#include "Train.h"
 
 #include <iostream>
 
@@ -22,10 +21,11 @@ public:
 		if (password != this->password || username != this->username) {
 			return false;
 		}
+		else {
+			this->username = username;
 
-		this->username = username;
-
-		return true;
+			return true;
+		}
 	}
 };
 

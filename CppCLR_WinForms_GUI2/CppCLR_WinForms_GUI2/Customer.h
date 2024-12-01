@@ -16,7 +16,7 @@ protected:
 public:
 
 	Customer(String^ username, String^ password, String^ email, String^ phoneNumber, String^ gender, String^ category)
-		: Person(username, password), email(email), phoneNumber(phoneNumber), gender(gender), category("Not Assigned")
+		: Person(username, password), email(email), phoneNumber(phoneNumber), gender(gender), category("NotAssigned")
 	{}
 
 
@@ -32,8 +32,9 @@ public:
 		if (gender->IsNullOrEmpty || gender->IsNullOrWhiteSpace) {
 			return;
 		}
-
-		this->gender = gender;
+		else {
+			this->gender = gender;
+		}
 	}
 
 	String^ getGender() {
@@ -44,8 +45,9 @@ public:
 		if (category->IsNullOrEmpty || category->IsNullOrWhiteSpace) {
 			return;
 		}
-
-		this->category = category;
+		else {
+			this->category = category;
+		}
 	}
 
 	String^ getCategory() {
@@ -56,8 +58,9 @@ public:
 		if (email->IsNullOrEmpty || email->IsNullOrWhiteSpace) {
 			return;
 		}
-
-		this->email = email;
+		else {
+			this->email = email;
+		}
 	}
 
 	String^ getEmail() {
@@ -68,8 +71,9 @@ public:
 		if (phoneNumber->IsNullOrEmpty || phoneNumber->IsNullOrWhiteSpace) {
 			return;
 		}
-
-		this->phoneNumber = phoneNumber;
+		else {
+			this->phoneNumber = phoneNumber;
+		}
 	}
 
 	String^ getPhoneNumber() {

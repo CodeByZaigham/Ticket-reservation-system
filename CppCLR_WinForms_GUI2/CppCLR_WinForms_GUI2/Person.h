@@ -1,7 +1,5 @@
 #pragma once
 
-#include <iostream>
-
 using namespace System;
 
 ref class Person abstract
@@ -22,8 +20,9 @@ public:
 		if (username->IsNullOrWhiteSpace || username->IsNullOrEmpty) {
 			return;
 		}
-
-		this->username = username;
+		else {
+			this->username = username;
+		}
 	}
 
 	String^ getName() {
@@ -33,6 +32,9 @@ public:
 	void setPassword(String^ password) {
 		if(password->IsNullOrWhiteSpace || password->IsNullOrEmpty || password->Length < 8) {
 			return;
+		}
+		else {
+			this->password = password;
 		}
 	}
 
