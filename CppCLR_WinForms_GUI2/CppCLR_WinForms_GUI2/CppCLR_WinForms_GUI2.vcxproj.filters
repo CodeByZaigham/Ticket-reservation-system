@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Cabin Header Files">
+      <UniqueIdentifier>{05b9dc4d-931b-455e-9d7a-89a64ca4c43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ticket Header Files">
+      <UniqueIdentifier>{346dcffd-12f0-44ab-9bcd-3c182974023f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc">
@@ -44,20 +50,23 @@
     <ClInclude Include="rk1_Utils_demo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Person.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Cabin.h">
+      <Filter>Header Files\Cabin Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Customer.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="BussCabin.h">
+      <Filter>Header Files\Cabin Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Admin.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="EcoCabin.h">
+      <Filter>Header Files\Cabin Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EconomyCustomer.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="BussTicket.h">
+      <Filter>Header Files\Ticket Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Schedule.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="EcoTicket.h">
+      <Filter>Header Files\Ticket Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ticket.h">
+      <Filter>Header Files\Ticket Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -73,19 +82,22 @@
     <ClCompile Include="Form1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Person.cpp">
+    <ClCompile Include="Ticket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Customer.cpp">
+    <ClCompile Include="EcoTicket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Admin.cpp">
+    <ClCompile Include="BussTicket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EconomyCustomer.cpp">
+    <ClCompile Include="Cabin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Schedule.cpp">
+    <ClCompile Include="BussCabin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EcoCabin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
