@@ -3,7 +3,6 @@
 #include "Person.h"
 
 using namespace System;
-using namespace System::Collections::Generic;
 
 ref class Customer : public Person
 {
@@ -14,15 +13,12 @@ protected:
 	String^ gender;
 	String^ category;
 
-	List<String^>^ userActivity = gcnew List<String^>();
-
 public:
 
 	Customer(String^ username, String^ password, String^ email, String^ phoneNumber, String^ gender, String^ category)
-		: Person(username, password), email(email), phoneNumber(phoneNumber), gender(gender), category(""), userActivity({})
+		: Person(username, password), email(email), phoneNumber(phoneNumber), gender(gender), category("Not Assigned")
 	{}
 
-	Customer() {}
 
 	void registerInfo(String^ username, String^ password, String^ email, String^ phoneNumber, String^ gender) {
 		//working needs to be implemented after database implementation
@@ -32,24 +28,48 @@ public:
 		//working needs to be implemented after database implementation
 	}
 
-	void addToUserActivity(String^ action) {
-		userActivity->Add(action);
-	}
+	void setGender(String^ gender) {
+		if (gender->IsNullOrEmpty || gender->IsNullOrWhiteSpace) {
+			return;
+		}
 
-	List<String^>^ getActivity() {
-		return userActivity;
+		this->gender = gender;
 	}
 
 	String^ getGender() {
 		return gender;
 	}
 
+	void setCategory(String^ category) {
+		if (category->IsNullOrEmpty || category->IsNullOrWhiteSpace) {
+			return;
+		}
+
+		this->category = category;
+	}
+
 	String^ getCategory() {
 		return category;
 	}
 
+	void setEmail(String^ email) {
+		if (email->IsNullOrEmpty || email->IsNullOrWhiteSpace) {
+			return;
+		}
+
+		this->email = email;
+	}
+
 	String^ getEmail() {
 		return email;
+	}
+
+	void setPhoneNumber(String^ phoneNumber) {
+		if (phoneNumber->IsNullOrEmpty || phoneNumber->IsNullOrWhiteSpace) {
+			return;
+		}
+
+		this->phoneNumber = phoneNumber;
 	}
 
 	String^ getPhoneNumber() {

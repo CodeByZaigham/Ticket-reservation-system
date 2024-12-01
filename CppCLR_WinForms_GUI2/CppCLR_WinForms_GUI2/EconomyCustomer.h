@@ -13,7 +13,9 @@ public:
 
 	{}
 
-	EconomyCustomer() {}
+	EconomyCustomer(String^ username, String^ password, String^ email, String^ phoneNumber, String^ gender, String^ category)
+		: Customer(username, password, email, phoneNumber, gender, "Economy")
+	{}
 
 };
 

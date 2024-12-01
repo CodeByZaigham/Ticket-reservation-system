@@ -1,5 +1,4 @@
-#ifndef PERSON_H
-#define PERSON_H
+#pragma once
 
 #include <iostream>
 
@@ -20,7 +19,7 @@ public:
 	Person() {}
 
 	void setName(String^ username) {
-		if (username->Empty) {
+		if (username->IsNullOrWhiteSpace || username->IsNullOrEmpty) {
 			return;
 		}
 
@@ -32,7 +31,7 @@ public:
 	}
 
 	void setPassword(String^ password) {
-		if (password->Empty) {
+		if(password->IsNullOrWhiteSpace || password->IsNullOrEmpty || password->Length < 8) {
 			return;
 		}
 	}
@@ -43,6 +42,3 @@ public:
 
 	virtual bool login(String^ name, String^ password) = 0;
 };
-
-#endif
-

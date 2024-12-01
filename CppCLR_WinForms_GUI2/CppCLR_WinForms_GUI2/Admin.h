@@ -2,6 +2,7 @@
 
 #include "Person.h"
 #include "Ticket.h"
+#include "Train.h"
 
 #include <iostream>
 
@@ -13,20 +14,18 @@ ref class Admin : public Person
 public:
 
 	Admin() {
+		username = "ADMIN";
 		password = "1234";
 	}
 
-	bool login(String^ name, String^ password) override {
-		if (password != this->password) {
+	bool login(String^ username, String^ password) override {
+		if (password != this->password || username != this->username) {
 			return false;
 		}
 
-		this->username = name;
+		this->username = username;
 
 		return true;
 	}
-
-
-
 };
 

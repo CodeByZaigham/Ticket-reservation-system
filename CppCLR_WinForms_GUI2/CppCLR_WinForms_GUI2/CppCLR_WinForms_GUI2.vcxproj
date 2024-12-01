@@ -134,30 +134,39 @@
     <ResourceCompile Include="app.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BussCabin.h" />
-    <ClInclude Include="BussTicket.h" />
-    <ClInclude Include="Cabin.h" />
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="BusinessCustomer.h" />
+    <ClInclude Include="BusinessTicket.h" />
     <ClInclude Include="CppCLR_Utils.h" />
-    <ClInclude Include="EcoCabin.h" />
-    <ClInclude Include="EcoTicket.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="Database.h" />
+    <ClInclude Include="EconomyCustomer.h" />
+    <ClInclude Include="EconomyTicket.h" />
     <ClInclude Include="Form1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Header1.h" />
     <ClInclude Include="Header2.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Person.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="rk1_Utils_demo.h" />
     <ClInclude Include="SimpleUnitTests.h" />
     <ClInclude Include="Ticket.h" />
+    <ClInclude Include="Train.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="BusinessCustomer.cpp" />
     <ClCompile Include="BussCabin.cpp" />
     <ClCompile Include="BussTicket.cpp" />
     <ClCompile Include="Cabin.cpp" />
     <ClCompile Include="CppCLR_WinFormsProject.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="Database.cpp" />
     <ClCompile Include="EcoCabin.cpp" />
+    <ClCompile Include="EconomyCustomer.cpp" />
     <ClCompile Include="EcoTicket.cpp" />
     <ClCompile Include="Form1.cpp" />
     <ClCompile Include="pch.cpp">
@@ -166,7 +175,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Person.cpp" />
     <ClCompile Include="Ticket.cpp" />
+    <ClCompile Include="Train.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico" />
