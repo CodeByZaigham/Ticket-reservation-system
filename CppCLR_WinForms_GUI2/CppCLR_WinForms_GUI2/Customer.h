@@ -19,17 +19,25 @@ public:
 		: Person(username, password), email(email), phoneNumber(phoneNumber), gender(gender), category("NotAssigned")
 	{}
 
+	Customer() {}
 
-	void registerInfo(String^ username, String^ password, String^ email, String^ phoneNumber, String^ gender) {
+
+	bool registerInfo(String^ username, String^ password, String^ email, String^ phoneNumber, String^ gender) {
 		//working needs to be implemented after database implementation
+
+		// this return is only added to avoid errors when compiling
+		return true;
 	}
 
-	bool login(String^ username, String^ password) override {
+	bool login(String^ email, String^ password) override {
 		//working needs to be implemented after database implementation
+
+		// this return is only added to avoid errors when compiling
+		return true;
 	}
 
 	void setGender(String^ gender) {
-		if (gender->IsNullOrEmpty || gender->IsNullOrWhiteSpace) {
+		if (String::IsNullOrEmpty(gender) || String::IsNullOrWhiteSpace(gender)) {
 			return;
 		}
 		else {
@@ -42,7 +50,7 @@ public:
 	}
 
 	void setCategory(String^ category) {
-		if (category->IsNullOrEmpty || category->IsNullOrWhiteSpace) {
+		if (String::IsNullOrEmpty(category) || String::IsNullOrWhiteSpace(category)) {
 			return;
 		}
 		else {
@@ -55,7 +63,7 @@ public:
 	}
 
 	void setEmail(String^ email) {
-		if (email->IsNullOrEmpty || email->IsNullOrWhiteSpace) {
+		if (String::IsNullOrEmpty(email) || String::IsNullOrWhiteSpace(email)) {
 			return;
 		}
 		else {
@@ -68,7 +76,7 @@ public:
 	}
 
 	void setPhoneNumber(String^ phoneNumber) {
-		if (phoneNumber->IsNullOrEmpty || phoneNumber->IsNullOrWhiteSpace) {
+		if (String::IsNullOrEmpty(phoneNumber) || String::IsNullOrWhiteSpace(phoneNumber)) {
 			return;
 		}
 		else {
@@ -80,3 +88,7 @@ public:
 		return phoneNumber;
 	}
 };
+
+/*login should be done using email of user
+username will be remaned to name
+login should return true or false*/

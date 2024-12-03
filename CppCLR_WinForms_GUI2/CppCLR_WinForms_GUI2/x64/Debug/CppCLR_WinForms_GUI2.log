@@ -1,30 +1,25 @@
-﻿  BussCabin.cpp
-  BussTicket.cpp
-G:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(6,11): warning C4570: 'Ticket': is not explicitly declared as abstract but has abstract functions
-  (compiling source file '/BussTicket.cpp')
-      G:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(6,11):
-      'void Ticket::generateTicketId(void)': is abstract
-      G:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(14,15):
-      see declaration of 'Ticket::generateTicketId'
+﻿  Admin.cpp
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267:         ]
+  (compiling source file '/Admin.cpp')
   
-  Cabin.cpp
-  EcoCabin.cpp
-  EcoTicket.cpp
-G:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(6,11): warning C4570: 'Ticket': is not explicitly declared as abstract but has abstract functions
-  (compiling source file '/EcoTicket.cpp')
-      G:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(6,11):
-      'void Ticket::generateTicketId(void)': is abstract
-      G:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(14,15):
-      see declaration of 'Ticket::generateTicketId'
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267:         ]
+  (compiling source file '/Admin.cpp')
   
-  Ticket.cpp
-G:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(6,11): warning C4570: 'Ticket': is not explicitly declared as abstract but has abstract functions
-  (compiling source file '/Ticket.cpp')
-      G:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(6,11):
-      'void Ticket::generateTicketId(void)': is abstract
-      G:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(14,15):
-      see declaration of 'Ticket::generateTicketId'
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267:         with
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267:         [
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267:         ]
+  (compiling source file '/Admin.cpp')
   
-  Generating Code...
-  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  CppCLR_WinForms_GUI2.vcxproj -> G:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.exe
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Admin.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  CppCLR_WinForms_GUI2.vcxproj -> C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.exe

@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <random>
-#include <msclr/marshal_cppstd.h>
+//#include <msclr/marshal_cppstd.h> 
 
 using namespace System;
 using namespace System::IO;
@@ -20,13 +20,14 @@ public:
 
 	
 	Ticket(String ^id, String^ to, String^ from, int price) : id(id), to(to), from(from), price(price) {}
+	Ticket() {}
 
 	String^ getID() {
 		return id;
 	}
 
 	void setID(String^ id) {
-		if (id->IsNullOrEmpty || id->IsNullOrWhiteSpace) {
+		if (String::IsNullOrEmpty(id) || String::IsNullOrWhiteSpace(id)) {
 			return;
 		}
 		else {
@@ -39,7 +40,7 @@ public:
 	}
 
 	void setTo(String^ to) {
-		if (to->IsNullOrEmpty || to->IsNullOrWhiteSpace) {
+		if (String::IsNullOrEmpty(to) || String::IsNullOrWhiteSpace(to)) {
 			return;
 		}
 		else {
@@ -52,7 +53,7 @@ public:
 	}
 
 	void setFrom(String ^ from) {
-		if (from->IsNullOrEmpty || from->IsNullOrWhiteSpace) {
+		if (String::IsNullOrEmpty(from) || String::IsNullOrWhiteSpace(from)) {
 			return;
 		}
 		else {
@@ -100,6 +101,6 @@ public:
 			}
 		}
 
-		return msclr::interop::marshal_as<String^>(id);
+		return gcnew String(id.c_str());
 	}
 };

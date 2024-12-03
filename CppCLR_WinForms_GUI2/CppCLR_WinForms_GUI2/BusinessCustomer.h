@@ -14,5 +14,10 @@ public:
 	BusinessCustomer(String^ username, String^ password, String^ email, String^ phoneNumber, String^ gender, String^ category)
 		: Customer(username, password, email, phoneNumber, gender, "Business")
 	{}
+
+	BusinessCustomer() {}
+
+
+	//All Constructors are not final but exist if their need arises all unused constructors will be removed in the future
 };
 

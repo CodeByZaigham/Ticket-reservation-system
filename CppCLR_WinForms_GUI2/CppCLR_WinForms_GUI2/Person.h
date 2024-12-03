@@ -5,32 +5,32 @@ using namespace System;
 ref class Person abstract
 {
 protected:
-	String^ username;
+	String^ name;
 	String^ password;
 
 public:
 
-	Person(String^ username, String^ password) 
-		: username(username), password(password) 
+	Person(String^ name, String^ password) 
+		: name(name), password(password) 
 	{}
 
 	Person() {}
 
-	void setName(String^ username) {
-		if (username->IsNullOrWhiteSpace || username->IsNullOrEmpty) {
+	void setName(String^ name) {
+		if (String::IsNullOrWhiteSpace(name) || String::IsNullOrEmpty(name)) {
 			return;
 		}
 		else {
-			this->username = username;
+			this->name = name;
 		}
 	}
 
 	String^ getName() {
-		return username;
+		return name;
 	}
 
 	void setPassword(String^ password) {
-		if(password->IsNullOrWhiteSpace || password->IsNullOrEmpty || password->Length < 8) {
+		if(String::IsNullOrWhiteSpace(password) || String::IsNullOrEmpty(password) || password->Length < 8) {
 			return;
 		}
 		else {

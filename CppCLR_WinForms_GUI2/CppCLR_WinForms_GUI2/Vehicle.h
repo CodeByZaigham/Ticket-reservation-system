@@ -8,24 +8,28 @@ using namespace System::Collections::Generic;
 
 ref class Vehicle
 {
-	String^ vehicleID;
-	String^ deparetureTime;
+	String^ vehicleName;
+	String^ departureTime;
 	List<EconomyTicket^>^ economyTickets = nullptr;
 	List<BusinessTicket^>^ businessTickets = nullptr;
 
 private:
 
-	void setVehicleID(String^ vehicleID) {
-		if (vehicleID->IsNullOrEmpty || vehicleID->IsNullOrWhiteSpace || vehicleID->Length < 4) {
+	Vehicle() {}
+
+	//All Constructors are not final but exist if their need arises all unused constructors will be removed in the future
+
+	void setVehicleID(String^ vehicleName) {
+		if (String::IsNullOrEmpty(vehicleName) || String::IsNullOrWhiteSpace(vehicleName) || vehicleName->Length < 4) {
 			return;
 		}
 		else {
-			this->vehicleID = vehicleID;
+			this->vehicleName = vehicleName;
 		}
 	}
 
-	String^ getVehicleID() {
-		return vehicleID;
+	String^ getVehicleName() {
+		return vehicleName;
 	}
 
 	void setEconomySeatsLimit(int seatLimit, Ticket^ ticket) {
@@ -65,6 +69,14 @@ private:
 		}
 	}
 
+	void setDepartureTime(String^ departureTime) {
+		this->departureTime = departureTime;
+	}
+
+	String^ getDepartureTime() {
+		return departureTime;
+	}
+
 	int getBusinessSeatsAmount() {
 		return businessTickets->Count;
 	}
@@ -73,4 +85,6 @@ private:
 		return economyTickets->Count;
 	}
 };
+
+//vehicleid changed to vehiclename
 

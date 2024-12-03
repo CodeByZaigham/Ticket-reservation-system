@@ -17,5 +17,10 @@ public:
 		: Customer(username, password, email, phoneNumber, gender, "Economy")
 	{}
 
+	EconomyCustomer() {}
+
+
+	//All Constructors are not final but exist if their need arises all unused constructors will be removed in the future
+
 };
 
