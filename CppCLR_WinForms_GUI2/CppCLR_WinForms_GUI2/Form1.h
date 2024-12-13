@@ -3308,8 +3308,14 @@ private: System::Void checkBox2_CheckedChanged(System::Object^ sender, System::E
 private: System::Void label19_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void checkBox9_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (checkBox9 -> Checked) {
+        checkBox8->Checked = false;
+    }
 }
 private: System::Void checkBox8_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (checkBox8->Checked) {
+        checkBox9->Checked = false;
+    }
 }
 private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3320,6 +3326,18 @@ private: System::Void label25_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void richTextBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void Form1_Load(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Remove(tabPage1);
+    tabControl1->TabPages->Remove(tabPage2);
+    tabControl1->TabPages->Remove(tabPage3);
+    tabControl1->TabPages->Remove(tabPage4);
+    tabControl1->TabPages->Remove(tabPage5);
+    tabControl1->TabPages->Remove(tabPage7);
+    tabControl1->TabPages->Remove(tabPage8);
+    tabControl1->TabPages->Remove(tabPage9);
+    tabControl1->TabPages->Remove(tabPage10);
+    tabControl1->TabPages->Remove(tabPage11);
+    tabControl1->TabPages->Remove(tabPage12);
+    tabControl1->TabPages->Remove(tabPage13);
 }
 private: System::Void label28_Click(System::Object^ sender, System::EventArgs^ e) {
 }
