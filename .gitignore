@@ -30,3 +30,7 @@ Release/
 *.cache
 *.db
 *.lastbuildstate
+*.exe
+*.obj
+*.pdb
+/x64/Debug/*
