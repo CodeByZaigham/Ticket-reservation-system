@@ -1,25 +1,24 @@
-﻿  Admin.cpp
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267:         with
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267:         [
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267:             _Ty=int
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267:         ]
-  (compiling source file '/Admin.cpp')
+﻿  CppCLR_WinFormsProject.cpp
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267:         with
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267:         [
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267:             _Ty=int
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(90,77): warning C4267:         ]
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
   
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267:         with
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267:         [
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267:             _Ty=int
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267:         ]
-  (compiling source file '/Admin.cpp')
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267:         with
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267:         [
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267:             _Ty=int
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(95,77): warning C4267:         ]
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
   
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267:         with
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267:         [
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267:             _Ty=int
-C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267:         ]
-  (compiling source file '/Admin.cpp')
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267:         with
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267:         [
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267:             _Ty=int
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(99,68): warning C4267:         ]
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
   
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Admin.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  CppCLR_WinForms_GUI2.vcxproj -> C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.exe
+  CppCLR_WinForms_GUI2.vcxproj -> C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.exe

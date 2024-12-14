@@ -10,3 +10,6 @@ G:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppC
 C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.AssemblyReference.cache
 C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.Form1.resources
 C:\Users\Lenovo\Desktop\Work2\TRS2\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.GenerateResource.cache
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.AssemblyReference.cache
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.Form1.resources
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.vcxproj.GenerateResource.cache

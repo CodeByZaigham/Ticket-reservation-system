@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Person.h"
+#include "Database.h"
 
 using namespace System;
 
@@ -12,6 +13,7 @@ protected:
 	String^ phoneNumber;
 	String^ gender;
 	String^ category;
+	Database ob;
 
 public:
 
@@ -23,17 +25,26 @@ public:
 
 
 	bool registerInfo(String^ username, String^ password, String^ email, String^ phoneNumber, String^ gender) {
-		//working needs to be implemented after database implementation
-
-		// this return is only added to avoid errors when compiling
-		return true;
+		if (username->Length > 3 && password->Length > 3 && email->Length > 3 && phoneNumber->Length == 8 && gender->Length > 3) {
+			ob.insert("C:\\Users\\hp\\Documents\\login.txt", email + "," + password + "," + username + "," + phoneNumber + "," + gender);
+			return true;
+		}
+		else {
+			return false;
+		}
 	}
 
 	bool login(String^ email, String^ password) override {
-		//working needs to be implemented after database implementation
-
-		// this return is only added to avoid errors when compiling
-		return true;
+		array<String^>^ data = ob.search("C:\\Users\\hp\\Documents\\login.txt", email, 0);
+		for (int i = 0; i < data->Length; i++) {
+			array<String^>^ var = data[i]->Split(',');
+			if (data->Length > 0) {
+				if (var[0] == email && var[1]==password) {
+					return true;
+				}
+			}
+		}
+		return false;
 	}
 
 	void setGender(String^ gender) {

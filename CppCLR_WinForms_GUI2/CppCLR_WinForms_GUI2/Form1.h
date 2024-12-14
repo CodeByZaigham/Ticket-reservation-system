@@ -5,6 +5,8 @@
 
 #include "Header1.h"
 #include "Header2.h"
+#include "Customer.h"
+#include "Admin.h"
 
 namespace CppCLRWinFormsProject {
 
@@ -60,21 +62,21 @@ namespace CppCLRWinFormsProject {
   private: System::Windows::Forms::Label^ label6;
   private: System::Windows::Forms::TabPage^ tabPage7;
   private: System::Windows::Forms::TextBox^ textBox8;
-  private: System::Windows::Forms::TextBox^ textBox10;
+
   private: System::Windows::Forms::TextBox^ textBox9;
   private: System::Windows::Forms::TextBox^ textBox7;
   private: System::Windows::Forms::TextBox^ textBox6;
-  private: System::Windows::Forms::TextBox^ textBox5;
+
   private: System::Windows::Forms::Label^ label17;
   private: System::Windows::Forms::Button^ button3;
   private: System::Windows::Forms::CheckBox^ checkBox7;
   private: System::Windows::Forms::CheckBox^ checkBox6;
   private: System::Windows::Forms::Label^ label16;
-  private: System::Windows::Forms::Label^ label15;
+
   private: System::Windows::Forms::Label^ label14;
   private: System::Windows::Forms::Label^ label13;
   private: System::Windows::Forms::Label^ label11;
-  private: System::Windows::Forms::Label^ label10;
+
   private: System::Windows::Forms::Label^ label9;
   private: System::Windows::Forms::TabPage^ tabPage6;
   private: System::Windows::Forms::Button^ button4;
@@ -368,6 +370,7 @@ private: System::Windows::Forms::TextBox^ textBox11;
 private: System::Windows::Forms::TextBox^ textBox2;
 private: System::Windows::Forms::Button^ button30;
 private: System::Windows::Forms::Button^ button31;
+private: System::Windows::Forms::Button^ button32;
 
 
 
@@ -577,18 +580,14 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage7 = (gcnew System::Windows::Forms::TabPage());
         this->panel6 = (gcnew System::Windows::Forms::Panel());
         this->label9 = (gcnew System::Windows::Forms::Label());
-        this->label10 = (gcnew System::Windows::Forms::Label());
         this->textBox8 = (gcnew System::Windows::Forms::TextBox());
         this->label11 = (gcnew System::Windows::Forms::Label());
-        this->textBox10 = (gcnew System::Windows::Forms::TextBox());
         this->label13 = (gcnew System::Windows::Forms::Label());
         this->textBox9 = (gcnew System::Windows::Forms::TextBox());
         this->label14 = (gcnew System::Windows::Forms::Label());
         this->textBox7 = (gcnew System::Windows::Forms::TextBox());
-        this->label15 = (gcnew System::Windows::Forms::Label());
         this->textBox6 = (gcnew System::Windows::Forms::TextBox());
         this->label16 = (gcnew System::Windows::Forms::Label());
-        this->textBox5 = (gcnew System::Windows::Forms::TextBox());
         this->checkBox6 = (gcnew System::Windows::Forms::CheckBox());
         this->label17 = (gcnew System::Windows::Forms::Label());
         this->checkBox7 = (gcnew System::Windows::Forms::CheckBox());
@@ -774,6 +773,7 @@ private: System::ComponentModel::IContainer^ components;
         this->label47 = (gcnew System::Windows::Forms::Label());
         this->label46 = (gcnew System::Windows::Forms::Label());
         this->label23 = (gcnew System::Windows::Forms::Label());
+        this->button32 = (gcnew System::Windows::Forms::Button());
         this->tabPage7->SuspendLayout();
         this->panel6->SuspendLayout();
         this->panel5->SuspendLayout();
@@ -832,7 +832,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage7->Margin = System::Windows::Forms::Padding(2);
         this->tabPage7->Name = L"tabPage7";
         this->tabPage7->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage7->Size = System::Drawing::Size(792, 356);
+        this->tabPage7->Size = System::Drawing::Size(826, 356);
         this->tabPage7->TabIndex = 6;
         this->tabPage7->Text = L"Sign up";
         this->tabPage7->Click += gcnew System::EventHandler(this, &Form1::tabPage7_Click);
@@ -841,18 +841,14 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->panel6->BackColor = System::Drawing::Color::White;
         this->panel6->Controls->Add(this->label9);
-        this->panel6->Controls->Add(this->label10);
         this->panel6->Controls->Add(this->textBox8);
         this->panel6->Controls->Add(this->label11);
-        this->panel6->Controls->Add(this->textBox10);
         this->panel6->Controls->Add(this->label13);
         this->panel6->Controls->Add(this->textBox9);
         this->panel6->Controls->Add(this->label14);
         this->panel6->Controls->Add(this->textBox7);
-        this->panel6->Controls->Add(this->label15);
         this->panel6->Controls->Add(this->textBox6);
         this->panel6->Controls->Add(this->label16);
-        this->panel6->Controls->Add(this->textBox5);
         this->panel6->Controls->Add(this->checkBox6);
         this->panel6->Controls->Add(this->label17);
         this->panel6->Controls->Add(this->checkBox7);
@@ -876,21 +872,9 @@ private: System::ComponentModel::IContainer^ components;
         this->label9->Text = L"Sign up";
         this->label9->Click += gcnew System::EventHandler(this, &Form1::label9_Click_1);
         // 
-        // label10
-        // 
-        this->label10->AutoSize = true;
-        this->label10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-        this->label10->Location = System::Drawing::Point(128, 56);
-        this->label10->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-        this->label10->Name = L"label10";
-        this->label10->Size = System::Drawing::Size(76, 17);
-        this->label10->TabIndex = 4;
-        this->label10->Text = L"Last Name";
-        this->label10->Click += gcnew System::EventHandler(this, &Form1::label10_Click_1);
-        // 
         // textBox8
         // 
-        this->textBox8->Location = System::Drawing::Point(25, 250);
+        this->textBox8->Location = System::Drawing::Point(27, 207);
         this->textBox8->Margin = System::Windows::Forms::Padding(2);
         this->textBox8->Name = L"textBox8";
         this->textBox8->Size = System::Drawing::Size(109, 20);
@@ -901,22 +885,13 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->label11->AutoSize = true;
         this->label11->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-        this->label11->Location = System::Drawing::Point(21, 56);
+        this->label11->Location = System::Drawing::Point(21, 47);
         this->label11->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label11->Name = L"label11";
-        this->label11->Size = System::Drawing::Size(76, 17);
+        this->label11->Size = System::Drawing::Size(73, 17);
         this->label11->TabIndex = 5;
-        this->label11->Text = L"First Name";
+        this->label11->Text = L"Username";
         this->label11->Click += gcnew System::EventHandler(this, &Form1::label11_Click);
-        // 
-        // textBox10
-        // 
-        this->textBox10->Location = System::Drawing::Point(25, 194);
-        this->textBox10->Margin = System::Windows::Forms::Padding(2);
-        this->textBox10->Name = L"textBox10";
-        this->textBox10->Size = System::Drawing::Size(236, 20);
-        this->textBox10->TabIndex = 13;
-        this->textBox10->TextChanged += gcnew System::EventHandler(this, &Form1::textBox10_TextChanged);
         // 
         // label13
         // 
@@ -960,24 +935,12 @@ private: System::ComponentModel::IContainer^ components;
         this->textBox7->TabIndex = 11;
         this->textBox7->TextChanged += gcnew System::EventHandler(this, &Form1::textBox7_TextChanged);
         // 
-        // label15
-        // 
-        this->label15->AutoSize = true;
-        this->label15->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-        this->label15->Location = System::Drawing::Point(21, 168);
-        this->label15->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-        this->label15->Name = L"label15";
-        this->label15->Size = System::Drawing::Size(60, 17);
-        this->label15->TabIndex = 8;
-        this->label15->Text = L"Address";
-        this->label15->Click += gcnew System::EventHandler(this, &Form1::label15_Click);
-        // 
         // textBox6
         // 
         this->textBox6->Location = System::Drawing::Point(25, 79);
         this->textBox6->Margin = System::Windows::Forms::Padding(2);
         this->textBox6->Name = L"textBox6";
-        this->textBox6->Size = System::Drawing::Size(68, 20);
+        this->textBox6->Size = System::Drawing::Size(120, 20);
         this->textBox6->TabIndex = 10;
         this->textBox6->TextChanged += gcnew System::EventHandler(this, &Form1::textBox6_TextChanged_1);
         // 
@@ -992,15 +955,6 @@ private: System::ComponentModel::IContainer^ components;
         this->label16->TabIndex = 14;
         this->label16->Text = L"Gender";
         this->label16->Click += gcnew System::EventHandler(this, &Form1::label16_Click);
-        // 
-        // textBox5
-        // 
-        this->textBox5->Location = System::Drawing::Point(131, 79);
-        this->textBox5->Margin = System::Windows::Forms::Padding(2);
-        this->textBox5->Name = L"textBox5";
-        this->textBox5->Size = System::Drawing::Size(68, 20);
-        this->textBox5->TabIndex = 9;
-        this->textBox5->TextChanged += gcnew System::EventHandler(this, &Form1::textBox5_TextChanged_1);
         // 
         // checkBox6
         // 
@@ -1018,7 +972,7 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->label17->AutoSize = true;
         this->label17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-        this->label17->Location = System::Drawing::Point(21, 223);
+        this->label17->Location = System::Drawing::Point(24, 174);
         this->label17->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label17->Name = L"label17";
         this->label17->Size = System::Drawing::Size(69, 17);
@@ -1043,10 +997,10 @@ private: System::ComponentModel::IContainer^ components;
         this->button3->BackColor = System::Drawing::Color::Navy;
         this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button3->ForeColor = System::Drawing::Color::White;
-        this->button3->Location = System::Drawing::Point(341, 245);
+        this->button3->Location = System::Drawing::Point(317, 236);
         this->button3->Margin = System::Windows::Forms::Padding(2);
         this->button3->Name = L"button3";
-        this->button3->Size = System::Drawing::Size(59, 22);
+        this->button3->Size = System::Drawing::Size(83, 31);
         this->button3->TabIndex = 17;
         this->button3->Text = L"Sign up";
         this->button3->UseVisualStyleBackColor = false;
@@ -1057,10 +1011,10 @@ private: System::ComponentModel::IContainer^ components;
         this->panel5->BackColor = System::Drawing::Color::Navy;
         this->panel5->Controls->Add(this->label39);
         this->panel5->Dock = System::Windows::Forms::DockStyle::Bottom;
-        this->panel5->Location = System::Drawing::Point(2, 301);
+        this->panel5->Location = System::Drawing::Point(2, 297);
         this->panel5->Margin = System::Windows::Forms::Padding(2);
         this->panel5->Name = L"panel5";
-        this->panel5->Size = System::Drawing::Size(788, 53);
+        this->panel5->Size = System::Drawing::Size(822, 57);
         this->panel5->TabIndex = 39;
         this->panel5->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Form1::panel5_Paint);
         // 
@@ -1086,7 +1040,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage6->Margin = System::Windows::Forms::Padding(2);
         this->tabPage6->Name = L"tabPage6";
         this->tabPage6->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage6->Size = System::Drawing::Size(792, 356);
+        this->tabPage6->Size = System::Drawing::Size(826, 356);
         this->tabPage6->TabIndex = 5;
         this->tabPage6->Text = L" Login";
         this->tabPage6->Click += gcnew System::EventHandler(this, &Form1::tabPage6_Click);
@@ -1096,10 +1050,10 @@ private: System::ComponentModel::IContainer^ components;
         this->panel3->BackColor = System::Drawing::Color::Navy;
         this->panel3->Controls->Add(this->label37);
         this->panel3->Dock = System::Windows::Forms::DockStyle::Bottom;
-        this->panel3->Location = System::Drawing::Point(2, 301);
+        this->panel3->Location = System::Drawing::Point(2, 311);
         this->panel3->Margin = System::Windows::Forms::Padding(2);
         this->panel3->Name = L"panel3";
-        this->panel3->Size = System::Drawing::Size(788, 53);
+        this->panel3->Size = System::Drawing::Size(822, 43);
         this->panel3->TabIndex = 39;
         this->panel3->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Form1::panel3_Paint);
         // 
@@ -1132,13 +1086,13 @@ private: System::ComponentModel::IContainer^ components;
         this->panel2->Location = System::Drawing::Point(266, 23);
         this->panel2->Margin = System::Windows::Forms::Padding(2);
         this->panel2->Name = L"panel2";
-        this->panel2->Size = System::Drawing::Size(256, 271);
+        this->panel2->Size = System::Drawing::Size(256, 284);
         this->panel2->TabIndex = 38;
         this->panel2->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Form1::panel2_Paint);
         // 
         // textBox4
         // 
-        this->textBox4->Location = System::Drawing::Point(45, 163);
+        this->textBox4->Location = System::Drawing::Point(44, 173);
         this->textBox4->Margin = System::Windows::Forms::Padding(2);
         this->textBox4->Name = L"textBox4";
         this->textBox4->Size = System::Drawing::Size(161, 20);
@@ -1151,10 +1105,10 @@ private: System::ComponentModel::IContainer^ components;
         this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
             static_cast<System::Byte>(0)));
         this->button4->ForeColor = System::Drawing::Color::White;
-        this->button4->Location = System::Drawing::Point(176, 226);
+        this->button4->Location = System::Drawing::Point(161, 241);
         this->button4->Margin = System::Windows::Forms::Padding(2);
         this->button4->Name = L"button4";
-        this->button4->Size = System::Drawing::Size(61, 23);
+        this->button4->Size = System::Drawing::Size(76, 28);
         this->button4->TabIndex = 7;
         this->button4->Text = L"Sign up";
         this->button4->UseVisualStyleBackColor = false;
@@ -1166,10 +1120,10 @@ private: System::ComponentModel::IContainer^ components;
         this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
             static_cast<System::Byte>(0)));
         this->button2->ForeColor = System::Drawing::Color::White;
-        this->button2->Location = System::Drawing::Point(46, 191);
+        this->button2->Location = System::Drawing::Point(46, 206);
         this->button2->Margin = System::Windows::Forms::Padding(2);
         this->button2->Name = L"button2";
-        this->button2->Size = System::Drawing::Size(159, 23);
+        this->button2->Size = System::Drawing::Size(159, 31);
         this->button2->TabIndex = 4;
         this->button2->Text = L"Login";
         this->button2->UseVisualStyleBackColor = false;
@@ -1190,7 +1144,7 @@ private: System::ComponentModel::IContainer^ components;
         // 
         // textBox3
         // 
-        this->textBox3->Location = System::Drawing::Point(45, 119);
+        this->textBox3->Location = System::Drawing::Point(44, 119);
         this->textBox3->Margin = System::Windows::Forms::Padding(2);
         this->textBox3->Name = L"textBox3";
         this->textBox3->Size = System::Drawing::Size(161, 20);
@@ -1216,7 +1170,7 @@ private: System::ComponentModel::IContainer^ components;
         this->label8->AutoSize = true;
         this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
         this->label8->ForeColor = System::Drawing::Color::Navy;
-        this->label8->Location = System::Drawing::Point(43, 145);
+        this->label8->Location = System::Drawing::Point(41, 154);
         this->label8->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label8->Name = L"label8";
         this->label8->Size = System::Drawing::Size(69, 17);
@@ -1271,7 +1225,7 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->label18->AutoSize = true;
         this->label18->ForeColor = System::Drawing::Color::Navy;
-        this->label18->Location = System::Drawing::Point(37, 229);
+        this->label18->Location = System::Drawing::Point(37, 250);
         this->label18->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label18->Name = L"label18";
         this->label18->Size = System::Drawing::Size(120, 13);
@@ -1290,7 +1244,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage5->Margin = System::Windows::Forms::Padding(2);
         this->tabPage5->Name = L"tabPage5";
         this->tabPage5->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage5->Size = System::Drawing::Size(792, 356);
+        this->tabPage5->Size = System::Drawing::Size(826, 356);
         this->tabPage5->TabIndex = 4;
         this->tabPage5->Text = L"Payment";
         this->tabPage5->UseVisualStyleBackColor = true;
@@ -1421,7 +1375,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage4->Margin = System::Windows::Forms::Padding(2);
         this->tabPage4->Name = L"tabPage4";
         this->tabPage4->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage4->Size = System::Drawing::Size(792, 356);
+        this->tabPage4->Size = System::Drawing::Size(826, 356);
         this->tabPage4->TabIndex = 3;
         this->tabPage4->Text = L"View Ticket";
         this->tabPage4->UseVisualStyleBackColor = true;
@@ -1552,7 +1506,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage3->Margin = System::Windows::Forms::Padding(2);
         this->tabPage3->Name = L"tabPage3";
         this->tabPage3->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage3->Size = System::Drawing::Size(792, 356);
+        this->tabPage3->Size = System::Drawing::Size(826, 356);
         this->tabPage3->TabIndex = 2;
         this->tabPage3->Text = L"Book a Ticket";
         this->tabPage3->UseVisualStyleBackColor = true;
@@ -1849,7 +1803,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage2->Margin = System::Windows::Forms::Padding(2);
         this->tabPage2->Name = L"tabPage2";
         this->tabPage2->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage2->Size = System::Drawing::Size(792, 356);
+        this->tabPage2->Size = System::Drawing::Size(826, 356);
         this->tabPage2->TabIndex = 1;
         this->tabPage2->Text = L"Schedule";
         this->tabPage2->UseVisualStyleBackColor = true;
@@ -2049,7 +2003,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage1->Margin = System::Windows::Forms::Padding(2);
         this->tabPage1->Name = L"tabPage1";
         this->tabPage1->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage1->Size = System::Drawing::Size(792, 356);
+        this->tabPage1->Size = System::Drawing::Size(826, 356);
         this->tabPage1->TabIndex = 0;
         this->tabPage1->Text = L"Home";
         this->tabPage1->UseVisualStyleBackColor = true;
@@ -2078,7 +2032,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button15->Location = System::Drawing::Point(141, 229);
         this->button15->Margin = System::Windows::Forms::Padding(2);
         this->button15->Name = L"button15";
-        this->button15->Size = System::Drawing::Size(97, 24);
+        this->button15->Size = System::Drawing::Size(113, 24);
         this->button15->TabIndex = 4;
         this->button15->Text = L"Logout";
         this->button15->UseVisualStyleBackColor = false;
@@ -2091,7 +2045,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button5->Location = System::Drawing::Point(141, 92);
         this->button5->Margin = System::Windows::Forms::Padding(2);
         this->button5->Name = L"button5";
-        this->button5->Size = System::Drawing::Size(97, 24);
+        this->button5->Size = System::Drawing::Size(113, 24);
         this->button5->TabIndex = 0;
         this->button5->Text = L"Schedule";
         this->button5->UseVisualStyleBackColor = false;
@@ -2104,7 +2058,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button7->Location = System::Drawing::Point(141, 127);
         this->button7->Margin = System::Windows::Forms::Padding(2);
         this->button7->Name = L"button7";
-        this->button7->Size = System::Drawing::Size(97, 24);
+        this->button7->Size = System::Drawing::Size(113, 24);
         this->button7->TabIndex = 1;
         this->button7->Text = L"Book a Ticket";
         this->button7->UseVisualStyleBackColor = false;
@@ -2117,7 +2071,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button8->Location = System::Drawing::Point(141, 196);
         this->button8->Margin = System::Windows::Forms::Padding(2);
         this->button8->Name = L"button8";
-        this->button8->Size = System::Drawing::Size(97, 24);
+        this->button8->Size = System::Drawing::Size(113, 24);
         this->button8->TabIndex = 2;
         this->button8->Text = L"Payment";
         this->button8->UseVisualStyleBackColor = false;
@@ -2130,7 +2084,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button9->Location = System::Drawing::Point(141, 160);
         this->button9->Margin = System::Windows::Forms::Padding(2);
         this->button9->Name = L"button9";
-        this->button9->Size = System::Drawing::Size(97, 24);
+        this->button9->Size = System::Drawing::Size(113, 24);
         this->button9->TabIndex = 3;
         this->button9->Text = L"View Ticket";
         this->button9->UseVisualStyleBackColor = false;
@@ -2234,7 +2188,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabControl1->Margin = System::Windows::Forms::Padding(2);
         this->tabControl1->Name = L"tabControl1";
         this->tabControl1->SelectedIndex = 0;
-        this->tabControl1->Size = System::Drawing::Size(800, 382);
+        this->tabControl1->Size = System::Drawing::Size(834, 382);
         this->tabControl1->TabIndex = 1;
         this->tabControl1->SelectedIndexChanged += gcnew System::EventHandler(this, &Form1::tabControl1_SelectedIndexChanged);
         // 
@@ -2251,7 +2205,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage9->Margin = System::Windows::Forms::Padding(2);
         this->tabPage9->Name = L"tabPage9";
         this->tabPage9->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage9->Size = System::Drawing::Size(792, 356);
+        this->tabPage9->Size = System::Drawing::Size(826, 356);
         this->tabPage9->TabIndex = 8;
         this->tabPage9->Text = L"Admin Home";
         this->tabPage9->UseVisualStyleBackColor = true;
@@ -2260,6 +2214,7 @@ private: System::ComponentModel::IContainer^ components;
         // panel8
         // 
         this->panel8->BackColor = System::Drawing::Color::Navy;
+        this->panel8->Controls->Add(this->button32);
         this->panel8->Controls->Add(this->button24);
         this->panel8->Controls->Add(this->button23);
         this->panel8->Controls->Add(this->button16);
@@ -2303,7 +2258,7 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->button16->BackColor = System::Drawing::Color::White;
         this->button16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
-        this->button16->Location = System::Drawing::Point(118, 222);
+        this->button16->Location = System::Drawing::Point(118, 260);
         this->button16->Margin = System::Windows::Forms::Padding(2);
         this->button16->Name = L"button16";
         this->button16->Size = System::Drawing::Size(116, 24);
@@ -2414,7 +2369,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage10->Margin = System::Windows::Forms::Padding(2);
         this->tabPage10->Name = L"tabPage10";
         this->tabPage10->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage10->Size = System::Drawing::Size(792, 356);
+        this->tabPage10->Size = System::Drawing::Size(826, 356);
         this->tabPage10->TabIndex = 9;
         this->tabPage10->Text = L"Edit Schedule";
         this->tabPage10->UseVisualStyleBackColor = true;
@@ -2585,7 +2540,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage12->Margin = System::Windows::Forms::Padding(2);
         this->tabPage12->Name = L"tabPage12";
         this->tabPage12->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage12->Size = System::Drawing::Size(792, 356);
+        this->tabPage12->Size = System::Drawing::Size(826, 356);
         this->tabPage12->TabIndex = 11;
         this->tabPage12->Text = L"User activity";
         this->tabPage12->UseVisualStyleBackColor = true;
@@ -2700,7 +2655,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage8->Margin = System::Windows::Forms::Padding(2);
         this->tabPage8->Name = L"tabPage8";
         this->tabPage8->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage8->Size = System::Drawing::Size(792, 356);
+        this->tabPage8->Size = System::Drawing::Size(826, 356);
         this->tabPage8->TabIndex = 12;
         this->tabPage8->Text = L"Update Existing Ticket";
         this->tabPage8->UseVisualStyleBackColor = true;
@@ -2863,7 +2818,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage13->Margin = System::Windows::Forms::Padding(2);
         this->tabPage13->Name = L"tabPage13";
         this->tabPage13->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage13->Size = System::Drawing::Size(792, 356);
+        this->tabPage13->Size = System::Drawing::Size(826, 356);
         this->tabPage13->TabIndex = 13;
         this->tabPage13->Text = L"Add New Ticket";
         this->tabPage13->UseVisualStyleBackColor = true;
@@ -2995,9 +2950,9 @@ private: System::ComponentModel::IContainer^ components;
         this->label51->Location = System::Drawing::Point(325, 58);
         this->label51->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label51->Name = L"label51";
-        this->label51->Size = System::Drawing::Size(33, 17);
+        this->label51->Size = System::Drawing::Size(48, 17);
         this->label51->TabIndex = 7;
-        this->label51->Text = L"To :";
+        this->label51->Text = L"Price :";
         this->label51->Click += gcnew System::EventHandler(this, &Form1::label51_Click);
         // 
         // label50
@@ -3021,9 +2976,9 @@ private: System::ComponentModel::IContainer^ components;
         this->label49->Location = System::Drawing::Point(34, 58);
         this->label49->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label49->Name = L"label49";
-        this->label49->Size = System::Drawing::Size(53, 17);
+        this->label49->Size = System::Drawing::Size(33, 17);
         this->label49->TabIndex = 5;
-        this->label49->Text = L"Name :";
+        this->label49->Text = L"To :";
         this->label49->Click += gcnew System::EventHandler(this, &Form1::label49_Click_1);
         // 
         // button26
@@ -3076,7 +3031,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage11->Margin = System::Windows::Forms::Padding(2);
         this->tabPage11->Name = L"tabPage11";
         this->tabPage11->Padding = System::Windows::Forms::Padding(2);
-        this->tabPage11->Size = System::Drawing::Size(792, 356);
+        this->tabPage11->Size = System::Drawing::Size(826, 356);
         this->tabPage11->TabIndex = 10;
         this->tabPage11->Text = L"About us";
         this->tabPage11->Click += gcnew System::EventHandler(this, &Form1::tabPage11_Click);
@@ -3117,7 +3072,7 @@ private: System::ComponentModel::IContainer^ components;
         this->panel1->Location = System::Drawing::Point(2, 284);
         this->panel1->Margin = System::Windows::Forms::Padding(2);
         this->panel1->Name = L"panel1";
-        this->panel1->Size = System::Drawing::Size(788, 70);
+        this->panel1->Size = System::Drawing::Size(822, 70);
         this->panel1->TabIndex = 41;
         this->panel1->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Form1::panel1_Paint);
         // 
@@ -3193,6 +3148,19 @@ private: System::ComponentModel::IContainer^ components;
         this->label23->TabIndex = 33;
         this->label23->Text = L"About Us";
         this->label23->Click += gcnew System::EventHandler(this, &Form1::label23_Click);
+        // 
+        // button32
+        // 
+        this->button32->BackColor = System::Drawing::Color::White;
+        this->button32->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
+        this->button32->Location = System::Drawing::Point(118, 222);
+        this->button32->Margin = System::Windows::Forms::Padding(2);
+        this->button32->Name = L"button32";
+        this->button32->Size = System::Drawing::Size(116, 24);
+        this->button32->TabIndex = 5;
+        this->button32->Text = L"About us";
+        this->button32->UseVisualStyleBackColor = false;
+        this->button32->Click += gcnew System::EventHandler(this, &Form1::button32_Click);
         // 
         // Form1
         // 
@@ -3294,6 +3262,35 @@ private: System::Void label14_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void tabPage7_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button3_Click_1(System::Object^ sender, System::EventArgs^ e) {
+    Customer ob;
+    String^ value1 = nullptr;
+
+    if (checkBox6->Checked) {
+        value1 = checkBox6->Text; 
+    }
+    else if (checkBox7->Checked) {
+        value1 = checkBox7->Text;
+    }
+    if (checkBox6->Checked || checkBox7->Checked) {
+        if (ob.registerInfo(textBox6->Text, textBox8->Text, textBox9->Text, textBox7->Text, value1)) {
+            tabControl1->SelectedTab = tabPage6;
+            tabControl1->TabPages->Remove(tabPage7);
+        }
+        else {
+            textBox8->Text = "Weak password!";
+            textBox9->Text = "invalid email format!";
+            textBox6->Text = "invalid username!";
+            textBox7->Text = "invalid phone number!";
+            textBox8->ForeColor = Color::Red;
+            textBox9->ForeColor = Color::Red;
+            textBox6->ForeColor = Color::Red;
+            textBox7->ForeColor = Color::Red;
+        }
+    }
+    else {
+        checkBox6->ForeColor = Color::Red;
+        checkBox7->ForeColor = Color::Red;
+    }
 }
 private: System::Void groupBox1_Enter(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3318,8 +3315,15 @@ private: System::Void checkBox8_CheckedChanged(System::Object^ sender, System::E
     }
 }
 private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage4);
+    tabControl1->SelectedTab = tabPage4;
+    tabControl1->TabPages->Remove(tabPage1);
 }
 private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage2);
+    tabControl1->SelectedTab = tabPage2;
+    tabControl1->TabPages->Remove(tabPage1);
+
 }
 private: System::Void label25_Click(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3382,6 +3386,9 @@ private: System::Void label39_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void tabPage9_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button24_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage13);
+    tabControl1->SelectedTab = tabPage13;
+    tabControl1->TabPages->Remove(tabPage9);
 }
 private: System::Void tabPage8_Click(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3402,8 +3409,14 @@ private: System::Void textBox5_TextChanged_1(System::Object^ sender, System::Eve
 private: System::Void label17_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void checkBox7_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (checkBox7->Checked) {
+        checkBox6->Checked = false;
+    }
 }
 private: System::Void checkBox6_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (checkBox6->Checked) {
+        checkBox7->Checked = false;
+    }
 }
 private: System::Void label16_Click(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3418,10 +3431,50 @@ private: System::Void label10_Click_1(System::Object^ sender, System::EventArgs^
 private: System::Void label9_Click_1(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
+    if (!tabControl1->TabPages->Contains(tabPage7)) {
+        tabControl1->TabPages->Add(tabPage7);
+        tabControl1->SelectedTab = tabPage7;
+    }
 }
 private: System::Void label18_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+    Customer user;
+    Admin admin;
+    String^ email=textBox3->Text;
+    String^ password= textBox4->Text;
+
+    if (checkBox9->Checked) {
+        if (user.login(email, password)) {
+            tabControl1->TabPages->Add(tabPage1);
+            tabControl1->SelectedTab = tabPage1;
+            tabControl1->TabPages->Remove(tabPage6);
+        }
+        else {
+            textBox3->ForeColor = Color::Red;
+            textBox4->ForeColor = Color::Red;
+            textBox3->Text = "invalid email";
+            textBox4->Text = "invalid password";
+        }
+    }
+    else if (checkBox8->Checked) {
+        if (admin.login(email, password)) {
+            tabControl1->TabPages->Add(tabPage9);
+            tabControl1->SelectedTab = tabPage9;
+            tabControl1->TabPages->Remove(tabPage6);
+        }
+        else {
+            textBox3->ForeColor = Color::Red;
+            textBox4->ForeColor = Color::Red;
+            textBox3->Text = "invalid email";
+            textBox4->Text = "invalid password";
+        }
+    }
+    else {
+        checkBox8->ForeColor = Color::Red;
+        checkBox9->ForeColor = Color::Red;
+    }
+
 }
 private: System::Void label8_Click(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3434,16 +3487,25 @@ private: System::Void textBox3_TextChanged(System::Object^ sender, System::Event
 private: System::Void tabPage5_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button17_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage1);
+    tabControl1->SelectedTab = tabPage1;
+    tabControl1->TabPages->Remove(tabPage5);
 }
 private: System::Void button12_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void tabPage4_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage1);
+    tabControl1->SelectedTab = tabPage1;
+    tabControl1->TabPages->Remove(tabPage4);
 }
 private: System::Void dataGridView2_CellContentClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
 }
 private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage1);
+    tabControl1->SelectedTab = tabPage1;
+    tabControl1->TabPages->Remove(tabPage3);
 }
 private: System::Void label27_Click(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3470,16 +3532,28 @@ private: System::Void label22_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void label41_Click_1(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage1);
+    tabControl1->SelectedTab = tabPage1;
+    tabControl1->TabPages->Remove(tabPage2);
 }
 private: System::Void label26_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void dataGridView1_CellContentClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
 }
 private: System::Void button15_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage6);
+    tabControl1->SelectedTab = tabPage6;
+    tabControl1->TabPages->Remove(tabPage1);
 }
 private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage5);
+    tabControl1->SelectedTab = tabPage5;
+    tabControl1->TabPages->Remove(tabPage1);
 }
 private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage3);
+    tabControl1->SelectedTab = tabPage3;
+    tabControl1->TabPages->Remove(tabPage1);
 }
 private: System::Void tabControl1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3492,20 +3566,35 @@ private: System::Void label38_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void label31_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button16_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage6);
+    tabControl1->SelectedTab = tabPage6;
+    tabControl1->TabPages->Remove(tabPage9);
 }
 private: System::Void button14_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage12);
+    tabControl1->SelectedTab = tabPage12;
+    tabControl1->TabPages->Remove(tabPage9);
 }
 private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage10);
+    tabControl1->SelectedTab = tabPage10;
+    tabControl1->TabPages->Remove(tabPage9);
 }
 private: System::Void tabPage10_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button18_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage9);
+    tabControl1->SelectedTab = tabPage9;
+    tabControl1->TabPages->Remove(tabPage10);
 }
 private: System::Void dataGridView5_CellContentClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
 }
 private: System::Void tabPage12_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button19_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage9);
+    tabControl1->SelectedTab = tabPage9;
+    tabControl1->TabPages->Remove(tabPage12);
 }
 private: System::Void label33_Click(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3524,6 +3613,9 @@ private: System::Void label34_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void label30_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button49_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage9);
+    tabControl1->SelectedTab = tabPage9;
+    tabControl1->TabPages->Remove(tabPage11);
 }
 private: System::Void label23_Click(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3552,6 +3644,9 @@ private: System::Void label55_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void tabPage13_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button23_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage8);
+    tabControl1->SelectedTab = tabPage8;
+    tabControl1->TabPages->Remove(tabPage9);
 }
 private: System::Void textBox1_TextChanged_2(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3562,6 +3657,9 @@ private: System::Void textBox11_TextChanged(System::Object^ sender, System::Even
 private: System::Void button25_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button26_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage9);
+    tabControl1->SelectedTab = tabPage9;
+    tabControl1->TabPages->Remove(tabPage13);
 }
 private: System::Void label49_Click_1(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3586,6 +3684,9 @@ private: System::Void label57_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void label58_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button22_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage9);
+    tabControl1->SelectedTab = tabPage9;
+    tabControl1->TabPages->Remove(tabPage8);
 }
 private: System::Void button27_Click(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3602,6 +3703,11 @@ private: System::Void dataGridView8_CellContentClick(System::Object^ sender, Sys
 private: System::Void button28_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button29_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button32_Click(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage11);
+    tabControl1->SelectedTab = tabPage11;
+    tabControl1->TabPages->Remove(tabPage9);
 }
 }; // end of class Form1
 } // end of namespace CppCLRWinFormsProject
