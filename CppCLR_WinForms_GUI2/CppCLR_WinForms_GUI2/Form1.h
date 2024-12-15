@@ -185,14 +185,14 @@ private: System::Windows::Forms::DataGridView^ dataGridView5;
 
 
 private: System::Windows::Forms::DataGridView^ dataGridView6;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column10;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column11;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column12;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column13;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column14;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column15;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column16;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column17;
+
+
+
+
+
+
+
+
 
 private: System::Windows::Forms::Button^ button15;
 private: System::Windows::Forms::Button^ button16;
@@ -347,23 +347,23 @@ private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column5;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column9;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column6;
 private: System::Windows::Forms::DataGridView^ dataGridView7;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn26;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn27;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn28;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn29;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn30;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn31;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn32;
+
+
+
+
+
+
+
 
 private: System::Windows::Forms::DataGridView^ dataGridView8;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn33;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn34;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn35;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn36;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn37;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn38;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn39;
-private: System::Windows::Forms::DataGridViewButtonColumn^ Column19;
+
+
+
+
+
+
+
+
 private: System::Windows::Forms::Button^ button28;
 private: System::Windows::Forms::Button^ button29;
 private: System::Windows::Forms::TextBox^ textBox11;
@@ -377,6 +377,55 @@ private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxC
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn24;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column20;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn25;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column10;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column11;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column14;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ Date;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column15;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column16;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column17;
+private: System::Windows::Forms::Label^ label10;
+private: System::Windows::Forms::TextBox^ textBox10;
+private: System::Windows::Forms::TextBox^ textBox5;
+
+
+
+
+
+
+
+private: System::Windows::Forms::Label^ label15;
+private: System::Windows::Forms::TextBox^ textBox18;
+private: System::Windows::Forms::TextBox^ textBox17;
+private: System::Windows::Forms::TextBox^ textBox16;
+private: System::Windows::Forms::TextBox^ textBox15;
+private: System::Windows::Forms::TextBox^ textBox14;
+
+
+
+
+
+
+
+
+private: System::Windows::Forms::Label^ label56;
+private: System::Windows::Forms::Label^ label60;
+private: System::Windows::Forms::Label^ label59;
+private: System::Windows::Forms::Label^ label58;
+private: System::Windows::Forms::Label^ label57;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn33;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn35;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn36;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn37;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn38;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn39;
+private: System::Windows::Forms::DataGridViewButtonColumn^ Column19;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn26;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn28;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn29;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn30;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn31;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn32;
 
 
 
@@ -725,29 +774,19 @@ private: System::ComponentModel::IContainer^ components;
         this->button18 = (gcnew System::Windows::Forms::Button());
         this->label32 = (gcnew System::Windows::Forms::Label());
         this->dataGridView5 = (gcnew System::Windows::Forms::DataGridView());
+        this->dataGridViewTextBoxColumn20 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn22 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn23 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn24 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->Column20 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn25 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
         this->tabPage12 = (gcnew System::Windows::Forms::TabPage());
         this->button19 = (gcnew System::Windows::Forms::Button());
         this->label33 = (gcnew System::Windows::Forms::Label());
         this->dataGridView6 = (gcnew System::Windows::Forms::DataGridView());
-        this->Column10 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column11 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column12 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column13 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column14 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column15 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column16 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column17 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
         this->tabPage8 = (gcnew System::Windows::Forms::TabPage());
         this->button28 = (gcnew System::Windows::Forms::Button());
         this->dataGridView8 = (gcnew System::Windows::Forms::DataGridView());
-        this->dataGridViewTextBoxColumn33 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn34 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn35 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn36 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn37 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn38 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn39 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column19 = (gcnew System::Windows::Forms::DataGridViewButtonColumn());
         this->label55 = (gcnew System::Windows::Forms::Label());
         this->button22 = (gcnew System::Windows::Forms::Button());
         this->button27 = (gcnew System::Windows::Forms::Button());
@@ -756,13 +795,6 @@ private: System::ComponentModel::IContainer^ components;
         this->textBox2 = (gcnew System::Windows::Forms::TextBox());
         this->button29 = (gcnew System::Windows::Forms::Button());
         this->dataGridView7 = (gcnew System::Windows::Forms::DataGridView());
-        this->dataGridViewTextBoxColumn26 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn27 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn28 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn29 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn30 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn31 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn32 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
         this->label54 = (gcnew System::Windows::Forms::Label());
         this->label51 = (gcnew System::Windows::Forms::Label());
         this->label50 = (gcnew System::Windows::Forms::Label());
@@ -780,12 +812,40 @@ private: System::ComponentModel::IContainer^ components;
         this->label47 = (gcnew System::Windows::Forms::Label());
         this->label46 = (gcnew System::Windows::Forms::Label());
         this->label23 = (gcnew System::Windows::Forms::Label());
-        this->dataGridViewTextBoxColumn20 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn22 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn23 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn24 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column20 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn25 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->Column10 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->Column11 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->Column14 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->Date = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->Column15 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->Column16 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->Column17 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->textBox5 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox10 = (gcnew System::Windows::Forms::TextBox());
+        this->label10 = (gcnew System::Windows::Forms::Label());
+        this->label15 = (gcnew System::Windows::Forms::Label());
+        this->textBox14 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox15 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox16 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox17 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox18 = (gcnew System::Windows::Forms::TextBox());
+        this->label56 = (gcnew System::Windows::Forms::Label());
+        this->label57 = (gcnew System::Windows::Forms::Label());
+        this->label58 = (gcnew System::Windows::Forms::Label());
+        this->label59 = (gcnew System::Windows::Forms::Label());
+        this->label60 = (gcnew System::Windows::Forms::Label());
+        this->dataGridViewTextBoxColumn33 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn35 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn36 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn37 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn38 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn39 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->Column19 = (gcnew System::Windows::Forms::DataGridViewButtonColumn());
+        this->dataGridViewTextBoxColumn26 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn28 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn29 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn30 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn31 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+        this->dataGridViewTextBoxColumn32 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
         this->tabPage7->SuspendLayout();
         this->panel6->SuspendLayout();
         this->panel5->SuspendLayout();
@@ -2512,6 +2572,45 @@ private: System::ComponentModel::IContainer^ components;
         this->dataGridView5->TabIndex = 1;
         this->dataGridView5->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Form1::dataGridView5_CellContentClick);
         // 
+        // dataGridViewTextBoxColumn20
+        // 
+        this->dataGridViewTextBoxColumn20->HeaderText = L"S.no";
+        this->dataGridViewTextBoxColumn20->MinimumWidth = 3;
+        this->dataGridViewTextBoxColumn20->Name = L"dataGridViewTextBoxColumn20";
+        this->dataGridViewTextBoxColumn20->Width = 30;
+        // 
+        // dataGridViewTextBoxColumn22
+        // 
+        this->dataGridViewTextBoxColumn22->HeaderText = L"From";
+        this->dataGridViewTextBoxColumn22->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn22->Name = L"dataGridViewTextBoxColumn22";
+        this->dataGridViewTextBoxColumn22->Width = 120;
+        // 
+        // dataGridViewTextBoxColumn23
+        // 
+        this->dataGridViewTextBoxColumn23->HeaderText = L"To";
+        this->dataGridViewTextBoxColumn23->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn23->Name = L"dataGridViewTextBoxColumn23";
+        this->dataGridViewTextBoxColumn23->Width = 120;
+        // 
+        // dataGridViewTextBoxColumn24
+        // 
+        this->dataGridViewTextBoxColumn24->HeaderText = L"Date";
+        this->dataGridViewTextBoxColumn24->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn24->Name = L"dataGridViewTextBoxColumn24";
+        this->dataGridViewTextBoxColumn24->Width = 120;
+        // 
+        // Column20
+        // 
+        this->Column20->HeaderText = L"Time";
+        this->Column20->Name = L"Column20";
+        // 
+        // dataGridViewTextBoxColumn25
+        // 
+        this->dataGridViewTextBoxColumn25->HeaderText = L"Price";
+        this->dataGridViewTextBoxColumn25->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn25->Name = L"dataGridViewTextBoxColumn25";
+        // 
         // tabPage12
         // 
         this->tabPage12->Controls->Add(this->button19);
@@ -2557,9 +2656,9 @@ private: System::ComponentModel::IContainer^ components;
         // dataGridView6
         // 
         this->dataGridView6->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-        this->dataGridView6->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(8) {
+        this->dataGridView6->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(7) {
             this->Column10,
-                this->Column11, this->Column12, this->Column13, this->Column14, this->Column15, this->Column16, this->Column17
+                this->Column11, this->Column14, this->Date, this->Column15, this->Column16, this->Column17
         });
         this->dataGridView6->Location = System::Drawing::Point(28, 58);
         this->dataGridView6->Margin = System::Windows::Forms::Padding(2);
@@ -2570,64 +2669,18 @@ private: System::ComponentModel::IContainer^ components;
         this->dataGridView6->TabIndex = 0;
         this->dataGridView6->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Form1::dataGridView6_CellContentClick);
         // 
-        // Column10
-        // 
-        this->Column10->HeaderText = L"S.no";
-        this->Column10->MinimumWidth = 8;
-        this->Column10->Name = L"Column10";
-        this->Column10->Width = 50;
-        // 
-        // Column11
-        // 
-        this->Column11->HeaderText = L"FIrst name";
-        this->Column11->MinimumWidth = 8;
-        this->Column11->Name = L"Column11";
-        this->Column11->Width = 150;
-        // 
-        // Column12
-        // 
-        this->Column12->HeaderText = L"Last Name";
-        this->Column12->MinimumWidth = 8;
-        this->Column12->Name = L"Column12";
-        this->Column12->Width = 150;
-        // 
-        // Column13
-        // 
-        this->Column13->HeaderText = L"payment status";
-        this->Column13->MinimumWidth = 8;
-        this->Column13->Name = L"Column13";
-        this->Column13->Width = 150;
-        // 
-        // Column14
-        // 
-        this->Column14->HeaderText = L"Time/Date";
-        this->Column14->MinimumWidth = 8;
-        this->Column14->Name = L"Column14";
-        this->Column14->Width = 150;
-        // 
-        // Column15
-        // 
-        this->Column15->HeaderText = L"From";
-        this->Column15->MinimumWidth = 8;
-        this->Column15->Name = L"Column15";
-        this->Column15->Width = 150;
-        // 
-        // Column16
-        // 
-        this->Column16->HeaderText = L" To";
-        this->Column16->MinimumWidth = 8;
-        this->Column16->Name = L"Column16";
-        this->Column16->Width = 150;
-        // 
-        // Column17
-        // 
-        this->Column17->HeaderText = L"Action";
-        this->Column17->MinimumWidth = 8;
-        this->Column17->Name = L"Column17";
-        this->Column17->Width = 150;
-        // 
         // tabPage8
         // 
+        this->tabPage8->Controls->Add(this->label60);
+        this->tabPage8->Controls->Add(this->label59);
+        this->tabPage8->Controls->Add(this->label58);
+        this->tabPage8->Controls->Add(this->label57);
+        this->tabPage8->Controls->Add(this->label56);
+        this->tabPage8->Controls->Add(this->textBox18);
+        this->tabPage8->Controls->Add(this->textBox17);
+        this->tabPage8->Controls->Add(this->textBox16);
+        this->tabPage8->Controls->Add(this->textBox15);
+        this->tabPage8->Controls->Add(this->textBox14);
         this->tabPage8->Controls->Add(this->button28);
         this->tabPage8->Controls->Add(this->dataGridView8);
         this->tabPage8->Controls->Add(this->label55);
@@ -2648,7 +2701,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button28->BackColor = System::Drawing::Color::Navy;
         this->button28->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button28->ForeColor = System::Drawing::Color::White;
-        this->button28->Location = System::Drawing::Point(407, 306);
+        this->button28->Location = System::Drawing::Point(37, 317);
         this->button28->Margin = System::Windows::Forms::Padding(2);
         this->button28->Name = L"button28";
         this->button28->Size = System::Drawing::Size(103, 24);
@@ -2661,12 +2714,12 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->dataGridView8->AllowUserToDeleteRows = false;
         this->dataGridView8->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-        this->dataGridView8->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(8) {
+        this->dataGridView8->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(7) {
             this->dataGridViewTextBoxColumn33,
-                this->dataGridViewTextBoxColumn34, this->dataGridViewTextBoxColumn35, this->dataGridViewTextBoxColumn36, this->dataGridViewTextBoxColumn37,
-                this->dataGridViewTextBoxColumn38, this->dataGridViewTextBoxColumn39, this->Column19
+                this->dataGridViewTextBoxColumn35, this->dataGridViewTextBoxColumn36, this->dataGridViewTextBoxColumn37, this->dataGridViewTextBoxColumn38,
+                this->dataGridViewTextBoxColumn39, this->Column19
         });
-        this->dataGridView8->Location = System::Drawing::Point(18, 74);
+        this->dataGridView8->Location = System::Drawing::Point(37, 99);
         this->dataGridView8->Margin = System::Windows::Forms::Padding(2);
         this->dataGridView8->Name = L"dataGridView8";
         this->dataGridView8->ReadOnly = true;
@@ -2675,72 +2728,6 @@ private: System::ComponentModel::IContainer^ components;
         this->dataGridView8->Size = System::Drawing::Size(751, 214);
         this->dataGridView8->TabIndex = 18;
         this->dataGridView8->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Form1::dataGridView8_CellContentClick);
-        // 
-        // dataGridViewTextBoxColumn33
-        // 
-        this->dataGridViewTextBoxColumn33->HeaderText = L"S.no";
-        this->dataGridViewTextBoxColumn33->MinimumWidth = 3;
-        this->dataGridViewTextBoxColumn33->Name = L"dataGridViewTextBoxColumn33";
-        this->dataGridViewTextBoxColumn33->ReadOnly = true;
-        this->dataGridViewTextBoxColumn33->Width = 80;
-        // 
-        // dataGridViewTextBoxColumn34
-        // 
-        this->dataGridViewTextBoxColumn34->HeaderText = L"Name";
-        this->dataGridViewTextBoxColumn34->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn34->Name = L"dataGridViewTextBoxColumn34";
-        this->dataGridViewTextBoxColumn34->ReadOnly = true;
-        this->dataGridViewTextBoxColumn34->Width = 200;
-        // 
-        // dataGridViewTextBoxColumn35
-        // 
-        this->dataGridViewTextBoxColumn35->HeaderText = L"From";
-        this->dataGridViewTextBoxColumn35->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn35->Name = L"dataGridViewTextBoxColumn35";
-        this->dataGridViewTextBoxColumn35->ReadOnly = true;
-        this->dataGridViewTextBoxColumn35->Width = 130;
-        // 
-        // dataGridViewTextBoxColumn36
-        // 
-        this->dataGridViewTextBoxColumn36->HeaderText = L"To";
-        this->dataGridViewTextBoxColumn36->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn36->Name = L"dataGridViewTextBoxColumn36";
-        this->dataGridViewTextBoxColumn36->ReadOnly = true;
-        this->dataGridViewTextBoxColumn36->Width = 130;
-        // 
-        // dataGridViewTextBoxColumn37
-        // 
-        this->dataGridViewTextBoxColumn37->HeaderText = L"Date";
-        this->dataGridViewTextBoxColumn37->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn37->Name = L"dataGridViewTextBoxColumn37";
-        this->dataGridViewTextBoxColumn37->ReadOnly = true;
-        this->dataGridViewTextBoxColumn37->Width = 150;
-        // 
-        // dataGridViewTextBoxColumn38
-        // 
-        this->dataGridViewTextBoxColumn38->HeaderText = L"Time";
-        this->dataGridViewTextBoxColumn38->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn38->Name = L"dataGridViewTextBoxColumn38";
-        this->dataGridViewTextBoxColumn38->ReadOnly = true;
-        this->dataGridViewTextBoxColumn38->Width = 150;
-        // 
-        // dataGridViewTextBoxColumn39
-        // 
-        this->dataGridViewTextBoxColumn39->HeaderText = L"Price";
-        this->dataGridViewTextBoxColumn39->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn39->Name = L"dataGridViewTextBoxColumn39";
-        this->dataGridViewTextBoxColumn39->ReadOnly = true;
-        // 
-        // Column19
-        // 
-        this->Column19->HeaderText = L"Update";
-        this->Column19->MinimumWidth = 8;
-        this->Column19->Name = L"Column19";
-        this->Column19->ReadOnly = true;
-        this->Column19->Text = L"update";
-        this->Column19->ToolTipText = L"Update";
-        this->Column19->UseColumnTextForButtonValue = true;
-        this->Column19->Width = 150;
         // 
         // label55
         // 
@@ -2760,7 +2747,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button22->BackColor = System::Drawing::Color::Navy;
         this->button22->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button22->ForeColor = System::Drawing::Color::White;
-        this->button22->Location = System::Drawing::Point(661, 306);
+        this->button22->Location = System::Drawing::Point(681, 317);
         this->button22->Margin = System::Windows::Forms::Padding(2);
         this->button22->Name = L"button22";
         this->button22->Size = System::Drawing::Size(107, 24);
@@ -2774,7 +2761,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button27->BackColor = System::Drawing::Color::Navy;
         this->button27->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button27->ForeColor = System::Drawing::Color::White;
-        this->button27->Location = System::Drawing::Point(534, 306);
+        this->button27->Location = System::Drawing::Point(681, 32);
         this->button27->Margin = System::Windows::Forms::Padding(2);
         this->button27->Name = L"button27";
         this->button27->Size = System::Drawing::Size(103, 24);
@@ -2785,6 +2772,10 @@ private: System::ComponentModel::IContainer^ components;
         // 
         // tabPage13
         // 
+        this->tabPage13->Controls->Add(this->label15);
+        this->tabPage13->Controls->Add(this->label10);
+        this->tabPage13->Controls->Add(this->textBox10);
+        this->tabPage13->Controls->Add(this->textBox5);
         this->tabPage13->Controls->Add(this->textBox11);
         this->tabPage13->Controls->Add(this->textBox2);
         this->tabPage13->Controls->Add(this->button29);
@@ -2808,7 +2799,7 @@ private: System::ComponentModel::IContainer^ components;
         // 
         // textBox11
         // 
-        this->textBox11->Location = System::Drawing::Point(328, 77);
+        this->textBox11->Location = System::Drawing::Point(288, 77);
         this->textBox11->Margin = System::Windows::Forms::Padding(2);
         this->textBox11->Name = L"textBox11";
         this->textBox11->Size = System::Drawing::Size(100, 20);
@@ -2816,7 +2807,7 @@ private: System::ComponentModel::IContainer^ components;
         // 
         // textBox2
         // 
-        this->textBox2->Location = System::Drawing::Point(179, 77);
+        this->textBox2->Location = System::Drawing::Point(160, 77);
         this->textBox2->Margin = System::Windows::Forms::Padding(2);
         this->textBox2->Name = L"textBox2";
         this->textBox2->Size = System::Drawing::Size(100, 20);
@@ -2827,7 +2818,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button29->BackColor = System::Drawing::Color::Navy;
         this->button29->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button29->ForeColor = System::Drawing::Color::White;
-        this->button29->Location = System::Drawing::Point(637, 70);
+        this->button29->Location = System::Drawing::Point(28, 313);
         this->button29->Margin = System::Windows::Forms::Padding(2);
         this->button29->Name = L"button29";
         this->button29->Size = System::Drawing::Size(103, 24);
@@ -2840,12 +2831,12 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->dataGridView7->AllowUserToDeleteRows = false;
         this->dataGridView7->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-        this->dataGridView7->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(7) {
+        this->dataGridView7->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(6) {
             this->dataGridViewTextBoxColumn26,
-                this->dataGridViewTextBoxColumn27, this->dataGridViewTextBoxColumn28, this->dataGridViewTextBoxColumn29, this->dataGridViewTextBoxColumn30,
-                this->dataGridViewTextBoxColumn31, this->dataGridViewTextBoxColumn32
+                this->dataGridViewTextBoxColumn28, this->dataGridViewTextBoxColumn29, this->dataGridViewTextBoxColumn30, this->dataGridViewTextBoxColumn31,
+                this->dataGridViewTextBoxColumn32
         });
-        this->dataGridView7->Location = System::Drawing::Point(28, 117);
+        this->dataGridView7->Location = System::Drawing::Point(37, 117);
         this->dataGridView7->Margin = System::Windows::Forms::Padding(2);
         this->dataGridView7->Name = L"dataGridView7";
         this->dataGridView7->ReadOnly = true;
@@ -2854,62 +2845,6 @@ private: System::ComponentModel::IContainer^ components;
         this->dataGridView7->Size = System::Drawing::Size(743, 173);
         this->dataGridView7->TabIndex = 9;
         this->dataGridView7->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Form1::dataGridView7_CellContentClick);
-        // 
-        // dataGridViewTextBoxColumn26
-        // 
-        this->dataGridViewTextBoxColumn26->HeaderText = L"S.no";
-        this->dataGridViewTextBoxColumn26->MinimumWidth = 3;
-        this->dataGridViewTextBoxColumn26->Name = L"dataGridViewTextBoxColumn26";
-        this->dataGridViewTextBoxColumn26->ReadOnly = true;
-        this->dataGridViewTextBoxColumn26->Width = 80;
-        // 
-        // dataGridViewTextBoxColumn27
-        // 
-        this->dataGridViewTextBoxColumn27->HeaderText = L"Name";
-        this->dataGridViewTextBoxColumn27->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn27->Name = L"dataGridViewTextBoxColumn27";
-        this->dataGridViewTextBoxColumn27->ReadOnly = true;
-        this->dataGridViewTextBoxColumn27->Width = 220;
-        // 
-        // dataGridViewTextBoxColumn28
-        // 
-        this->dataGridViewTextBoxColumn28->HeaderText = L"From";
-        this->dataGridViewTextBoxColumn28->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn28->Name = L"dataGridViewTextBoxColumn28";
-        this->dataGridViewTextBoxColumn28->ReadOnly = true;
-        this->dataGridViewTextBoxColumn28->Width = 150;
-        // 
-        // dataGridViewTextBoxColumn29
-        // 
-        this->dataGridViewTextBoxColumn29->HeaderText = L"To";
-        this->dataGridViewTextBoxColumn29->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn29->Name = L"dataGridViewTextBoxColumn29";
-        this->dataGridViewTextBoxColumn29->ReadOnly = true;
-        this->dataGridViewTextBoxColumn29->Width = 150;
-        // 
-        // dataGridViewTextBoxColumn30
-        // 
-        this->dataGridViewTextBoxColumn30->HeaderText = L"Date";
-        this->dataGridViewTextBoxColumn30->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn30->Name = L"dataGridViewTextBoxColumn30";
-        this->dataGridViewTextBoxColumn30->ReadOnly = true;
-        this->dataGridViewTextBoxColumn30->Width = 150;
-        // 
-        // dataGridViewTextBoxColumn31
-        // 
-        this->dataGridViewTextBoxColumn31->HeaderText = L"Time";
-        this->dataGridViewTextBoxColumn31->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn31->Name = L"dataGridViewTextBoxColumn31";
-        this->dataGridViewTextBoxColumn31->ReadOnly = true;
-        this->dataGridViewTextBoxColumn31->Width = 150;
-        // 
-        // dataGridViewTextBoxColumn32
-        // 
-        this->dataGridViewTextBoxColumn32->HeaderText = L"Price";
-        this->dataGridViewTextBoxColumn32->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn32->Name = L"dataGridViewTextBoxColumn32";
-        this->dataGridViewTextBoxColumn32->ReadOnly = true;
-        this->dataGridViewTextBoxColumn32->Width = 150;
         // 
         // label54
         // 
@@ -2929,7 +2864,7 @@ private: System::ComponentModel::IContainer^ components;
         this->label51->AutoSize = true;
         this->label51->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline));
         this->label51->ForeColor = System::Drawing::Color::Navy;
-        this->label51->Location = System::Drawing::Point(325, 58);
+        this->label51->Location = System::Drawing::Point(285, 58);
         this->label51->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label51->Name = L"label51";
         this->label51->Size = System::Drawing::Size(48, 17);
@@ -2942,7 +2877,7 @@ private: System::ComponentModel::IContainer^ components;
         this->label50->AutoSize = true;
         this->label50->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline));
         this->label50->ForeColor = System::Drawing::Color::Navy;
-        this->label50->Location = System::Drawing::Point(175, 58);
+        this->label50->Location = System::Drawing::Point(157, 58);
         this->label50->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label50->Name = L"label50";
         this->label50->Size = System::Drawing::Size(48, 17);
@@ -2982,7 +2917,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button25->BackColor = System::Drawing::Color::Navy;
         this->button25->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button25->ForeColor = System::Drawing::Color::White;
-        this->button25->Location = System::Drawing::Point(488, 70);
+        this->button25->Location = System::Drawing::Point(695, 38);
         this->button25->Margin = System::Windows::Forms::Padding(2);
         this->button25->Name = L"button25";
         this->button25->Size = System::Drawing::Size(109, 24);
@@ -3131,44 +3066,302 @@ private: System::ComponentModel::IContainer^ components;
         this->label23->Text = L"About Us";
         this->label23->Click += gcnew System::EventHandler(this, &Form1::label23_Click);
         // 
-        // dataGridViewTextBoxColumn20
+        // Column10
         // 
-        this->dataGridViewTextBoxColumn20->HeaderText = L"S.no";
-        this->dataGridViewTextBoxColumn20->MinimumWidth = 3;
-        this->dataGridViewTextBoxColumn20->Name = L"dataGridViewTextBoxColumn20";
-        this->dataGridViewTextBoxColumn20->Width = 30;
+        this->Column10->HeaderText = L"S.no";
+        this->Column10->MinimumWidth = 8;
+        this->Column10->Name = L"Column10";
+        this->Column10->Width = 50;
         // 
-        // dataGridViewTextBoxColumn22
+        // Column11
         // 
-        this->dataGridViewTextBoxColumn22->HeaderText = L"From";
-        this->dataGridViewTextBoxColumn22->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn22->Name = L"dataGridViewTextBoxColumn22";
-        this->dataGridViewTextBoxColumn22->Width = 120;
+        this->Column11->HeaderText = L"Username";
+        this->Column11->MinimumWidth = 8;
+        this->Column11->Name = L"Column11";
+        this->Column11->Width = 150;
         // 
-        // dataGridViewTextBoxColumn23
+        // Column14
         // 
-        this->dataGridViewTextBoxColumn23->HeaderText = L"To";
-        this->dataGridViewTextBoxColumn23->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn23->Name = L"dataGridViewTextBoxColumn23";
-        this->dataGridViewTextBoxColumn23->Width = 120;
+        this->Column14->HeaderText = L"Time";
+        this->Column14->MinimumWidth = 8;
+        this->Column14->Name = L"Column14";
+        this->Column14->Width = 150;
         // 
-        // dataGridViewTextBoxColumn24
+        // Date
         // 
-        this->dataGridViewTextBoxColumn24->HeaderText = L"Date";
-        this->dataGridViewTextBoxColumn24->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn24->Name = L"dataGridViewTextBoxColumn24";
-        this->dataGridViewTextBoxColumn24->Width = 120;
+        this->Date->HeaderText = L"Date";
+        this->Date->Name = L"Date";
         // 
-        // Column20
+        // Column15
         // 
-        this->Column20->HeaderText = L"Time";
-        this->Column20->Name = L"Column20";
+        this->Column15->HeaderText = L"From";
+        this->Column15->MinimumWidth = 8;
+        this->Column15->Name = L"Column15";
+        this->Column15->Width = 150;
         // 
-        // dataGridViewTextBoxColumn25
+        // Column16
         // 
-        this->dataGridViewTextBoxColumn25->HeaderText = L"Price";
-        this->dataGridViewTextBoxColumn25->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn25->Name = L"dataGridViewTextBoxColumn25";
+        this->Column16->HeaderText = L" To";
+        this->Column16->MinimumWidth = 8;
+        this->Column16->Name = L"Column16";
+        this->Column16->Width = 150;
+        // 
+        // Column17
+        // 
+        this->Column17->HeaderText = L"Category";
+        this->Column17->MinimumWidth = 8;
+        this->Column17->Name = L"Column17";
+        this->Column17->Width = 150;
+        // 
+        // textBox5
+        // 
+        this->textBox5->Location = System::Drawing::Point(414, 77);
+        this->textBox5->Margin = System::Windows::Forms::Padding(2);
+        this->textBox5->Name = L"textBox5";
+        this->textBox5->Size = System::Drawing::Size(100, 20);
+        this->textBox5->TabIndex = 41;
+        // 
+        // textBox10
+        // 
+        this->textBox10->Location = System::Drawing::Point(542, 77);
+        this->textBox10->Margin = System::Windows::Forms::Padding(2);
+        this->textBox10->Name = L"textBox10";
+        this->textBox10->Size = System::Drawing::Size(100, 20);
+        this->textBox10->TabIndex = 42;
+        // 
+        // label10
+        // 
+        this->label10->AutoSize = true;
+        this->label10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline));
+        this->label10->ForeColor = System::Drawing::Color::Navy;
+        this->label10->Location = System::Drawing::Point(411, 58);
+        this->label10->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+        this->label10->Name = L"label10";
+        this->label10->Size = System::Drawing::Size(46, 17);
+        this->label10->TabIndex = 43;
+        this->label10->Text = L"Date :";
+        this->label10->Click += gcnew System::EventHandler(this, &Form1::label10_Click_2);
+        // 
+        // label15
+        // 
+        this->label15->AutoSize = true;
+        this->label15->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline));
+        this->label15->ForeColor = System::Drawing::Color::Navy;
+        this->label15->Location = System::Drawing::Point(539, 58);
+        this->label15->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+        this->label15->Name = L"label15";
+        this->label15->Size = System::Drawing::Size(47, 17);
+        this->label15->TabIndex = 44;
+        this->label15->Text = L"Time :";
+        this->label15->Click += gcnew System::EventHandler(this, &Form1::label15_Click_1);
+        // 
+        // textBox14
+        // 
+        this->textBox14->Location = System::Drawing::Point(59, 75);
+        this->textBox14->Margin = System::Windows::Forms::Padding(2);
+        this->textBox14->Name = L"textBox14";
+        this->textBox14->Size = System::Drawing::Size(100, 20);
+        this->textBox14->TabIndex = 39;
+        // 
+        // textBox15
+        // 
+        this->textBox15->Location = System::Drawing::Point(187, 75);
+        this->textBox15->Margin = System::Windows::Forms::Padding(2);
+        this->textBox15->Name = L"textBox15";
+        this->textBox15->Size = System::Drawing::Size(100, 20);
+        this->textBox15->TabIndex = 40;
+        this->textBox15->TextChanged += gcnew System::EventHandler(this, &Form1::textBox15_TextChanged_1);
+        // 
+        // textBox16
+        // 
+        this->textBox16->Location = System::Drawing::Point(318, 75);
+        this->textBox16->Margin = System::Windows::Forms::Padding(2);
+        this->textBox16->Name = L"textBox16";
+        this->textBox16->Size = System::Drawing::Size(100, 20);
+        this->textBox16->TabIndex = 41;
+        // 
+        // textBox17
+        // 
+        this->textBox17->Location = System::Drawing::Point(450, 75);
+        this->textBox17->Margin = System::Windows::Forms::Padding(2);
+        this->textBox17->Name = L"textBox17";
+        this->textBox17->Size = System::Drawing::Size(100, 20);
+        this->textBox17->TabIndex = 42;
+        // 
+        // textBox18
+        // 
+        this->textBox18->Location = System::Drawing::Point(578, 75);
+        this->textBox18->Margin = System::Windows::Forms::Padding(2);
+        this->textBox18->Name = L"textBox18";
+        this->textBox18->Size = System::Drawing::Size(100, 20);
+        this->textBox18->TabIndex = 43;
+        // 
+        // label56
+        // 
+        this->label56->AutoSize = true;
+        this->label56->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline));
+        this->label56->ForeColor = System::Drawing::Color::Navy;
+        this->label56->Location = System::Drawing::Point(56, 56);
+        this->label56->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+        this->label56->Name = L"label56";
+        this->label56->Size = System::Drawing::Size(33, 17);
+        this->label56->TabIndex = 44;
+        this->label56->Text = L"To :";
+        // 
+        // label57
+        // 
+        this->label57->AutoSize = true;
+        this->label57->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline));
+        this->label57->ForeColor = System::Drawing::Color::Navy;
+        this->label57->Location = System::Drawing::Point(184, 56);
+        this->label57->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+        this->label57->Name = L"label57";
+        this->label57->Size = System::Drawing::Size(48, 17);
+        this->label57->TabIndex = 45;
+        this->label57->Text = L"From :";
+        // 
+        // label58
+        // 
+        this->label58->AutoSize = true;
+        this->label58->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline));
+        this->label58->ForeColor = System::Drawing::Color::Navy;
+        this->label58->Location = System::Drawing::Point(315, 56);
+        this->label58->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+        this->label58->Name = L"label58";
+        this->label58->Size = System::Drawing::Size(48, 17);
+        this->label58->TabIndex = 46;
+        this->label58->Text = L"Price :";
+        this->label58->Click += gcnew System::EventHandler(this, &Form1::label58_Click_1);
+        // 
+        // label59
+        // 
+        this->label59->AutoSize = true;
+        this->label59->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline));
+        this->label59->ForeColor = System::Drawing::Color::Navy;
+        this->label59->Location = System::Drawing::Point(575, 56);
+        this->label59->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+        this->label59->Name = L"label59";
+        this->label59->Size = System::Drawing::Size(47, 17);
+        this->label59->TabIndex = 47;
+        this->label59->Text = L"Time :";
+        // 
+        // label60
+        // 
+        this->label60->AutoSize = true;
+        this->label60->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline));
+        this->label60->ForeColor = System::Drawing::Color::Navy;
+        this->label60->Location = System::Drawing::Point(447, 56);
+        this->label60->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+        this->label60->Name = L"label60";
+        this->label60->Size = System::Drawing::Size(46, 17);
+        this->label60->TabIndex = 48;
+        this->label60->Text = L"Date :";
+        // 
+        // dataGridViewTextBoxColumn33
+        // 
+        this->dataGridViewTextBoxColumn33->HeaderText = L"S.no";
+        this->dataGridViewTextBoxColumn33->MinimumWidth = 3;
+        this->dataGridViewTextBoxColumn33->Name = L"dataGridViewTextBoxColumn33";
+        this->dataGridViewTextBoxColumn33->ReadOnly = true;
+        this->dataGridViewTextBoxColumn33->Width = 80;
+        // 
+        // dataGridViewTextBoxColumn35
+        // 
+        this->dataGridViewTextBoxColumn35->HeaderText = L"From";
+        this->dataGridViewTextBoxColumn35->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn35->Name = L"dataGridViewTextBoxColumn35";
+        this->dataGridViewTextBoxColumn35->ReadOnly = true;
+        this->dataGridViewTextBoxColumn35->Width = 130;
+        // 
+        // dataGridViewTextBoxColumn36
+        // 
+        this->dataGridViewTextBoxColumn36->HeaderText = L"To";
+        this->dataGridViewTextBoxColumn36->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn36->Name = L"dataGridViewTextBoxColumn36";
+        this->dataGridViewTextBoxColumn36->ReadOnly = true;
+        this->dataGridViewTextBoxColumn36->Width = 130;
+        // 
+        // dataGridViewTextBoxColumn37
+        // 
+        this->dataGridViewTextBoxColumn37->HeaderText = L"Date";
+        this->dataGridViewTextBoxColumn37->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn37->Name = L"dataGridViewTextBoxColumn37";
+        this->dataGridViewTextBoxColumn37->ReadOnly = true;
+        this->dataGridViewTextBoxColumn37->Width = 150;
+        // 
+        // dataGridViewTextBoxColumn38
+        // 
+        this->dataGridViewTextBoxColumn38->HeaderText = L"Time";
+        this->dataGridViewTextBoxColumn38->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn38->Name = L"dataGridViewTextBoxColumn38";
+        this->dataGridViewTextBoxColumn38->ReadOnly = true;
+        this->dataGridViewTextBoxColumn38->Width = 150;
+        // 
+        // dataGridViewTextBoxColumn39
+        // 
+        this->dataGridViewTextBoxColumn39->HeaderText = L"Price";
+        this->dataGridViewTextBoxColumn39->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn39->Name = L"dataGridViewTextBoxColumn39";
+        this->dataGridViewTextBoxColumn39->ReadOnly = true;
+        // 
+        // Column19
+        // 
+        this->Column19->HeaderText = L"Update";
+        this->Column19->MinimumWidth = 8;
+        this->Column19->Name = L"Column19";
+        this->Column19->ReadOnly = true;
+        this->Column19->Text = L"update";
+        this->Column19->ToolTipText = L"Update";
+        this->Column19->UseColumnTextForButtonValue = true;
+        this->Column19->Width = 150;
+        // 
+        // dataGridViewTextBoxColumn26
+        // 
+        this->dataGridViewTextBoxColumn26->HeaderText = L"S.no";
+        this->dataGridViewTextBoxColumn26->MinimumWidth = 3;
+        this->dataGridViewTextBoxColumn26->Name = L"dataGridViewTextBoxColumn26";
+        this->dataGridViewTextBoxColumn26->ReadOnly = true;
+        this->dataGridViewTextBoxColumn26->Width = 80;
+        // 
+        // dataGridViewTextBoxColumn28
+        // 
+        this->dataGridViewTextBoxColumn28->HeaderText = L"From";
+        this->dataGridViewTextBoxColumn28->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn28->Name = L"dataGridViewTextBoxColumn28";
+        this->dataGridViewTextBoxColumn28->ReadOnly = true;
+        this->dataGridViewTextBoxColumn28->Width = 150;
+        // 
+        // dataGridViewTextBoxColumn29
+        // 
+        this->dataGridViewTextBoxColumn29->HeaderText = L"To";
+        this->dataGridViewTextBoxColumn29->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn29->Name = L"dataGridViewTextBoxColumn29";
+        this->dataGridViewTextBoxColumn29->ReadOnly = true;
+        this->dataGridViewTextBoxColumn29->Width = 150;
+        // 
+        // dataGridViewTextBoxColumn30
+        // 
+        this->dataGridViewTextBoxColumn30->HeaderText = L"Date";
+        this->dataGridViewTextBoxColumn30->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn30->Name = L"dataGridViewTextBoxColumn30";
+        this->dataGridViewTextBoxColumn30->ReadOnly = true;
+        this->dataGridViewTextBoxColumn30->Width = 150;
+        // 
+        // dataGridViewTextBoxColumn31
+        // 
+        this->dataGridViewTextBoxColumn31->HeaderText = L"Time";
+        this->dataGridViewTextBoxColumn31->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn31->Name = L"dataGridViewTextBoxColumn31";
+        this->dataGridViewTextBoxColumn31->ReadOnly = true;
+        this->dataGridViewTextBoxColumn31->Width = 150;
+        // 
+        // dataGridViewTextBoxColumn32
+        // 
+        this->dataGridViewTextBoxColumn32->HeaderText = L"Price";
+        this->dataGridViewTextBoxColumn32->MinimumWidth = 8;
+        this->dataGridViewTextBoxColumn32->Name = L"dataGridViewTextBoxColumn32";
+        this->dataGridViewTextBoxColumn32->ReadOnly = true;
+        this->dataGridViewTextBoxColumn32->Width = 150;
         // 
         // Form1
         // 
@@ -3716,6 +3909,14 @@ private: System::Void button32_Click(System::Object^ sender, System::EventArgs^ 
     tabControl1->TabPages->Add(tabPage11);
     tabControl1->SelectedTab = tabPage11;
     tabControl1->TabPages->Remove(tabPage9);
+}
+private: System::Void label10_Click_2(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void label15_Click_1(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void textBox15_TextChanged_1(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void label58_Click_1(System::Object^ sender, System::EventArgs^ e) {
 }
 }; // end of class Form1
 } // end of namespace CppCLRWinFormsProject

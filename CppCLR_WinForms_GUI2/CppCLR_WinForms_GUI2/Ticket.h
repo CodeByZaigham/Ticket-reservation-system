@@ -52,7 +52,7 @@ public:
 		return from;
 	}
 
-	void setFrom(String ^ from) {
+	void setFrom(String^ from) {
 		if (String::IsNullOrEmpty(from) || String::IsNullOrWhiteSpace(from)) {
 			return;
 		}
