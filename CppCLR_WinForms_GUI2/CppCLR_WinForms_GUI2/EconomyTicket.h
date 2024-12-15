@@ -13,5 +13,7 @@ public:
     EconomyTicket(Ticket^ ticket) : Ticket(generateID("EC"), ticket->getTo(), ticket->getFrom(), ticket->getPrice()) {}
 
     EconomyTicket(String^ id, String^ to, String^ from, int price) : Ticket(id, to, from, price) {}
+
+    EconomyTicket() {}
 };
 
