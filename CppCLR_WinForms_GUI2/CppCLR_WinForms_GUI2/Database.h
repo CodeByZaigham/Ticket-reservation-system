@@ -5,11 +5,13 @@ using namespace System::IO;
 
 ref class Database{
 public:
+
 	void insert(String^ filename, String^ row) {
 		if (File::Exists(filename) == true) {
 			File::AppendAllText(filename, "\n" + row);
 		}
 		else {
+			//previously AppendAllText
 			File::AppendAllText(filename, row);
 		}
 	}

@@ -9,7 +9,6 @@ using namespace System::Collections::Generic;
 ref class Vehicle
 {
 	String^ vehicleName;
-	String^ departureTime;
 	List<EconomyTicket^>^ economyTickets = nullptr;
 	List<BusinessTicket^>^ businessTickets = nullptr;
 
@@ -19,12 +18,13 @@ private:
 
 	//All Constructors are not final but exist if their need arises all unused constructors will be removed in the future
 
-	void setVehicleID(String^ vehicleName) {
+	bool setVehicleID(String^ vehicleName) {
 		if (String::IsNullOrEmpty(vehicleName) || String::IsNullOrWhiteSpace(vehicleName) || vehicleName->Length < 4) {
-			return;
+			return false;
 		}
 		else {
 			this->vehicleName = vehicleName;
+			return true;
 		}
 	}
 
@@ -32,10 +32,10 @@ private:
 		return vehicleName;
 	}
 
-	void setEconomySeatsLimit(int seatLimit, Ticket^ ticket) {
+	bool setEconomySeatsLimit(int seatLimit, Ticket^ ticket) {
 
 		if (seatLimit < 1) {
-			return;
+			return false;
 		}
 		else {
 
@@ -48,12 +48,13 @@ private:
 			}
 
 			this->economyTickets = economyTickets;
+			return true;
 		}
 	}
 
-	void setBusinessSeatsLimit(int seatLimit, Ticket^ ticket) {
+	bool setBusinessSeatsLimit(int seatLimit, Ticket^ ticket) {
 		if (seatLimit < 1) {
-			return;
+			return false;
 		}
 		else {
 
@@ -66,23 +67,20 @@ private:
 			}
 
 			this->businessTickets = businessTickets;
+
+			return true;
 		}
 	}
-
-	void setDepartureTime(String^ departureTime) {
-		this->departureTime = departureTime;
-	}
-
-	String^ getDepartureTime() {
-		return departureTime;
-	}
-
 	int getBusinessSeatsAmount() {
 		return businessTickets->Count;
 	}
 
 	int getEconomySeatsAmount() {
 		return economyTickets->Count;
+	}
+
+	void decrementTicket() {
+
 	}
 };
 

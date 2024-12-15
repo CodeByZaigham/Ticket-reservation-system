@@ -14,6 +14,8 @@ protected:
 	String^ id;
 	String^ to;
 	String^ from;
+	String^ date;
+	String^ time;
 	int price;
 
 public:
@@ -26,12 +28,13 @@ public:
 		return id;
 	}
 
-	void setID(String^ id) {
+	bool setID(String^ id) {
 		if (String::IsNullOrEmpty(id) || String::IsNullOrWhiteSpace(id)) {
-			return;
+			return false;
 		}
 		else {
 			this->id = id;
+			return true;
 		}
 	}
 
@@ -39,12 +42,13 @@ public:
 		return to;
 	}
 
-	void setTo(String^ to) {
+	bool setTo(String^ to) {
 		if (String::IsNullOrEmpty(to) || String::IsNullOrWhiteSpace(to)) {
-			return;
+			return false;
 		}
 		else {
 			this->to = to;
+			return true;
 		}
 	}
 
@@ -52,12 +56,27 @@ public:
 		return from;
 	}
 
-	void setFrom(String^ from) {
+	bool setFrom(String^ from) {
 		if (String::IsNullOrEmpty(from) || String::IsNullOrWhiteSpace(from)) {
-			return;
+			return false;
 		}
 		else {
 			this->from = from;
+			return true;
+		}
+	}
+
+	String^ getDate() {
+		return date;
+	}
+
+	bool setDate(String^ date) {
+		if (String::IsNullOrEmpty(date) || String::IsNullOrWhiteSpace(date)) {
+			return false;
+		}
+		else {
+			this->date = date;
+			return true;
 		}
 	}
 
@@ -65,12 +84,13 @@ public:
 		return price;
 	}
 
-	void setPrice(int price) {
+	bool setPrice(int price) {
 		if (price < 1) {
-			return;
+			return false;
 		}
 		else {
 			this->price = price;
+			return true;
 		}
 	}
 
