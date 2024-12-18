@@ -26,7 +26,7 @@ public:
 
 	bool registerInfo(String^ username, String^ password, String^ email, String^ phoneNumber, String^ gender) {
 		if (username->Length > 3 && password->Length > 3 && email->Length > 3 && phoneNumber->Length == 8 && gender->Length > 3) {
-			ob.insert("C:\\Users\\hp\\Documents\\login.txt", email + "," + password + "," + username + "," + phoneNumber + "," + gender);
+			ob.insert("login.txt", email + "," + password + "," + username + "," + phoneNumber + "," + gender);
 			return true;
 		}
 		else {
@@ -35,7 +35,7 @@ public:
 	}
 
 	bool login(String^ email, String^ password) override {
-		array<String^>^ data = ob.search("C:\\Users\\hp\\Documents\\login.txt", email, 0);
+		array<String^>^ data = ob.search("login.txt", email, 0);
 		for (int i = 0; i < data->Length; i++) {
 			array<String^>^ var = data[i]->Split(',');
 			if (data->Length > 0) {

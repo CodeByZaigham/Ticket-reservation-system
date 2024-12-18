@@ -8,9 +8,9 @@ using namespace System::Collections::Generic;
 
 ref class Vehicle
 {
-	String^ vehicleName;
-	List<EconomyTicket^>^ economyTickets = nullptr;
-	List<BusinessTicket^>^ businessTickets = nullptr;
+	String^ vehicleType;
+	int economyTickets;
+	int businessTickets;
 
 private:
 
@@ -18,69 +18,69 @@ private:
 
 	//All Constructors are not final but exist if their need arises all unused constructors will be removed in the future
 
-	bool setVehicleID(String^ vehicleName) {
-		if (String::IsNullOrEmpty(vehicleName) || String::IsNullOrWhiteSpace(vehicleName) || vehicleName->Length < 4) {
+	bool setVehicleType(String^ vehicleType) {
+		if (String::IsNullOrEmpty(vehicleType) || String::IsNullOrWhiteSpace(vehicleType) || vehicleType->Length < 4) {
 			return false;
 		}
 		else {
-			this->vehicleName = vehicleName;
+			this->vehicleType = vehicleType;
 			return true;
 		}
 	}
 
-	String^ getVehicleName() {
-		return vehicleName;
+	String^ getVehicleType() {
+		return vehicleType;
 	}
 
-	bool setEconomySeatsLimit(int seatLimit, Ticket^ ticket) {
+	bool setEconomySeatsLimit(int seatLimit) {
 
 		if (seatLimit < 1) {
 			return false;
 		}
 		else {
 
-			List<EconomyTicket^>^ economyTickets = gcnew List<EconomyTicket^>();
-
-			for (int i = 0; i < seatLimit; i++) {
-
-				EconomyTicket^ economyTicket = gcnew EconomyTicket(ticket);
-				economyTickets->Add(economyTicket);
-			}
-
-			this->economyTickets = economyTickets;
+			economyTickets = seatLimit;
 			return true;
 		}
+
 	}
 
-	bool setBusinessSeatsLimit(int seatLimit, Ticket^ ticket) {
+	bool setBusinessSeatsLimit(int seatLimit) {
+
 		if (seatLimit < 1) {
 			return false;
 		}
 		else {
 
-			List<BusinessTicket^>^ businessTickets = gcnew List<BusinessTicket^>();
-
-			for (int i = 0; i < seatLimit; i++) {
-
-				BusinessTicket^ businessTicket = gcnew BusinessTicket(ticket);
-				businessTickets->Add(businessTicket);
-			}
-
-			this->businessTickets = businessTickets;
-
+			businessTickets = seatLimit;
 			return true;
 		}
+
 	}
 	int getBusinessSeatsAmount() {
-		return businessTickets->Count;
+		return businessTickets;
 	}
 
 	int getEconomySeatsAmount() {
-		return economyTickets->Count;
+		return economyTickets;
 	}
 
-	void decrementTicket() {
+	bool decrementBusinessTicket(int bookedTickets) {
+		if (bookedTickets >= businessTickets) {
+			return false;
+		}
 
+		businessTickets -= bookedTickets;
+		return true;
+	}
+
+	bool decrementEconomyTicket(int bookedTickets) {
+		if (bookedTickets >= economyTickets) {
+			return false;
+		}
+
+		economyTickets -= bookedTickets;
+		return true;
 	}
 };
 

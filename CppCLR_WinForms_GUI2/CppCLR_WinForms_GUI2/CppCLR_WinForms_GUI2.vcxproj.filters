@@ -68,12 +68,6 @@
     <ClInclude Include="Customer.h">
       <Filter>Header Files\Customer Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EconomyCustomer.h">
-      <Filter>Header Files\Customer Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BusinessCustomer.h">
-      <Filter>Header Files\Customer Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Person.h">
       <Filter>Header Files\Other Classes</Filter>
     </ClInclude>
@@ -112,13 +106,7 @@
     <ClCompile Include="Customer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EconomyCustomer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Person.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BusinessCustomer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Vehicle.cpp">
