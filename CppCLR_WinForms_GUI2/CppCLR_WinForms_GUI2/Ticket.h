@@ -84,15 +84,7 @@ public:
 		return price;
 	}
 
-	bool setPrice(int price) {
-		if (price < 1) {
-			return false;
-		}
-		else {
-			this->price = price;
-			return true;
-		}
-	}
+	virtual bool setPrice() = 0;
 
 	String^ generateID(const std::string ticketType) {
 

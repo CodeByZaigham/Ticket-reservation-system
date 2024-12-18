@@ -68,12 +68,6 @@
     <ClInclude Include="Customer.h">
       <Filter>Header Files\Customer Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EconomyCustomer.h">
-      <Filter>Header Files\Customer Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BusinessCustomer.h">
-      <Filter>Header Files\Customer Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Person.h">
       <Filter>Header Files\Other Classes</Filter>
     </ClInclude>

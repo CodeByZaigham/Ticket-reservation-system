@@ -135,12 +135,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Admin.h" />
-    <ClInclude Include="BusinessCustomer.h" />
     <ClInclude Include="BusinessTicket.h" />
     <ClInclude Include="CppCLR_Utils.h" />
     <ClInclude Include="Customer.h" />
     <ClInclude Include="Database.h" />
-    <ClInclude Include="EconomyCustomer.h" />
     <ClInclude Include="EconomyTicket.h" />
     <ClInclude Include="Form1.h">
       <FileType>CppForm</FileType>
