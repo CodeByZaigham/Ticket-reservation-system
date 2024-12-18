@@ -156,12 +156,10 @@
   <ItemGroup>
     <ClCompile Include="Admin.cpp" />
     <ClCompile Include="AssemblyInfo.cpp" />
-    <ClCompile Include="BusinessCustomer.cpp" />
     <ClCompile Include="BusinessTicket.cpp" />
     <ClCompile Include="CppCLR_WinFormsProject.cpp" />
     <ClCompile Include="Customer.cpp" />
     <ClCompile Include="Database.cpp" />
-    <ClCompile Include="EconomyCustomer.cpp" />
     <ClCompile Include="EconomyTicket.cpp" />
     <ClCompile Include="Form1.cpp" />
     <ClCompile Include="pch.cpp">

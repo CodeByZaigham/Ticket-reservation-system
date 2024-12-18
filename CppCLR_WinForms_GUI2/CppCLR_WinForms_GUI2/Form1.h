@@ -3822,8 +3822,6 @@ private: System::Void checkBox8_CheckedChanged(System::Object^ sender, System::E
     }
 }
 private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
-    tabControl1->TabPages->Add(tabPage4);
-    tabControl1->SelectedTab = tabPage4;
     tabControl1->TabPages->Remove(tabPage1);
 }
 private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -3840,7 +3838,6 @@ private: System::Void Form1_Load(System::Object^ sender, System::EventArgs^ e) {
     tabControl1->TabPages->Remove(tabPage1);
     tabControl1->TabPages->Remove(tabPage2);
     tabControl1->TabPages->Remove(tabPage3);
-    tabControl1->TabPages->Remove(tabPage4);
     tabControl1->TabPages->Remove(tabPage5);
     tabControl1->TabPages->Remove(tabPage7);
     tabControl1->TabPages->Remove(tabPage8);
@@ -4005,7 +4002,6 @@ private: System::Void tabPage4_Click(System::Object^ sender, System::EventArgs^ 
 private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ e) {
     tabControl1->TabPages->Add(tabPage1);
     tabControl1->SelectedTab = tabPage1;
-    tabControl1->TabPages->Remove(tabPage4);
 }
 private: System::Void dataGridView2_CellContentClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
 }

@@ -7,8 +7,9 @@
 using namespace System;
 using namespace System::IO;
 
-ref class Ticket
+ref class Ticket abstract 
 {
+
 protected:
 
 	String^ id;
@@ -84,7 +85,7 @@ public:
 		return price;
 	}
 
-	virtual bool setPrice() = 0;
+	virtual bool setPrice(int amount, String^ type) = 0;
 
 	String^ generateID(const std::string ticketType) {
 

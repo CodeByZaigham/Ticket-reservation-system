@@ -1,28 +1,136 @@
-﻿  BusinessCustomer.cpp
+﻿  Admin.cpp
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         ]
+  (compiling source file '/Admin.cpp')
+  
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         ]
+  (compiling source file '/Admin.cpp')
+  
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         ]
+  (compiling source file '/Admin.cpp')
+  
+  BusinessTicket.cpp
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         ]
+  (compiling source file '/BusinessTicket.cpp')
+  
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         ]
+  (compiling source file '/BusinessTicket.cpp')
+  
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         ]
+  (compiling source file '/BusinessTicket.cpp')
+  
   CppCLR_WinFormsProject.cpp
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(110,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(110,77): warning C4267:         with
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(110,77): warning C4267:         [
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(110,77): warning C4267:             _Ty=int
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(110,77): warning C4267:         ]
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         ]
   (compiling source file '/CppCLR_WinFormsProject.cpp')
   
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(115,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(115,77): warning C4267:         with
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(115,77): warning C4267:         [
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(115,77): warning C4267:             _Ty=int
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(115,77): warning C4267:         ]
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         ]
   (compiling source file '/CppCLR_WinFormsProject.cpp')
   
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(119,68): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(119,68): warning C4267:         with
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(119,68): warning C4267:         [
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(119,68): warning C4267:             _Ty=int
-C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(119,68): warning C4267:         ]
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         ]
   (compiling source file '/CppCLR_WinFormsProject.cpp')
   
-  Customer.cpp
-  EconomyCustomer.cpp
+  EconomyTicket.cpp
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         ]
+  (compiling source file '/EconomyTicket.cpp')
+  
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         ]
+  (compiling source file '/EconomyTicket.cpp')
+  
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         ]
+  (compiling source file '/EconomyTicket.cpp')
+  
+  Ticket.cpp
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         ]
+  (compiling source file '/Ticket.cpp')
+  
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         ]
+  (compiling source file '/Ticket.cpp')
+  
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         ]
+  (compiling source file '/Ticket.cpp')
+  
+  Vehicle.cpp
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(103,77): warning C4267:         ]
+  (compiling source file '/Vehicle.cpp')
+  
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(108,77): warning C4267:         ]
+  (compiling source file '/Vehicle.cpp')
+  
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         with
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         [
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:             _Ty=int
+C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Ticket.h(112,68): warning C4267:         ]
+  (compiling source file '/Vehicle.cpp')
+  
   Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Admin.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  CppCLR_WinForms_GUI2.vcxproj -> C:\Users\Lenovo\Desktop\Project\Ticket-reservation-system\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.exe
+  CppCLR_WinForms_GUI2.vcxproj -> C:\Users\Lenovo\Desktop\PROJECT\Ticket-reservation-system\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.exe
