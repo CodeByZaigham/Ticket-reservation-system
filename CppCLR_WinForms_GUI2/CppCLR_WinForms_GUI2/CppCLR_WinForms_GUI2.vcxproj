@@ -145,6 +145,7 @@
     </ClInclude>
     <ClInclude Include="Header1.h" />
     <ClInclude Include="Header2.h" />
+    <ClInclude Include="mapper.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Resource.h" />
@@ -162,6 +163,7 @@
     <ClCompile Include="Database.cpp" />
     <ClCompile Include="EconomyTicket.cpp" />
     <ClCompile Include="Form1.cpp" />
+    <ClCompile Include="mapper.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

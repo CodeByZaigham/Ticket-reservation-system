@@ -8,12 +8,12 @@ ref class BusinessTicket : public Ticket
 {
 public:
 
-	BusinessTicket(String^ id, String^ to, String^ from, int price) : Ticket(id, to, from, price) {}
+	BusinessTicket(String^ to, String^ from, String^ date, String^ time, int price) : Ticket(to, from,date,time, price) {}
 
 	BusinessTicket() {}
 
 
-    bool setPrice(int amount, String^ type) override {
+    bool setPrice(int amount, String^ type) {
         if (amount < 1 || String::IsNullOrEmpty(type), String::IsNullOrWhiteSpace(type)) {
             return false;
         }

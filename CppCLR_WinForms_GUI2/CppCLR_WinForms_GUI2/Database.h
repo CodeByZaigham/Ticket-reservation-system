@@ -7,11 +7,10 @@ ref class Database{
 public:
 
 	void insert(String^ filename, String^ row) {
-		if (File::Exists(filename) == true) {
+		if (File::Exists(filename) == true && !String::IsNullOrWhiteSpace(File::ReadAllText(filename))) {
 			File::AppendAllText(filename, "\n" + row);
 		}
 		else {
-			//previously AppendAllText
 			File::AppendAllText(filename, row);
 		}
 	}
@@ -41,39 +40,39 @@ public:
 		return result;
 	}
 
-	void update(String^ filename, String^ search, String^ newvalue,int column) {
+	void update(String^ filename, String^ search, String^ newvalue, int column, int row) {
 		array<String^>^ lines = this->read(filename);
-		String^ temp = "";
-		for (int i = 0; i < lines->Length; i++) {
-			array<String^>^ var = lines[i]->Split(',');
-			String^ sep = "\n";
-			if (i==lines->Length - 1) {
-				sep = "";
-			}
-			if (var[column]==search) {
-				temp = newvalue + sep;
-			}
-			else {
-				temp = lines[i] + sep;
-			}
-		}
-		File::WriteAllText(filename, temp);
-	}
+		System::Collections::Generic::List<String^>^ updatedLines = gcnew System::Collections::Generic::List<String^>();
 
-	void discard(String^ filename, String^ search, int column) {
-		array<String^>^ lines = this->read(filename);
-		String^ temp = "";
 		for (int i = 0; i < lines->Length; i++) {
 			array<String^>^ var = lines[i]->Split(',');
-			if (var->Length > 1) {
-				if (var[column] != search) {
-					temp += "\n" + lines[i];
+			if (column < var->Length) {
+				if (var[column] == search && (row - 1) == i) {
+					var[column] = newvalue;
 				}
 			}
+			updatedLines->Add(String::Join(",", var));
 		}
-		temp = temp->Substring(1);
-		File::WriteAllText(filename, temp);
+
+		System::IO::File::WriteAllText(filename, String::Join("\n", updatedLines->ToArray()));
 	}
+
+	void discard(String^ filename, int row) {
+		array<String^>^ lines = this->read(filename);
+		System::Collections::Generic::List<String^>^ updatedLines = gcnew System::Collections::Generic::List<String^>();
+
+		for (int i = 0; i < lines->Length; i++) {
+			if ((row - 1) != i) {
+				updatedLines->Add(lines[i]);
+			}
+		}
+
+		System::IO::File::WriteAllText(filename, String::Join("\n", updatedLines->ToArray()));
+	}
+
+
+	
+
 	
 
 

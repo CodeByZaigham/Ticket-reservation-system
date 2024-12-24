@@ -80,6 +80,9 @@
     <ClInclude Include="Database.h">
       <Filter>Header Files\Database Header File</Filter>
     </ClInclude>
+    <ClInclude Include="mapper.h">
+      <Filter>Header Files\Other Classes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppCLR_WinFormsProject.cpp">
@@ -116,6 +119,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BusinessTicket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

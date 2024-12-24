@@ -2,12 +2,13 @@
 
 #include <iostream>
 #include <random>
+#include "Database.h"
 //#include <msclr/marshal_cppstd.h> 
 
 using namespace System;
 using namespace System::IO;
 
-ref class Ticket abstract 
+ref class Ticket 
 {
 
 protected:
@@ -18,26 +19,13 @@ protected:
 	String^ date;
 	String^ time;
 	int price;
+	Database ob;
 
 public:
 
 	
-	Ticket(String ^id, String^ to, String^ from, int price) : id(id), to(to), from(from), price(price) {}
+	Ticket(String^ to, String^ from, String^ date, String^ time, int price) : to(to), from(from),date(date) ,time(time), price(price) {}
 	Ticket() {}
-
-	String^ getID() {
-		return id;
-	}
-
-	bool setID(String^ id) {
-		if (String::IsNullOrEmpty(id) || String::IsNullOrWhiteSpace(id)) {
-			return false;
-		}
-		else {
-			this->id = id;
-			return true;
-		}
-	}
 
 	String^ getTo() {
 		return to;
@@ -81,13 +69,53 @@ public:
 		}
 	}
 
+	String^ getTime() {
+		return time;
+	}
+
+	bool setTime(String^ time) {
+		if (String::IsNullOrEmpty(time) || String::IsNullOrWhiteSpace(time)) {
+			return false;
+		}
+		else {
+			this->time = time;
+			return true;
+		}
+	}
+
 	int getPrice() {
 		return price;
 	}
 
-	virtual bool setPrice(int amount, String^ type) = 0;
+	bool setPrice(String^ p) {
+		int price;
+		if (Int32::TryParse(p, price) && price > 0) {
+			this->price = price;
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
 
-	String^ generateID(const std::string ticketType) {
+	bool registerTicket(String^ to, String^ from, String^ date, String^ time, String^ p) {
+		int price;
+		if (!String::IsNullOrWhiteSpace(to) && !String::IsNullOrWhiteSpace(from) && !String::IsNullOrWhiteSpace(time) && !String::IsNullOrWhiteSpace(date) && !String::IsNullOrWhiteSpace(p)) {
+			if (to->Length > 3 && from->Length > 3 && date->Length > 1 && time->Length > 2 && Int32::TryParse(p, price) && price>0) {
+				ob.insert("ticket.txt", to + "," + from + "," + price + "," + date + "," + time);
+				return true;
+			}
+			else {
+				return false;
+			}
+		}
+		else {
+			return false;
+		}
+		
+	}
+
+	/*String^ generateID(const std::string ticketType) {
 
 		const std::string uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		const std::string lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
@@ -115,5 +143,5 @@ public:
 		}
 
 		return gcnew String(id.c_str());
-	}
+	}*/
 };
