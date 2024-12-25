@@ -12,6 +12,7 @@ ref class Vehicle
 	String^ vehicleType;
 	int economyTickets;
 	int businessTickets;
+	int index;
 	Database ob;
 
 	public:
@@ -44,6 +45,14 @@ ref class Vehicle
 			return false;
 		}
 
+	}
+
+	void set_index(int i) {
+		index = i;
+	}
+
+	int get_index() {
+		return index;
 	}
 
 	bool setBusinessSeatsLimit(String^ s) {
@@ -87,9 +96,10 @@ ref class Vehicle
 	bool registervehicle(String^ vehicleType , String^ e , String^ b) {
 		int busseats;
 		int ecoseats;
+		static int i = 0;
 		if (!String::IsNullOrWhiteSpace(vehicleType) && !String::IsNullOrWhiteSpace(e) && !String::IsNullOrWhiteSpace(b) ){
 			if (vehicleType->Length > 1 && Int32::TryParse(e, ecoseats) > 0 && Int32::TryParse(b, busseats) > 0 && ecoseats > 0 && busseats > 0) {
-				ob.insert("vehicle.txt", vehicleType + "," + ecoseats + "," + busseats);
+				ob.insert("vehicle.txt", vehicleType + "," + ecoseats + "," + busseats + "," + i++);
 				return true;
 			}
 			else {

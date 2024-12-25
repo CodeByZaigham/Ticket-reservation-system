@@ -1,6 +1,7 @@
 #pragma once
 #include "Vehicle.h"
 #include "Ticket.h"
+#include "Customer.h"
 
 ref class mapper
 {
@@ -17,6 +18,7 @@ public:
 				ob[i]->setPrice(temp[2]);
 				ob[i]->setDate(temp[4]);
 				ob[i]->setTime(temp[3]);
+				ob[i]->set_index(Convert::ToInt32(temp[5]));
 			}
 		}
 		return ob;
@@ -31,9 +33,23 @@ public:
 			ob[i]->setVehicleType(temp[0]);
 			ob[i]->setEconomySeatsLimit(temp[1]);
 			ob[i]->setBusinessSeatsLimit(temp[2]);
+			ob[i]->set_index(Convert::ToInt32(temp[3]));
 		}
 		return ob;
 	}
+
+	/*static array<Customer^>^ mapuser(array<String^>^ rows) {
+		array<Customer^>^ ob = gcnew array<Customer^>(rows->Length);
+
+		for (int i = 0; i < rows->Length; i++) {
+			array<String^>^ temp = rows[i]->Split(',');
+			ob[i] = gcnew Customer();
+			ob[i]->setName(temp[2]);
+			ob[i]->setEmail(temp[0]);
+			ob[i]->setPhoneNumber(temp[3]);
+		}
+		return ob;
+	}*/
 	
 	
 };

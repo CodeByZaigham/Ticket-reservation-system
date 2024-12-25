@@ -18,7 +18,7 @@ protected:
 	String^ from;
 	String^ date;
 	String^ time;
-	int price;
+	int price,index;
 	Database ob;
 
 public:
@@ -73,6 +73,14 @@ public:
 		return time;
 	}
 
+	void set_index(int i) {
+		index = i;
+	}
+
+	int get_index() {
+		return index;
+	}
+
 	bool setTime(String^ time) {
 		if (String::IsNullOrEmpty(time) || String::IsNullOrWhiteSpace(time)) {
 			return false;
@@ -100,9 +108,10 @@ public:
 
 	bool registerTicket(String^ to, String^ from, String^ date, String^ time, String^ p) {
 		int price;
+		static int i = 0;
 		if (!String::IsNullOrWhiteSpace(to) && !String::IsNullOrWhiteSpace(from) && !String::IsNullOrWhiteSpace(time) && !String::IsNullOrWhiteSpace(date) && !String::IsNullOrWhiteSpace(p)) {
 			if (to->Length > 3 && from->Length > 3 && date->Length > 1 && time->Length > 2 && Int32::TryParse(p, price) && price>0) {
-				ob.insert("ticket.txt", to + "," + from + "," + price + "," + date + "," + time);
+				ob.insert("ticket.txt", to + "," + from + "," + price + "," + date + "," + time + "," + i++);
 				return true;
 			}
 			else {
@@ -115,33 +124,32 @@ public:
 		
 	}
 
-	/*String^ generateID(const std::string ticketType) {
-
-		const std::string uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-		const std::string lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
-		const std::string numbers = "1234567890";
-
-		std::string id = ticketType + '-';
-
+	/*String^ generateID(String^ ticketType) {
+		String^ uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		String^ lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
+		String^ numbers = "1234567890";
+		String^ id = ticketType + "-";
 		std::random_device rd;
-		std::mt19937 generate(rd());
+		std::mt19937 generator(rd());
+
+		auto getRandomChar = [&](String^ charSet) {
+			int index = std::uniform_int_distribution<int>(0, charSet->Length - 1)(generator);
+			return charSet[index];
+			};
 
 		for (int i = 0; i < 7; i++) {
-			if (i <= 1) {
-				std::uniform_int_distribution<> distribution(0, uppercaseLetters.size() - 1);
-				id += uppercaseLetters[distribution(generate)];
-
+			if (i < 2) {
+				id += getRandomChar(uppercaseLetters);
 			}
-			else if (i >= 1 && i <= 3) {
-				std::uniform_int_distribution<> distribution(0, lowercaseLetters.size() - 1);
-				id += lowercaseLetters[distribution(generate)];
+			else if (i < 4) {
+				id += getRandomChar(lowercaseLetters);
 			}
 			else {
-				std::uniform_int_distribution<> distribution(0, numbers.size() - 1);
-				id += numbers[distribution(generate)];
+				id += getRandomChar(numbers);
 			}
 		}
 
-		return gcnew String(id.c_str());
+		return id;
 	}*/
+
 };

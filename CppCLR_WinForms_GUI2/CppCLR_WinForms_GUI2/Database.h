@@ -28,7 +28,7 @@ public:
 			array<String^>^ var = lines[i] -> Split(',');
 			if (lines->Length > 0) {
 				if (var[column] == search) {
-					temp += lines[i] + "#";
+					temp +=lines[i] + "#";
 				}
 			}
 		}

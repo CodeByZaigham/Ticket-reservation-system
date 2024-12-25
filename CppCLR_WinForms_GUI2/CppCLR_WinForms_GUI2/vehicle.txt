@@ -1,2 +1,1 @@
-dfdfdfdf,55,55
-dfdfdfdf,55,55
+bus,6,6,0

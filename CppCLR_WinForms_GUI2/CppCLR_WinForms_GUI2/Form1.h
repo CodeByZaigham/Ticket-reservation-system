@@ -10,6 +10,8 @@
 #include "Vehicle.h"
 #include "mapper.h"
 #include "Database.h"
+#include "BusinessTicket.h"
+#include "EconomyTicket.h"
 
 namespace CppCLRWinFormsProject {
 
@@ -40,6 +42,20 @@ namespace CppCLRWinFormsProject {
       sharedTable->Columns->Add("Time");
       sharedTable->Columns->Add("Price");
 
+      sharedTable2 = gcnew DataTable();
+      sharedTable2->Columns->Add("S.No");
+      sharedTable2->Columns->Add("Username");
+      sharedTable2->Columns->Add("Phone no");
+      sharedTable2->Columns->Add("Email");
+      sharedTable2->Columns->Add("Payment Status");
+      sharedTable2->Columns->Add("Vehicle Type");
+      sharedTable2->Columns->Add("Category");
+      sharedTable2->Columns->Add("From");
+      sharedTable2->Columns->Add("To");
+      sharedTable2->Columns->Add("Date");
+      sharedTable2->Columns->Add("Time");
+      sharedTable2->Columns->Add("Price");
+
       //
       //TODO: Add the constructor code here
       //
@@ -63,6 +79,7 @@ namespace CppCLRWinFormsProject {
 
   protected:
       DataTable^ sharedTable=gcnew DataTable();
+      DataTable^ sharedTable2 = gcnew DataTable();
       String^ index;
 
   private: System::Windows::Forms::Label^ label6;
@@ -204,8 +221,8 @@ namespace CppCLRWinFormsProject {
 
 
 
-  private: System::Windows::Forms::ComboBox^ comboBox2;
-  private: System::Windows::Forms::ComboBox^ comboBox1;
+
+
   private: System::Windows::Forms::DateTimePicker^ dateTimePicker1;
   private: System::Windows::Forms::CheckBox^ checkBox4;
   private: System::Windows::Forms::CheckBox^ checkBox3;
@@ -215,13 +232,13 @@ namespace CppCLRWinFormsProject {
   private: System::Windows::Forms::Label^ label5;
   private: System::Windows::Forms::Label^ label4;
   private: System::Windows::Forms::Label^ label3;
-  private: System::Windows::Forms::Label^ label2;
-  private: System::Windows::Forms::Label^ label1;
+
+
   private: System::Windows::Forms::TabPage^ tabPage2;
   private: System::Windows::Forms::Button^ button30;
   private: System::Windows::Forms::Label^ label48;
-  private: System::Windows::Forms::ComboBox^ comboBox3;
-  private: System::Windows::Forms::ComboBox^ comboBox4;
+
+
   private: System::Windows::Forms::Label^ label22;
   private: System::Windows::Forms::Label^ label41;
   private: System::Windows::Forms::Button^ button6;
@@ -240,7 +257,7 @@ namespace CppCLRWinFormsProject {
   private: System::Windows::Forms::Button^ button5;
   private: System::Windows::Forms::Button^ button7;
   private: System::Windows::Forms::Button^ button8;
-  private: System::Windows::Forms::Button^ button9;
+
   private: System::Windows::Forms::Label^ label44;
   private: System::Windows::Forms::Label^ label43;
   private: System::Windows::Forms::Label^ label42;
@@ -281,30 +298,30 @@ namespace CppCLRWinFormsProject {
   private: System::Windows::Forms::Label^ label7;
   private: System::Windows::Forms::Label^ label18;
   private: System::Windows::Forms::TabControl^ tabControl1;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn13;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn14;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column17;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column7;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column33;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn15;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn16;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn17;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn18;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column1;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column2;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column3;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column4;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column5;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column9;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column6;
-private: System::Windows::Forms::DataGridViewCheckBoxColumn^ Column8;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn7;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column34;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn9;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn10;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn11;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column18;
-private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn12;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 private: System::Windows::Forms::Label^ label62;
 private: System::Windows::Forms::Label^ label28;
 private: System::Windows::Forms::Label^ label64;
@@ -330,6 +347,28 @@ private: System::Windows::Forms::TextBox^ textBox27;
 private: System::Windows::Forms::Label^ label73;
 private: System::Windows::Forms::TextBox^ textBox28;
 private: System::Windows::Forms::Label^ label74;
+private: System::Windows::Forms::Button^ button9;
+private: System::Windows::Forms::TabPage^ tabPage4;
+
+
+
+
+private: System::Windows::Forms::TextBox^ textBox30;
+private: System::Windows::Forms::TextBox^ textBox29;
+private: System::Windows::Forms::DataGridView^ dataGridView2;
+private: System::Windows::Forms::TextBox^ textBox32;
+private: System::Windows::Forms::TextBox^ textBox31;
+private: System::Windows::Forms::Label^ label2;
+private: System::Windows::Forms::Label^ label1;
+private: System::Windows::Forms::Button^ button34;
+private: System::Windows::Forms::Button^ button11;
+private: System::Windows::Forms::TextBox^ textBox33;
+private: System::Windows::Forms::TextBox^ textBox34;
+private: System::Windows::Forms::Label^ label77;
+private: System::Windows::Forms::Label^ label78;
+private: System::Windows::Forms::Label^ label79;
+private: System::Windows::Forms::Button^ button35;
+private: System::Windows::Forms::Button^ button36;
 
 
 
@@ -467,34 +506,18 @@ private: System::ComponentModel::IContainer^ components;
         this->label38 = (gcnew System::Windows::Forms::Label());
         this->label31 = (gcnew System::Windows::Forms::Label());
         this->tabPage5 = (gcnew System::Windows::Forms::TabPage());
+        this->button36 = (gcnew System::Windows::Forms::Button());
         this->button17 = (gcnew System::Windows::Forms::Button());
         this->label29 = (gcnew System::Windows::Forms::Label());
         this->button12 = (gcnew System::Windows::Forms::Button());
         this->dataGridView4 = (gcnew System::Windows::Forms::DataGridView());
-        this->dataGridViewTextBoxColumn13 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn14 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column17 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column7 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column33 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn15 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn16 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn17 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn18 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
         this->tabPage3 = (gcnew System::Windows::Forms::TabPage());
+        this->textBox32 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox31 = (gcnew System::Windows::Forms::TextBox());
         this->button31 = (gcnew System::Windows::Forms::Button());
         this->button10 = (gcnew System::Windows::Forms::Button());
         this->label27 = (gcnew System::Windows::Forms::Label());
         this->dataGridView3 = (gcnew System::Windows::Forms::DataGridView());
-        this->Column8 = (gcnew System::Windows::Forms::DataGridViewCheckBoxColumn());
-        this->dataGridViewTextBoxColumn7 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column34 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn9 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn10 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn11 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column18 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->dataGridViewTextBoxColumn12 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->comboBox2 = (gcnew System::Windows::Forms::ComboBox());
-        this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
         this->dateTimePicker1 = (gcnew System::Windows::Forms::DateTimePicker());
         this->checkBox4 = (gcnew System::Windows::Forms::CheckBox());
         this->checkBox3 = (gcnew System::Windows::Forms::CheckBox());
@@ -507,29 +530,22 @@ private: System::ComponentModel::IContainer^ components;
         this->label2 = (gcnew System::Windows::Forms::Label());
         this->label1 = (gcnew System::Windows::Forms::Label());
         this->tabPage2 = (gcnew System::Windows::Forms::TabPage());
+        this->textBox30 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox29 = (gcnew System::Windows::Forms::TextBox());
         this->button30 = (gcnew System::Windows::Forms::Button());
         this->label48 = (gcnew System::Windows::Forms::Label());
-        this->comboBox3 = (gcnew System::Windows::Forms::ComboBox());
-        this->comboBox4 = (gcnew System::Windows::Forms::ComboBox());
         this->label22 = (gcnew System::Windows::Forms::Label());
         this->label41 = (gcnew System::Windows::Forms::Label());
         this->button6 = (gcnew System::Windows::Forms::Button());
         this->label26 = (gcnew System::Windows::Forms::Label());
         this->dataGridView1 = (gcnew System::Windows::Forms::DataGridView());
-        this->Column1 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column2 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column3 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column4 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column5 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column9 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-        this->Column6 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
         this->tabPage1 = (gcnew System::Windows::Forms::TabPage());
         this->panel7 = (gcnew System::Windows::Forms::Panel());
+        this->button9 = (gcnew System::Windows::Forms::Button());
         this->button15 = (gcnew System::Windows::Forms::Button());
         this->button5 = (gcnew System::Windows::Forms::Button());
         this->button7 = (gcnew System::Windows::Forms::Button());
         this->button8 = (gcnew System::Windows::Forms::Button());
-        this->button9 = (gcnew System::Windows::Forms::Button());
         this->label44 = (gcnew System::Windows::Forms::Label());
         this->label43 = (gcnew System::Windows::Forms::Label());
         this->label42 = (gcnew System::Windows::Forms::Label());
@@ -570,6 +586,16 @@ private: System::ComponentModel::IContainer^ components;
         this->label7 = (gcnew System::Windows::Forms::Label());
         this->label18 = (gcnew System::Windows::Forms::Label());
         this->tabControl1 = (gcnew System::Windows::Forms::TabControl());
+        this->tabPage4 = (gcnew System::Windows::Forms::TabPage());
+        this->button35 = (gcnew System::Windows::Forms::Button());
+        this->textBox33 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox34 = (gcnew System::Windows::Forms::TextBox());
+        this->label77 = (gcnew System::Windows::Forms::Label());
+        this->label78 = (gcnew System::Windows::Forms::Label());
+        this->label79 = (gcnew System::Windows::Forms::Label());
+        this->button34 = (gcnew System::Windows::Forms::Button());
+        this->button11 = (gcnew System::Windows::Forms::Button());
+        this->dataGridView2 = (gcnew System::Windows::Forms::DataGridView());
         this->tabPage11->SuspendLayout();
         this->panel4->SuspendLayout();
         this->panel1->SuspendLayout();
@@ -598,6 +624,8 @@ private: System::ComponentModel::IContainer^ components;
         this->panel3->SuspendLayout();
         this->panel2->SuspendLayout();
         this->tabControl1->SuspendLayout();
+        this->tabPage4->SuspendLayout();
+        (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->BeginInit();
         this->SuspendLayout();
         // 
         // label6
@@ -1902,6 +1930,7 @@ private: System::ComponentModel::IContainer^ components;
         // 
         // tabPage5
         // 
+        this->tabPage5->Controls->Add(this->button36);
         this->tabPage5->Controls->Add(this->button17);
         this->tabPage5->Controls->Add(this->label29);
         this->tabPage5->Controls->Add(this->button12);
@@ -1917,15 +1946,29 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage5->UseVisualStyleBackColor = true;
         this->tabPage5->Click += gcnew System::EventHandler(this, &Form1::tabPage5_Click);
         // 
+        // button36
+        // 
+        this->button36->BackColor = System::Drawing::Color::Navy;
+        this->button36->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
+        this->button36->ForeColor = System::Drawing::Color::White;
+        this->button36->Location = System::Drawing::Point(579, 339);
+        this->button36->Margin = System::Windows::Forms::Padding(2);
+        this->button36->Name = L"button36";
+        this->button36->Size = System::Drawing::Size(103, 24);
+        this->button36->TabIndex = 40;
+        this->button36->Text = L"Refresh";
+        this->button36->UseVisualStyleBackColor = false;
+        this->button36->Click += gcnew System::EventHandler(this, &Form1::button36_Click);
+        // 
         // button17
         // 
         this->button17->BackColor = System::Drawing::Color::Navy;
         this->button17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button17->ForeColor = System::Drawing::Color::White;
-        this->button17->Location = System::Drawing::Point(554, 304);
+        this->button17->Location = System::Drawing::Point(25, 339);
         this->button17->Margin = System::Windows::Forms::Padding(2);
         this->button17->Name = L"button17";
-        this->button17->Size = System::Drawing::Size(103, 24);
+        this->button17->Size = System::Drawing::Size(114, 24);
         this->button17->TabIndex = 39;
         this->button17->Text = L"Back To Home";
         this->button17->UseVisualStyleBackColor = false;
@@ -1948,7 +1991,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button12->BackColor = System::Drawing::Color::Navy;
         this->button12->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button12->ForeColor = System::Drawing::Color::White;
-        this->button12->Location = System::Drawing::Point(668, 304);
+        this->button12->Location = System::Drawing::Point(700, 339);
         this->button12->Margin = System::Windows::Forms::Padding(2);
         this->button12->Name = L"button12";
         this->button12->Size = System::Drawing::Size(103, 24);
@@ -1961,95 +2004,25 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->dataGridView4->AllowUserToDeleteRows = false;
         this->dataGridView4->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-        this->dataGridView4->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(9) {
-            this->dataGridViewTextBoxColumn13,
-                this->dataGridViewTextBoxColumn14, this->Column17, this->Column7, this->Column33, this->dataGridViewTextBoxColumn15, this->dataGridViewTextBoxColumn16,
-                this->dataGridViewTextBoxColumn17, this->dataGridViewTextBoxColumn18
-        });
-        this->dataGridView4->Location = System::Drawing::Point(4, 50);
+        this->dataGridView4->Location = System::Drawing::Point(25, 63);
         this->dataGridView4->Margin = System::Windows::Forms::Padding(2);
         this->dataGridView4->Name = L"dataGridView4";
         this->dataGridView4->ReadOnly = true;
         this->dataGridView4->RowHeadersWidth = 62;
         this->dataGridView4->RowTemplate->Height = 28;
-        this->dataGridView4->Size = System::Drawing::Size(778, 241);
+        this->dataGridView4->Size = System::Drawing::Size(778, 261);
         this->dataGridView4->TabIndex = 2;
+        this->dataGridView4->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Form1::dataGridView4_CellClick);
         this->dataGridView4->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Form1::dataGridView4_CellContentClick);
-        // 
-        // dataGridViewTextBoxColumn13
-        // 
-        this->dataGridViewTextBoxColumn13->HeaderText = L"S.no";
-        this->dataGridViewTextBoxColumn13->MinimumWidth = 3;
-        this->dataGridViewTextBoxColumn13->Name = L"dataGridViewTextBoxColumn13";
-        this->dataGridViewTextBoxColumn13->ReadOnly = true;
-        this->dataGridViewTextBoxColumn13->Width = 50;
-        // 
-        // dataGridViewTextBoxColumn14
-        // 
-        this->dataGridViewTextBoxColumn14->HeaderText = L"Name";
-        this->dataGridViewTextBoxColumn14->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn14->Name = L"dataGridViewTextBoxColumn14";
-        this->dataGridViewTextBoxColumn14->ReadOnly = true;
-        this->dataGridViewTextBoxColumn14->Width = 150;
-        // 
-        // Column17
-        // 
-        this->Column17->HeaderText = L"Phone Number";
-        this->Column17->Name = L"Column17";
-        this->Column17->ReadOnly = true;
-        // 
-        // Column7
-        // 
-        this->Column7->HeaderText = L"Email";
-        this->Column7->Name = L"Column7";
-        this->Column7->ReadOnly = true;
-        // 
-        // Column33
-        // 
-        this->Column33->HeaderText = L"Payment Status";
-        this->Column33->Name = L"Column33";
-        this->Column33->ReadOnly = true;
-        // 
-        // dataGridViewTextBoxColumn15
-        // 
-        this->dataGridViewTextBoxColumn15->HeaderText = L"From";
-        this->dataGridViewTextBoxColumn15->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn15->Name = L"dataGridViewTextBoxColumn15";
-        this->dataGridViewTextBoxColumn15->ReadOnly = true;
-        this->dataGridViewTextBoxColumn15->Width = 150;
-        // 
-        // dataGridViewTextBoxColumn16
-        // 
-        this->dataGridViewTextBoxColumn16->HeaderText = L"To";
-        this->dataGridViewTextBoxColumn16->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn16->Name = L"dataGridViewTextBoxColumn16";
-        this->dataGridViewTextBoxColumn16->ReadOnly = true;
-        this->dataGridViewTextBoxColumn16->Width = 150;
-        // 
-        // dataGridViewTextBoxColumn17
-        // 
-        this->dataGridViewTextBoxColumn17->HeaderText = L"Date/Time";
-        this->dataGridViewTextBoxColumn17->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn17->Name = L"dataGridViewTextBoxColumn17";
-        this->dataGridViewTextBoxColumn17->ReadOnly = true;
-        this->dataGridViewTextBoxColumn17->Width = 150;
-        // 
-        // dataGridViewTextBoxColumn18
-        // 
-        this->dataGridViewTextBoxColumn18->HeaderText = L"Price";
-        this->dataGridViewTextBoxColumn18->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn18->Name = L"dataGridViewTextBoxColumn18";
-        this->dataGridViewTextBoxColumn18->ReadOnly = true;
-        this->dataGridViewTextBoxColumn18->Width = 150;
         // 
         // tabPage3
         // 
+        this->tabPage3->Controls->Add(this->textBox32);
+        this->tabPage3->Controls->Add(this->textBox31);
         this->tabPage3->Controls->Add(this->button31);
         this->tabPage3->Controls->Add(this->button10);
         this->tabPage3->Controls->Add(this->label27);
         this->tabPage3->Controls->Add(this->dataGridView3);
-        this->tabPage3->Controls->Add(this->comboBox2);
-        this->tabPage3->Controls->Add(this->comboBox1);
         this->tabPage3->Controls->Add(this->dateTimePicker1);
         this->tabPage3->Controls->Add(this->checkBox4);
         this->tabPage3->Controls->Add(this->checkBox3);
@@ -2072,25 +2045,40 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage3->UseVisualStyleBackColor = true;
         this->tabPage3->Click += gcnew System::EventHandler(this, &Form1::tabPage3_Click);
         // 
+        // textBox32
+        // 
+        this->textBox32->Location = System::Drawing::Point(27, 136);
+        this->textBox32->Name = L"textBox32";
+        this->textBox32->Size = System::Drawing::Size(77, 20);
+        this->textBox32->TabIndex = 38;
+        // 
+        // textBox31
+        // 
+        this->textBox31->Location = System::Drawing::Point(110, 136);
+        this->textBox31->Name = L"textBox31";
+        this->textBox31->Size = System::Drawing::Size(73, 20);
+        this->textBox31->TabIndex = 37;
+        // 
         // button31
         // 
         this->button31->BackColor = System::Drawing::Color::Navy;
         this->button31->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button31->ForeColor = System::Drawing::Color::White;
-        this->button31->Location = System::Drawing::Point(556, 132);
+        this->button31->Location = System::Drawing::Point(692, 131);
         this->button31->Margin = System::Windows::Forms::Padding(2);
         this->button31->Name = L"button31";
         this->button31->Size = System::Drawing::Size(103, 24);
         this->button31->TabIndex = 36;
         this->button31->Text = L"show tickets";
         this->button31->UseVisualStyleBackColor = false;
+        this->button31->Click += gcnew System::EventHandler(this, &Form1::button31_Click);
         // 
         // button10
         // 
         this->button10->BackColor = System::Drawing::Color::Navy;
         this->button10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button10->ForeColor = System::Drawing::Color::White;
-        this->button10->Location = System::Drawing::Point(556, 346);
+        this->button10->Location = System::Drawing::Point(27, 346);
         this->button10->Margin = System::Windows::Forms::Padding(2);
         this->button10->Name = L"button10";
         this->button10->Size = System::Drawing::Size(95, 24);
@@ -2115,101 +2103,14 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->dataGridView3->AllowUserToDeleteRows = false;
         this->dataGridView3->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-        this->dataGridView3->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(8) {
-            this->Column8,
-                this->dataGridViewTextBoxColumn7, this->Column34, this->dataGridViewTextBoxColumn9, this->dataGridViewTextBoxColumn10, this->dataGridViewTextBoxColumn11,
-                this->Column18, this->dataGridViewTextBoxColumn12
-        });
         this->dataGridView3->Location = System::Drawing::Point(27, 169);
         this->dataGridView3->Margin = System::Windows::Forms::Padding(2);
         this->dataGridView3->Name = L"dataGridView3";
         this->dataGridView3->RowHeadersWidth = 62;
         this->dataGridView3->RowTemplate->Height = 28;
-        this->dataGridView3->Size = System::Drawing::Size(783, 173);
+        this->dataGridView3->Size = System::Drawing::Size(768, 173);
         this->dataGridView3->TabIndex = 17;
-        this->dataGridView3->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Form1::dataGridView3_CellContentClick);
-        // 
-        // Column8
-        // 
-        this->Column8->HeaderText = L"Select";
-        this->Column8->MinimumWidth = 8;
-        this->Column8->Name = L"Column8";
-        this->Column8->Width = 80;
-        // 
-        // dataGridViewTextBoxColumn7
-        // 
-        this->dataGridViewTextBoxColumn7->HeaderText = L"S.no";
-        this->dataGridViewTextBoxColumn7->MinimumWidth = 3;
-        this->dataGridViewTextBoxColumn7->Name = L"dataGridViewTextBoxColumn7";
-        this->dataGridViewTextBoxColumn7->Width = 50;
-        // 
-        // Column34
-        // 
-        this->Column34->HeaderText = L"Vehicle Type";
-        this->Column34->Name = L"Column34";
-        // 
-        // dataGridViewTextBoxColumn9
-        // 
-        this->dataGridViewTextBoxColumn9->HeaderText = L"From";
-        this->dataGridViewTextBoxColumn9->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn9->Name = L"dataGridViewTextBoxColumn9";
-        this->dataGridViewTextBoxColumn9->Width = 150;
-        // 
-        // dataGridViewTextBoxColumn10
-        // 
-        this->dataGridViewTextBoxColumn10->HeaderText = L"To";
-        this->dataGridViewTextBoxColumn10->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn10->Name = L"dataGridViewTextBoxColumn10";
-        this->dataGridViewTextBoxColumn10->Width = 150;
-        // 
-        // dataGridViewTextBoxColumn11
-        // 
-        this->dataGridViewTextBoxColumn11->HeaderText = L"Date";
-        this->dataGridViewTextBoxColumn11->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn11->Name = L"dataGridViewTextBoxColumn11";
-        this->dataGridViewTextBoxColumn11->Width = 150;
-        // 
-        // Column18
-        // 
-        this->Column18->HeaderText = L"Time";
-        this->Column18->MinimumWidth = 8;
-        this->Column18->Name = L"Column18";
-        this->Column18->Width = 150;
-        // 
-        // dataGridViewTextBoxColumn12
-        // 
-        this->dataGridViewTextBoxColumn12->HeaderText = L"Price";
-        this->dataGridViewTextBoxColumn12->MinimumWidth = 8;
-        this->dataGridViewTextBoxColumn12->Name = L"dataGridViewTextBoxColumn12";
-        this->dataGridViewTextBoxColumn12->Width = 120;
-        // 
-        // comboBox2
-        // 
-        this->comboBox2->FormattingEnabled = true;
-        this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(7) {
-            L"karachi", L"islamabad", L"lahore", L"multan",
-                L"peshawar", L"hyderabad", L"faisalabad"
-        });
-        this->comboBox2->Location = System::Drawing::Point(34, 135);
-        this->comboBox2->Margin = System::Windows::Forms::Padding(2);
-        this->comboBox2->Name = L"comboBox2";
-        this->comboBox2->Size = System::Drawing::Size(82, 21);
-        this->comboBox2->TabIndex = 16;
-        this->comboBox2->SelectedIndexChanged += gcnew System::EventHandler(this, &Form1::comboBox2_SelectedIndexChanged);
-        // 
-        // comboBox1
-        // 
-        this->comboBox1->FormattingEnabled = true;
-        this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(7) {
-            L"karachi", L"islamabad", L"lahore", L"multan",
-                L"peshawar", L"hyderabad", L"faisalabad"
-        });
-        this->comboBox1->Location = System::Drawing::Point(118, 135);
-        this->comboBox1->Margin = System::Windows::Forms::Padding(2);
-        this->comboBox1->Name = L"comboBox1";
-        this->comboBox1->Size = System::Drawing::Size(82, 21);
-        this->comboBox1->TabIndex = 15;
-        this->comboBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &Form1::comboBox1_SelectedIndexChanged);
+        this->dataGridView3->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Form1::dataGridView3_CellClick);
         // 
         // dateTimePicker1
         // 
@@ -2273,7 +2174,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button1->BackColor = System::Drawing::Color::Navy;
         this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button1->ForeColor = System::Drawing::Color::White;
-        this->button1->Location = System::Drawing::Point(673, 346);
+        this->button1->Location = System::Drawing::Point(700, 346);
         this->button1->Margin = System::Windows::Forms::Padding(2);
         this->button1->Name = L"button1";
         this->button1->Size = System::Drawing::Size(95, 24);
@@ -2290,9 +2191,9 @@ private: System::ComponentModel::IContainer^ components;
         this->label5->Location = System::Drawing::Point(24, 41);
         this->label5->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label5->Name = L"label5";
-        this->label5->Size = System::Drawing::Size(155, 17);
+        this->label5->Size = System::Drawing::Size(159, 17);
         this->label5->TabIndex = 4;
-        this->label5->Text = L"Choose your trip option";
+        this->label5->Text = L"Choose your trip option:";
         this->label5->Click += gcnew System::EventHandler(this, &Form1::label5_Click);
         // 
         // label4
@@ -2324,7 +2225,7 @@ private: System::ComponentModel::IContainer^ components;
         this->label2->AutoSize = true;
         this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point,
             static_cast<System::Byte>(0)));
-        this->label2->Location = System::Drawing::Point(115, 116);
+        this->label2->Location = System::Drawing::Point(28, 115);
         this->label2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label2->Name = L"label2";
         this->label2->Size = System::Drawing::Size(25, 17);
@@ -2337,7 +2238,7 @@ private: System::ComponentModel::IContainer^ components;
         this->label1->AutoSize = true;
         this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point,
             static_cast<System::Byte>(0)));
-        this->label1->Location = System::Drawing::Point(30, 116);
+        this->label1->Location = System::Drawing::Point(114, 116);
         this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label1->Name = L"label1";
         this->label1->Size = System::Drawing::Size(40, 17);
@@ -2347,10 +2248,10 @@ private: System::ComponentModel::IContainer^ components;
         // 
         // tabPage2
         // 
+        this->tabPage2->Controls->Add(this->textBox30);
+        this->tabPage2->Controls->Add(this->textBox29);
         this->tabPage2->Controls->Add(this->button30);
         this->tabPage2->Controls->Add(this->label48);
-        this->tabPage2->Controls->Add(this->comboBox3);
-        this->tabPage2->Controls->Add(this->comboBox4);
         this->tabPage2->Controls->Add(this->label22);
         this->tabPage2->Controls->Add(this->label41);
         this->tabPage2->Controls->Add(this->button6);
@@ -2367,18 +2268,35 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage2->UseVisualStyleBackColor = true;
         this->tabPage2->Click += gcnew System::EventHandler(this, &Form1::tabPage2_Click);
         // 
+        // textBox30
+        // 
+        this->textBox30->Location = System::Drawing::Point(196, 109);
+        this->textBox30->Margin = System::Windows::Forms::Padding(2);
+        this->textBox30->Name = L"textBox30";
+        this->textBox30->Size = System::Drawing::Size(78, 20);
+        this->textBox30->TabIndex = 70;
+        // 
+        // textBox29
+        // 
+        this->textBox29->Location = System::Drawing::Point(102, 109);
+        this->textBox29->Margin = System::Windows::Forms::Padding(2);
+        this->textBox29->Name = L"textBox29";
+        this->textBox29->Size = System::Drawing::Size(78, 20);
+        this->textBox29->TabIndex = 69;
+        // 
         // button30
         // 
         this->button30->BackColor = System::Drawing::Color::Navy;
         this->button30->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button30->ForeColor = System::Drawing::Color::White;
-        this->button30->Location = System::Drawing::Point(636, 319);
+        this->button30->Location = System::Drawing::Point(691, 105);
         this->button30->Margin = System::Windows::Forms::Padding(2);
         this->button30->Name = L"button30";
         this->button30->Size = System::Drawing::Size(103, 24);
         this->button30->TabIndex = 41;
         this->button30->Text = L"show schedule";
         this->button30->UseVisualStyleBackColor = false;
+        this->button30->Click += gcnew System::EventHandler(this, &Form1::button30_Click);
         // 
         // label48
         // 
@@ -2387,50 +2305,22 @@ private: System::ComponentModel::IContainer^ components;
             System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
         this->label48->Location = System::Drawing::Point(21, 40);
         this->label48->Name = L"label48";
-        this->label48->Size = System::Drawing::Size(120, 24);
+        this->label48->Size = System::Drawing::Size(148, 24);
         this->label48->TabIndex = 40;
-        this->label48->Text = L"Select City :";
+        this->label48->Text = L"Select Details :";
         this->label48->Click += gcnew System::EventHandler(this, &Form1::label48_Click_1);
-        // 
-        // comboBox3
-        // 
-        this->comboBox3->FormattingEnabled = true;
-        this->comboBox3->Items->AddRange(gcnew cli::array< System::Object^  >(7) {
-            L"karachi", L"islamabad", L"lahore", L"multan",
-                L"peshawar", L"hyderabad", L"faisalabad"
-        });
-        this->comboBox3->Location = System::Drawing::Point(103, 93);
-        this->comboBox3->Margin = System::Windows::Forms::Padding(2);
-        this->comboBox3->Name = L"comboBox3";
-        this->comboBox3->Size = System::Drawing::Size(80, 21);
-        this->comboBox3->TabIndex = 39;
-        this->comboBox3->SelectedIndexChanged += gcnew System::EventHandler(this, &Form1::comboBox3_SelectedIndexChanged);
-        // 
-        // comboBox4
-        // 
-        this->comboBox4->FormattingEnabled = true;
-        this->comboBox4->Items->AddRange(gcnew cli::array< System::Object^  >(7) {
-            L"karachi", L"islamabad", L"lahore", L"multan",
-                L"peshawar", L"hyderabad", L"faisalabad"
-        });
-        this->comboBox4->Location = System::Drawing::Point(190, 93);
-        this->comboBox4->Margin = System::Windows::Forms::Padding(2);
-        this->comboBox4->Name = L"comboBox4";
-        this->comboBox4->Size = System::Drawing::Size(82, 21);
-        this->comboBox4->TabIndex = 38;
-        this->comboBox4->SelectedIndexChanged += gcnew System::EventHandler(this, &Form1::comboBox4_SelectedIndexChanged);
         // 
         // label22
         // 
         this->label22->AutoSize = true;
         this->label22->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point,
             static_cast<System::Byte>(0)));
-        this->label22->Location = System::Drawing::Point(193, 74);
+        this->label22->Location = System::Drawing::Point(99, 74);
         this->label22->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label22->Name = L"label22";
-        this->label22->Size = System::Drawing::Size(25, 17);
+        this->label22->Size = System::Drawing::Size(29, 17);
         this->label22->TabIndex = 37;
-        this->label22->Text = L"To";
+        this->label22->Text = L"To:";
         this->label22->Click += gcnew System::EventHandler(this, &Form1::label22_Click);
         // 
         // label41
@@ -2438,12 +2328,12 @@ private: System::ComponentModel::IContainer^ components;
         this->label41->AutoSize = true;
         this->label41->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point,
             static_cast<System::Byte>(0)));
-        this->label41->Location = System::Drawing::Point(99, 74);
+        this->label41->Location = System::Drawing::Point(193, 74);
         this->label41->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
         this->label41->Name = L"label41";
-        this->label41->Size = System::Drawing::Size(40, 17);
+        this->label41->Size = System::Drawing::Size(44, 17);
         this->label41->TabIndex = 36;
-        this->label41->Text = L"From";
+        this->label41->Text = L"From:";
         this->label41->Click += gcnew System::EventHandler(this, &Form1::label41_Click_1);
         // 
         // button6
@@ -2451,10 +2341,10 @@ private: System::ComponentModel::IContainer^ components;
         this->button6->BackColor = System::Drawing::Color::Navy;
         this->button6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
         this->button6->ForeColor = System::Drawing::Color::White;
-        this->button6->Location = System::Drawing::Point(504, 319);
+        this->button6->Location = System::Drawing::Point(25, 336);
         this->button6->Margin = System::Windows::Forms::Padding(2);
         this->button6->Name = L"button6";
-        this->button6->Size = System::Drawing::Size(103, 24);
+        this->button6->Size = System::Drawing::Size(117, 24);
         this->button6->TabIndex = 35;
         this->button6->Text = L"Back To Home";
         this->button6->UseVisualStyleBackColor = false;
@@ -2476,73 +2366,15 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->dataGridView1->AllowUserToDeleteRows = false;
         this->dataGridView1->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-        this->dataGridView1->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(7) {
-            this->Column1,
-                this->Column2, this->Column3, this->Column4, this->Column5, this->Column9, this->Column6
-        });
-        this->dataGridView1->Location = System::Drawing::Point(25, 133);
+        this->dataGridView1->Location = System::Drawing::Point(25, 150);
         this->dataGridView1->Margin = System::Windows::Forms::Padding(2);
         this->dataGridView1->Name = L"dataGridView1";
         this->dataGridView1->ReadOnly = true;
         this->dataGridView1->RowHeadersWidth = 62;
         this->dataGridView1->RowTemplate->Height = 28;
-        this->dataGridView1->Size = System::Drawing::Size(743, 173);
+        this->dataGridView1->Size = System::Drawing::Size(769, 182);
         this->dataGridView1->TabIndex = 0;
         this->dataGridView1->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Form1::dataGridView1_CellContentClick);
-        // 
-        // Column1
-        // 
-        this->Column1->HeaderText = L"S.no";
-        this->Column1->MinimumWidth = 3;
-        this->Column1->Name = L"Column1";
-        this->Column1->ReadOnly = true;
-        this->Column1->Width = 80;
-        // 
-        // Column2
-        // 
-        this->Column2->HeaderText = L"Vehicle Type";
-        this->Column2->Name = L"Column2";
-        this->Column2->ReadOnly = true;
-        // 
-        // Column3
-        // 
-        this->Column3->HeaderText = L"From";
-        this->Column3->MinimumWidth = 8;
-        this->Column3->Name = L"Column3";
-        this->Column3->ReadOnly = true;
-        this->Column3->Width = 150;
-        // 
-        // Column4
-        // 
-        this->Column4->HeaderText = L"To";
-        this->Column4->MinimumWidth = 8;
-        this->Column4->Name = L"Column4";
-        this->Column4->ReadOnly = true;
-        this->Column4->Width = 150;
-        // 
-        // Column5
-        // 
-        this->Column5->HeaderText = L"Date";
-        this->Column5->MinimumWidth = 8;
-        this->Column5->Name = L"Column5";
-        this->Column5->ReadOnly = true;
-        this->Column5->Width = 150;
-        // 
-        // Column9
-        // 
-        this->Column9->HeaderText = L"Time";
-        this->Column9->MinimumWidth = 8;
-        this->Column9->Name = L"Column9";
-        this->Column9->ReadOnly = true;
-        this->Column9->Width = 150;
-        // 
-        // Column6
-        // 
-        this->Column6->HeaderText = L"Price";
-        this->Column6->MinimumWidth = 8;
-        this->Column6->Name = L"Column6";
-        this->Column6->ReadOnly = true;
-        this->Column6->Width = 150;
         // 
         // tabPage1
         // 
@@ -2568,11 +2400,11 @@ private: System::ComponentModel::IContainer^ components;
         // panel7
         // 
         this->panel7->BackColor = System::Drawing::Color::Navy;
+        this->panel7->Controls->Add(this->button9);
         this->panel7->Controls->Add(this->button15);
         this->panel7->Controls->Add(this->button5);
         this->panel7->Controls->Add(this->button7);
         this->panel7->Controls->Add(this->button8);
-        this->panel7->Controls->Add(this->button9);
         this->panel7->Dock = System::Windows::Forms::DockStyle::Left;
         this->panel7->Location = System::Drawing::Point(2, 2);
         this->panel7->Margin = System::Windows::Forms::Padding(2);
@@ -2581,11 +2413,24 @@ private: System::ComponentModel::IContainer^ components;
         this->panel7->TabIndex = 41;
         this->panel7->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Form1::panel7_Paint);
         // 
+        // button9
+        // 
+        this->button9->BackColor = System::Drawing::Color::White;
+        this->button9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
+        this->button9->Location = System::Drawing::Point(141, 230);
+        this->button9->Margin = System::Windows::Forms::Padding(2);
+        this->button9->Name = L"button9";
+        this->button9->Size = System::Drawing::Size(113, 24);
+        this->button9->TabIndex = 5;
+        this->button9->Text = L"My bookings";
+        this->button9->UseVisualStyleBackColor = false;
+        this->button9->Click += gcnew System::EventHandler(this, &Form1::button9_Click_1);
+        // 
         // button15
         // 
         this->button15->BackColor = System::Drawing::Color::White;
         this->button15->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
-        this->button15->Location = System::Drawing::Point(141, 229);
+        this->button15->Location = System::Drawing::Point(141, 276);
         this->button15->Margin = System::Windows::Forms::Padding(2);
         this->button15->Name = L"button15";
         this->button15->Size = System::Drawing::Size(113, 24);
@@ -2598,7 +2443,7 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->button5->BackColor = System::Drawing::Color::White;
         this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
-        this->button5->Location = System::Drawing::Point(141, 92);
+        this->button5->Location = System::Drawing::Point(141, 98);
         this->button5->Margin = System::Windows::Forms::Padding(2);
         this->button5->Name = L"button5";
         this->button5->Size = System::Drawing::Size(113, 24);
@@ -2611,7 +2456,7 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->button7->BackColor = System::Drawing::Color::White;
         this->button7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
-        this->button7->Location = System::Drawing::Point(141, 127);
+        this->button7->Location = System::Drawing::Point(141, 143);
         this->button7->Margin = System::Windows::Forms::Padding(2);
         this->button7->Name = L"button7";
         this->button7->Size = System::Drawing::Size(113, 24);
@@ -2624,7 +2469,7 @@ private: System::ComponentModel::IContainer^ components;
         // 
         this->button8->BackColor = System::Drawing::Color::White;
         this->button8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
-        this->button8->Location = System::Drawing::Point(141, 196);
+        this->button8->Location = System::Drawing::Point(141, 185);
         this->button8->Margin = System::Windows::Forms::Padding(2);
         this->button8->Name = L"button8";
         this->button8->Size = System::Drawing::Size(113, 24);
@@ -2632,19 +2477,6 @@ private: System::ComponentModel::IContainer^ components;
         this->button8->Text = L"Payment";
         this->button8->UseVisualStyleBackColor = false;
         this->button8->Click += gcnew System::EventHandler(this, &Form1::button8_Click);
-        // 
-        // button9
-        // 
-        this->button9->BackColor = System::Drawing::Color::White;
-        this->button9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
-        this->button9->Location = System::Drawing::Point(141, 160);
-        this->button9->Margin = System::Windows::Forms::Padding(2);
-        this->button9->Name = L"button9";
-        this->button9->Size = System::Drawing::Size(113, 24);
-        this->button9->TabIndex = 3;
-        this->button9->Text = L"View Ticket";
-        this->button9->UseVisualStyleBackColor = false;
-        this->button9->Click += gcnew System::EventHandler(this, &Form1::button9_Click);
         // 
         // label44
         // 
@@ -3143,6 +2975,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabControl1->Controls->Add(this->tabPage1);
         this->tabControl1->Controls->Add(this->tabPage2);
         this->tabControl1->Controls->Add(this->tabPage3);
+        this->tabControl1->Controls->Add(this->tabPage4);
         this->tabControl1->Controls->Add(this->tabPage5);
         this->tabControl1->Controls->Add(this->tabPage9);
         this->tabControl1->Controls->Add(this->tabPage10);
@@ -3157,6 +2990,126 @@ private: System::ComponentModel::IContainer^ components;
         this->tabControl1->Size = System::Drawing::Size(834, 411);
         this->tabControl1->TabIndex = 1;
         this->tabControl1->SelectedIndexChanged += gcnew System::EventHandler(this, &Form1::tabControl1_SelectedIndexChanged);
+        // 
+        // tabPage4
+        // 
+        this->tabPage4->Controls->Add(this->button35);
+        this->tabPage4->Controls->Add(this->textBox33);
+        this->tabPage4->Controls->Add(this->textBox34);
+        this->tabPage4->Controls->Add(this->label77);
+        this->tabPage4->Controls->Add(this->label78);
+        this->tabPage4->Controls->Add(this->label79);
+        this->tabPage4->Controls->Add(this->button34);
+        this->tabPage4->Controls->Add(this->button11);
+        this->tabPage4->Controls->Add(this->dataGridView2);
+        this->tabPage4->Location = System::Drawing::Point(4, 22);
+        this->tabPage4->Name = L"tabPage4";
+        this->tabPage4->Padding = System::Windows::Forms::Padding(3);
+        this->tabPage4->Size = System::Drawing::Size(826, 385);
+        this->tabPage4->TabIndex = 14;
+        this->tabPage4->Text = L"My Bookings";
+        this->tabPage4->UseVisualStyleBackColor = true;
+        // 
+        // button35
+        // 
+        this->button35->BackColor = System::Drawing::Color::Navy;
+        this->button35->ForeColor = System::Drawing::SystemColors::ControlLightLight;
+        this->button35->Location = System::Drawing::Point(677, 331);
+        this->button35->Name = L"button35";
+        this->button35->Size = System::Drawing::Size(110, 23);
+        this->button35->TabIndex = 76;
+        this->button35->Text = L"Refresh";
+        this->button35->UseVisualStyleBackColor = false;
+        this->button35->Click += gcnew System::EventHandler(this, &Form1::button35_Click);
+        // 
+        // textBox33
+        // 
+        this->textBox33->Location = System::Drawing::Point(207, 97);
+        this->textBox33->Margin = System::Windows::Forms::Padding(2);
+        this->textBox33->Name = L"textBox33";
+        this->textBox33->Size = System::Drawing::Size(78, 20);
+        this->textBox33->TabIndex = 75;
+        // 
+        // textBox34
+        // 
+        this->textBox34->Location = System::Drawing::Point(113, 97);
+        this->textBox34->Margin = System::Windows::Forms::Padding(2);
+        this->textBox34->Name = L"textBox34";
+        this->textBox34->Size = System::Drawing::Size(78, 20);
+        this->textBox34->TabIndex = 74;
+        // 
+        // label77
+        // 
+        this->label77->AutoSize = true;
+        this->label77->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Underline)),
+            System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
+        this->label77->Location = System::Drawing::Point(32, 28);
+        this->label77->Name = L"label77";
+        this->label77->Size = System::Drawing::Size(148, 24);
+        this->label77->TabIndex = 73;
+        this->label77->Text = L"Select Details :";
+        // 
+        // label78
+        // 
+        this->label78->AutoSize = true;
+        this->label78->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point,
+            static_cast<System::Byte>(0)));
+        this->label78->Location = System::Drawing::Point(110, 62);
+        this->label78->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+        this->label78->Name = L"label78";
+        this->label78->Size = System::Drawing::Size(29, 17);
+        this->label78->TabIndex = 72;
+        this->label78->Text = L"To:";
+        // 
+        // label79
+        // 
+        this->label79->AutoSize = true;
+        this->label79->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point,
+            static_cast<System::Byte>(0)));
+        this->label79->Location = System::Drawing::Point(204, 62);
+        this->label79->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+        this->label79->Name = L"label79";
+        this->label79->Size = System::Drawing::Size(44, 17);
+        this->label79->TabIndex = 71;
+        this->label79->Text = L"From:";
+        // 
+        // button34
+        // 
+        this->button34->BackColor = System::Drawing::Color::Navy;
+        this->button34->ForeColor = System::Drawing::SystemColors::ControlLightLight;
+        this->button34->Location = System::Drawing::Point(677, 70);
+        this->button34->Name = L"button34";
+        this->button34->Size = System::Drawing::Size(110, 23);
+        this->button34->TabIndex = 21;
+        this->button34->Text = L"Cancel Booking";
+        this->button34->UseVisualStyleBackColor = false;
+        this->button34->Click += gcnew System::EventHandler(this, &Form1::button34_Click);
+        // 
+        // button11
+        // 
+        this->button11->BackColor = System::Drawing::Color::Navy;
+        this->button11->ForeColor = System::Drawing::SystemColors::ControlLightLight;
+        this->button11->Location = System::Drawing::Point(36, 331);
+        this->button11->Name = L"button11";
+        this->button11->Size = System::Drawing::Size(110, 23);
+        this->button11->TabIndex = 20;
+        this->button11->Text = L"back to home";
+        this->button11->UseVisualStyleBackColor = false;
+        this->button11->Click += gcnew System::EventHandler(this, &Form1::button11_Click_1);
+        // 
+        // dataGridView2
+        // 
+        this->dataGridView2->AllowUserToDeleteRows = false;
+        this->dataGridView2->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
+        this->dataGridView2->Location = System::Drawing::Point(36, 131);
+        this->dataGridView2->Margin = System::Windows::Forms::Padding(2);
+        this->dataGridView2->Name = L"dataGridView2";
+        this->dataGridView2->ReadOnly = true;
+        this->dataGridView2->RowHeadersWidth = 62;
+        this->dataGridView2->RowTemplate->Height = 28;
+        this->dataGridView2->Size = System::Drawing::Size(751, 195);
+        this->dataGridView2->TabIndex = 19;
+        this->dataGridView2->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Form1::dataGridView2_CellClick);
         // 
         // Form1
         // 
@@ -3209,6 +3162,9 @@ private: System::ComponentModel::IContainer^ components;
         this->panel2->ResumeLayout(false);
         this->panel2->PerformLayout();
         this->tabControl1->ResumeLayout(false);
+        this->tabPage4->ResumeLayout(false);
+        this->tabPage4->PerformLayout();
+        (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->EndInit();
         this->ResumeLayout(false);
         this->PerformLayout();
 
@@ -3227,6 +3183,9 @@ private: System::Void label4_Click(System::Object^ sender, System::EventArgs^ e)
 private: System::Void label5_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void checkBox1_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (checkBox1->Checked) {
+        checkBox2->Checked = false;
+    }
 }
 private: System::Void textBox1_TextChanged_1(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3292,6 +3251,9 @@ private: System::Void splitContainer1_Panel1_Paint(System::Object^ sender, Syste
 private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void checkBox2_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (checkBox2->Checked) {
+        checkBox1->Checked = false;
+    }
 }
 private: System::Void label19_Click(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3319,9 +3281,7 @@ private: System::Void label25_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void richTextBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void Form1_Load(System::Object^ sender, System::EventArgs^ e) {
-    if (File::Exists("ticket.txt") && File::Exists("vehicle.txt")) {
-        button29_Click(sender, e);
-    }
+    tabControl1->TabPages->Remove(tabPage4);
     tabControl1->TabPages->Remove(tabPage1);
     tabControl1->TabPages->Remove(tabPage2);
     tabControl1->TabPages->Remove(tabPage3);
@@ -3353,6 +3313,9 @@ private: System::Void label29_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void dataGridView4_CellContentClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
 }
 private: System::Void checkBox3_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (checkBox3->Checked) {
+        checkBox4->Checked = false;
+    }
 }
 private: System::Void label40_Click(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3441,6 +3404,11 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
             tabControl1->TabPages->Add(tabPage1);
             tabControl1->SelectedTab = tabPage1;
             tabControl1->TabPages->Remove(tabPage6);
+            sharedTable->Rows->Clear();
+            dataGridView1->DataSource = sharedTable;
+            dataGridView3->DataSource = sharedTable;
+            dataGridView2->DataSource = sharedTable2;
+            button35_Click(sender, e);
         }
         else {
             textBox3->ForeColor = Color::Red;
@@ -3451,6 +3419,9 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
     }
     else if (checkBox8->Checked) {
         if (admin.login(email, password)) {
+            if (File::Exists("ticket.txt") && File::Exists("vehicle.txt")) {
+                button29_Click(sender, e);
+            }
             tabControl1->TabPages->Add(tabPage9);
             tabControl1->SelectedTab = tabPage9;
             tabControl1->TabPages->Remove(tabPage6);
@@ -3483,8 +3454,6 @@ private: System::Void button17_Click(System::Object^ sender, System::EventArgs^ 
     tabControl1->SelectedTab = tabPage1;
     tabControl1->TabPages->Remove(tabPage5);
 }
-private: System::Void button12_Click(System::Object^ sender, System::EventArgs^ e) {
-}
 private: System::Void tabPage4_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -3500,15 +3469,14 @@ private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ 
 }
 private: System::Void label27_Click(System::Object^ sender, System::EventArgs^ e) {
 }
-private: System::Void dataGridView3_CellContentClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
-}
 private: System::Void comboBox2_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void checkBox4_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+    if (checkBox4->Checked) {
+        checkBox3->Checked = false;
+    }
 }
 private: System::Void tabPage2_Click(System::Object^ sender, System::EventArgs^ e) {
 }
@@ -3744,33 +3712,35 @@ private: System::Void button28_Click(System::Object^ sender, System::EventArgs^ 
        //add new ticket refresh
 private: System::Void button29_Click(System::Object^ sender, System::EventArgs^ e) {
     Database ob;
-    if (!String::IsNullOrWhiteSpace(File::ReadAllText("ticket.txt")) && !String::IsNullOrWhiteSpace(File::ReadAllText("vehicle.txt"))) {
-        array<Ticket^>^ line = mapper::mapticket(ob.read("ticket.txt"));
-        array<Vehicle^>^ line2 = mapper::mapvehicle(ob.read("vehicle.txt"));
-        sharedTable->Rows->Clear();
+    if (File::Exists("Ticket.txt") && File::Exists("Vehicle.txt")) {
+        if (!String::IsNullOrWhiteSpace(File::ReadAllText("ticket.txt")) && !String::IsNullOrWhiteSpace(File::ReadAllText("vehicle.txt"))) {
+            array<Ticket^>^ line = mapper::mapticket(ob.read("ticket.txt"));
+            array<Vehicle^>^ line2 = mapper::mapvehicle(ob.read("vehicle.txt"));
+            sharedTable->Rows->Clear();
 
-        for (int i = 0; i < line->Length; i++) {
-            DataRow^ row = sharedTable->NewRow();
-            row["S.No"] = i + 1; // Serial number
-            row["Vehicle Type"] = line2[i]->getVehicleType();
-            row["No. of Business Seats"] = line2[i]->getBusinessSeatsAmount();
-            row["No. of Economy Seats"] = line2[i]->getEconomySeatsAmount();
-            row["From"] = line[i]->getFrom();
-            row["To"] = line[i]->getTo();
-            row["Date"] = line[i]->getDate();
-            row["Time"] = line[i]->getTime();
-            row["Price"] = line[i]->getPrice();
-            sharedTable->Rows->Add(row);
+            for (int i = 0; i < line->Length; i++) {
+                DataRow^ row = sharedTable->NewRow();
+                row["S.No"] = i + 1; // Serial number
+                row["Vehicle Type"] = line2[i]->getVehicleType();
+                row["No. of Business Seats"] = line2[i]->getBusinessSeatsAmount();
+                row["No. of Economy Seats"] = line2[i]->getEconomySeatsAmount();
+                row["From"] = line[i]->getFrom();
+                row["To"] = line[i]->getTo();
+                row["Date"] = line[i]->getDate();
+                row["Time"] = line[i]->getTime();
+                row["Price"] = line[i]->getPrice();
+                sharedTable->Rows->Add(row);
+            }
+            dataGridView7->DataSource = sharedTable;
+            dataGridView5->DataSource = sharedTable;
+            dataGridView8->DataSource = sharedTable;
         }
-        dataGridView7->DataSource = sharedTable;
-        dataGridView5->DataSource = sharedTable;
-        dataGridView8->DataSource = sharedTable;
-    }
-    else {
-        sharedTable->Rows->Clear();
-        dataGridView7->DataSource = sharedTable;
-        dataGridView5->DataSource = sharedTable;
-        dataGridView8->DataSource = sharedTable;
+        else {
+            sharedTable->Rows->Clear();
+            dataGridView7->DataSource = sharedTable;
+            dataGridView5->DataSource = sharedTable;
+            dataGridView8->DataSource = sharedTable;
+        }
     }
 }
 
@@ -3801,7 +3771,7 @@ private: System::Void dataGridView5_CellClick(System::Object^ sender, System::Wi
     
 }
 private: System::Void dataGridView8_CellClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
-    DataGridViewRow^ selectedRow = dataGridView5->Rows[e->RowIndex];
+    DataGridViewRow^ selectedRow = dataGridView8->Rows[e->RowIndex];
         index = selectedRow->Cells["S.No"]->Value != nullptr ? selectedRow->Cells["S.No"]->Value->ToString() : "";
         textBox14->Text = selectedRow->Cells["To"]->Value != nullptr ? selectedRow->Cells["To"]->Value->ToString() : "";
         textBox15->Text = selectedRow->Cells["From"]->Value != nullptr ? selectedRow->Cells["From"]->Value->ToString() : "";
@@ -3816,6 +3786,188 @@ private: System::Void button33_Click(System::Object^ sender, System::EventArgs^ 
         ob.discard("ticket.txt", Convert::ToInt32(index));
         ob.discard("vehicle.txt", Convert::ToInt32(index));
     }
+}
+private: System::Void button30_Click(System::Object^ sender, System::EventArgs^ e) {
+    Database ob;
+    if (File::Exists("Ticket.txt") && File::Exists("Vehicle.txt")) {
+        if (!String::IsNullOrWhiteSpace(File::ReadAllText("ticket.txt")) && !String::IsNullOrWhiteSpace(File::ReadAllText("vehicle.txt"))) {
+            array<Ticket^>^ line = mapper::mapticket(ob.search("ticket.txt", textBox29->Text, 0));
+            array<Vehicle^>^ line2 = mapper::mapvehicle(ob.read("vehicle.txt"));
+
+            sharedTable->Rows->Clear();
+            for (int i = 0; i < line->Length; i++) {
+                if (line[i]->getFrom() == textBox30->Text) {
+                    DataRow^ row = sharedTable->NewRow();
+                    row["S.No"] = i + 1;
+                    row["Vehicle Type"] = line2[i]->getVehicleType();
+                    row["No. of Business Seats"] = line2[i]->getBusinessSeatsAmount();
+                    row["No. of Economy Seats"] = line2[i]->getEconomySeatsAmount();
+                    row["From"] = line[i]->getFrom();
+                    row["To"] = line[i]->getTo();
+                    row["Date"] = line[i]->getDate();
+                    row["Time"] = line[i]->getTime();
+                    row["Price"] = line[i]->getPrice();
+                    sharedTable->Rows->Add(row);
+                }
+            }
+            dataGridView1->DataSource = sharedTable;
+        }
+    }
+}
+private: System::Void button31_Click(System::Object^ sender, System::EventArgs^ e) {
+    Database ob;
+    if (File::Exists("Ticket.txt") && File::Exists("Vehicle.txt")) {
+        if (!String::IsNullOrWhiteSpace(File::ReadAllText("ticket.txt")) && !String::IsNullOrWhiteSpace(File::ReadAllText("vehicle.txt"))) {
+            array<Ticket^>^ line = mapper::mapticket(ob.search("ticket.txt", textBox32->Text, 0));
+            array<Vehicle^>^ line2 = mapper::mapvehicle(ob.read("vehicle.txt"));
+
+            sharedTable->Rows->Clear();
+            for (int i = 0; i < line->Length; i++) {
+                if (line[i]->getFrom() == textBox31->Text) {
+                    DataRow^ row = sharedTable->NewRow();
+                    row["S.No"] = i + 1;
+                    row["Vehicle Type"] = line2[i]->getVehicleType();
+                    row["No. of Business Seats"] = line2[i]->getBusinessSeatsAmount();
+                    row["No. of Economy Seats"] = line2[i]->getEconomySeatsAmount();
+                    row["From"] = line[i]->getFrom();
+                    row["To"] = line[i]->getTo();
+                    row["Date"] = line[i]->getDate();
+                    row["Time"] = line[i]->getTime();
+                    row["Price"] = line[i]->getPrice();
+                    sharedTable->Rows->Add(row);
+                }
+            }
+            dataGridView3->DataSource = sharedTable;
+        }
+    }
+}
+private: System::Void dataGridView3_CellClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
+    DataGridViewRow^ selectedRow = dataGridView3->Rows[e->RowIndex];
+    index = selectedRow->Cells["S.No"]->Value != nullptr ? selectedRow->Cells["S.No"]->Value->ToString() : "";
+}
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+    Database ob;
+    BusinessTicket busticket;
+    EconomyTicket ecoticket;
+    Customer user;
+    if (!String::IsNullOrWhiteSpace(textBox31->Text) && !String::IsNullOrWhiteSpace(textBox32->Text)) {
+        array<Ticket^>^ line = mapper::mapticket(ob.search("ticket.txt", textBox32->Text, 0));
+        array<Vehicle^>^ line2 = mapper::mapvehicle(ob.read("vehicle.txt"));
+
+        //if(line[])
+
+        if (!String::IsNullOrWhiteSpace(index)) {
+            int row = Convert::ToInt32(index) - 1;
+            if (checkBox1->Checked && checkBox3->Checked) {
+                if (ecoticket.setPrice(line[row]->getPrice(), "One Way")) {
+                    if (ecoticket.registerEcoTicket(line[row]->getTo(), line[row]->getFrom(), line[row]->getDate(), line[row]->getTime(), line2[line[row]->get_index()]->getVehicleType(), user.getcurrentname(), user.getcurrentnum(), user.getcurrentemail())) {
+                        MessageBox::Show("Ticket booked successfully.", "Success", MessageBoxButtons::OK, MessageBoxIcon::Information);
+                    };
+                };
+            }
+            else if (checkBox1->Checked && checkBox4->Checked) {
+                if (busticket.setPrice(line[row]->getPrice(), "One Way")) {
+                    if (busticket.registerBusTicket(line[row]->getTo(), line[row]->getFrom(), line[row]->getDate(), line[row]->getTime(), line2[row]->getVehicleType(), user.getcurrentname(), user.getcurrentnum(), user.getcurrentemail())) {
+                        MessageBox::Show("Ticket booked successfully.", "Success", MessageBoxButtons::OK, MessageBoxIcon::Information);
+                    };
+                }
+            }
+            else if (checkBox2->Checked && checkBox3->Checked) {
+                if (ecoticket.setPrice(line[row]->getPrice(), "Return")) {
+                    if (ecoticket.registerEcoTicket(line[row]->getTo(), line[row]->getFrom(), line[row]->getDate(), line[row]->getTime(), line2[row]->getVehicleType(), user.getcurrentname(), user.getcurrentnum(), user.getcurrentemail())) {
+                        MessageBox::Show("Ticket booked successfully.", "Success", MessageBoxButtons::OK, MessageBoxIcon::Information);
+                    };
+                }
+            }
+            else if (checkBox2->Checked && checkBox4->Checked) {
+                if (busticket.setPrice(line[row]->getPrice(), "Return")) {
+                    if (busticket.registerBusTicket(line[row]->getTo(), line[row]->getFrom(), line[row]->getDate(), line[row]->getTime(), line2[row]->getVehicleType(), user.getcurrentname(), user.getcurrentnum(), user.getcurrentemail())) {
+                        MessageBox::Show("Ticket booked successfully.", "Success", MessageBoxButtons::OK, MessageBoxIcon::Information);
+                    };
+                }
+            }
+            else {
+                MessageBox::Show("please select valid trip details", "error", MessageBoxButtons::OK, MessageBoxIcon::Error);
+            }
+        }
+        else {
+            MessageBox::Show("please choose a Ticket to reserve", "error", MessageBoxButtons::OK, MessageBoxIcon::Error);
+        }
+    }
+    else {
+        MessageBox::Show("please choose your destination or pickup point", "error", MessageBoxButtons::OK, MessageBoxIcon::Error);
+    }
+}
+private: System::Void button11_Click_1(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage1);
+    tabControl1->SelectedTab = tabPage1;
+    tabControl1->TabPages->Remove(tabPage4);
+}
+private: System::Void button9_Click_1(System::Object^ sender, System::EventArgs^ e) {
+    tabControl1->TabPages->Add(tabPage4);
+    tabControl1->SelectedTab = tabPage4;
+    tabControl1->TabPages->Remove(tabPage1);
+}
+private: System::Void button35_Click(System::Object^ sender, System::EventArgs^ e) {
+    Database ob;
+    Customer user;
+    if (File::Exists("Bookings.txt")) {
+        if (!String::IsNullOrWhiteSpace(File::ReadAllText("Bookings.txt"))) {
+            array<String^>^ line = ob.read("Bookings.txt");
+            sharedTable2->Rows->Clear();
+            for (int i = 0; i < line->Length; i++) {
+                array<String^>^ var = line[i]->Split(',');
+                if (user.getcurrentname() == var[7]) {
+                    DataRow^ row = sharedTable2->NewRow();
+                    row["S.No"] = i + 1;
+                    row["Vehicle Type"] = var[6];
+                    row["Category"] = var[5];
+                    row["Username"] = var[7];
+                    row["From"] = var[1];
+                    row["To"] = var[0];
+                    row["Email"] = var[9];
+                    row["Phone no"] = var[8];
+                    row["Date"] = var[3];
+                    row["Time"] = var[4];
+                    row["Price"] = var[2];
+                    row["Payment status"] = var[10];
+                    sharedTable2->Rows->Add(row);
+                }
+            }
+            dataGridView2->DataSource = sharedTable2;
+            dataGridView4->DataSource = sharedTable2;
+        }
+        else {
+            dataGridView2->DataSource = sharedTable2;
+            dataGridView4->DataSource = sharedTable2;
+        }
+    }
+}
+private: System::Void dataGridView2_CellClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
+    DataGridViewRow^ selectedRow = dataGridView2->Rows[e->RowIndex];
+
+    index = selectedRow->Cells["S.No"]->Value != nullptr ? selectedRow->Cells["S.No"]->Value->ToString() : "";
+    textBox34->Text = selectedRow->Cells["To"]->Value != nullptr ? selectedRow->Cells["To"]->Value->ToString() : "";
+    textBox33->Text = selectedRow->Cells["From"]->Value != nullptr ? selectedRow->Cells["From"]->Value->ToString() : "";
+}
+private: System::Void button34_Click(System::Object^ sender, System::EventArgs^ e) {
+    Database ob;
+    if (!String::IsNullOrWhiteSpace(index)) {
+        ob.discard("Bookings.txt", Convert::ToInt32(index));
+    }
+}
+private: System::Void button36_Click(System::Object^ sender, System::EventArgs^ e) {
+    button35_Click(sender, e);
+}
+private: System::Void dataGridView4_CellClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
+    DataGridViewRow^ selectedRow = dataGridView4->Rows[e->RowIndex];
+
+    index = selectedRow->Cells["S.No"]->Value != nullptr ? selectedRow->Cells["S.No"]->Value->ToString() : "";
+}
+private: System::Void button12_Click(System::Object^ sender, System::EventArgs^ e) {
+    Database ob;
+    ob.update("Bookings.txt", "unpaid", "paid", 10 , Convert::ToInt32(index));
+    MessageBox::Show("Payment successful.", "Success", MessageBoxButtons::OK, MessageBoxIcon::Information);
 }
 }; // end of class Form1
 } // end of namespace CppCLRWinFormsProject

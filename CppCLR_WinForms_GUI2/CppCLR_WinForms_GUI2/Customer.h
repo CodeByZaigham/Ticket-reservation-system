@@ -14,6 +14,10 @@ protected:
 	String^ gender;
 	String^ category;
 	Database ob;
+	static String^ currentname;
+	static String^ currentemail;
+	static String^ currentphone;
+
 
 public:
 
@@ -40,11 +44,26 @@ public:
 			array<String^>^ var = data[i]->Split(',');
 			if (data->Length > 0) {
 				if (var[0] == email && var[1]==password) {
+					currentname = var[2];
+					currentemail = var[0];
+					currentphone = var[3];
 					return true;
 				}
 			}
 		}
 		return false;
+	}
+
+	static String^ getcurrentname() {
+		return currentname;
+	}
+
+	static String^ getcurrentemail() {
+		return currentemail;
+	}
+
+	static String^ getcurrentnum() {
+		return currentphone;
 	}
 
 	void setGender(String^ gender) {
