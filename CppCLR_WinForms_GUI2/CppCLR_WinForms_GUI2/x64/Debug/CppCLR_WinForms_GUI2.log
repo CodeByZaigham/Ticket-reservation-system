@@ -1,8 +1,8 @@
 ﻿  CppCLR_WinFormsProject.cpp
-C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Vehicle.h(101,50): warning C4804: '>': unsafe use of type 'bool' in operation
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Vehicle.h(109,50): warning C4804: '>': unsafe use of type 'bool' in operation
   (compiling source file '/CppCLR_WinFormsProject.cpp')
   
-C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Vehicle.h(101,86): warning C4804: '>': unsafe use of type 'bool' in operation
+C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Vehicle.h(109,86): warning C4804: '>': unsafe use of type 'bool' in operation
   (compiling source file '/CppCLR_WinFormsProject.cpp')
   
   Admin.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link

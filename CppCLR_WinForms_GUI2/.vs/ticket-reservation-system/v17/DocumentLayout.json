@@ -7,40 +7,40 @@
       "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Database.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Database.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\BusinessTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\BusinessTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\EconomyTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\EconomyTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\mapper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\mapper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\EconomyTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\EconomyTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Customer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Customer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Ticket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Ticket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Database.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Database.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Ticket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\Ticket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\BusinessTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|solutionrelative:CppCLR_WinForms_GUI2\\BusinessTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF195B2A-9537-40B2-AB75-382B8D280734}|CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2.vcxproj|C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Form1.h",
               "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Form1.h",
               "RelativeToolTip": "CppCLR_WinForms_GUI2\\Form1.h",
-              "ViewState": "AgIAAHIPAAAAAAAAAAAAAIAPAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAJIBAAAAAAAAAAAAACUMAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-25T17:54:29.405Z",
               "IsPinned": true,
@@ -76,59 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Ticket.h",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Ticket.h",
-              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Ticket.h",
-              "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Ticket.h",
-              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Ticket.h",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAAEsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-27T11:48:40.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Database.h",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Database.h",
-              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Database.h",
-              "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Database.h",
-              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Database.h",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T08:09:09.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Customer.h",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Customer.h",
-              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Customer.h",
-              "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Customer.h",
-              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Customer.h",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-21T06:44:13.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BusinessTicket.h",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\BusinessTicket.h",
-              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\BusinessTicket.h",
-              "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\BusinessTicket.h",
-              "RelativeToolTip": "CppCLR_WinForms_GUI2\\BusinessTicket.h",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACQAAADMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-25T07:56:26.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "EconomyTicket.h",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\EconomyTicket.h",
               "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\EconomyTicket.h",
@@ -141,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.h [Design]",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Form1.h",
               "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Form1.h",
@@ -153,13 +101,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "mapper.h",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\mapper.h",
               "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\mapper.h",
               "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\mapper.h",
               "RelativeToolTip": "CppCLR_WinForms_GUI2\\mapper.h",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAADMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-21T08:44:20.793Z",
               "EditorCaption": ""
@@ -167,12 +115,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Vehicle.h",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Vehicle.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Vehicle.h",
+              "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Vehicle.h",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Vehicle.h",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAFsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T16:29:00.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ticket.h",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Ticket.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Ticket.h",
+              "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Ticket.h",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Ticket.h",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAJ8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-27T11:48:40.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.h",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Customer.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Customer.h",
+              "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Customer.h",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Customer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T06:44:13.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Person.h",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Person.h",
               "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Person.h",
               "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Person.h",
               "RelativeToolTip": "CppCLR_WinForms_GUI2\\Person.h",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-25T16:45:10.622Z",
               "EditorCaption": ""
@@ -180,15 +165,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Vehicle.h",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Vehicle.h",
-              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Vehicle.h",
-              "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Vehicle.h",
-              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Vehicle.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Title": "BusinessTicket.h",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\BusinessTicket.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\BusinessTicket.h",
+              "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\BusinessTicket.h",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\BusinessTicket.h",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAADMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-18T16:29:00.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T07:56:26.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Database.h",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Database.h",
+              "RelativeDocumentMoniker": "CppCLR_WinForms_GUI2\\Database.h",
+              "ToolTip": "C:\\Users\\hp\\Documents\\final project\\CppCLR_WinForms_GUI2\\CppCLR_WinForms_GUI2\\Database.h",
+              "RelativeToolTip": "CppCLR_WinForms_GUI2\\Database.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-14T08:09:09.778Z"
             },
             {
               "$type": "Document",
@@ -200,8 +196,7 @@
               "RelativeToolTip": "CppCLR_WinForms_GUI2\\Admin.h",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-24T18:40:42.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T18:40:42.359Z"
             }
           ]
         }

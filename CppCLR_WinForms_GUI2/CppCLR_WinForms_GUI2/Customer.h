@@ -29,7 +29,7 @@ public:
 
 
 	bool registerInfo(String^ username, String^ password, String^ email, String^ phoneNumber, String^ gender) {
-		if (username->Length > 3 && password->Length > 3 && email->Length > 3 && phoneNumber->Length == 8 && gender->Length > 3) {
+		if (username->Length > 3 && password->Length > 3 && email->Length > 3 && phoneNumber->Length >= 8 && gender->Length > 3) {
 			ob.insert("login.txt", email + "," + password + "," + username + "," + phoneNumber + "," + gender);
 			return true;
 		}

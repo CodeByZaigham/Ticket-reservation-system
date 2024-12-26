@@ -80,7 +80,7 @@ ref class Vehicle
 			return false;
 		}
 
-		businessTickets -= bookedTickets;
+		//businessTickets -= bookedTickets;
 		return true;
 	}
 
@@ -89,17 +89,25 @@ ref class Vehicle
 			return false;
 		}
 
-		economyTickets -= bookedTickets;
+		//economyTickets -= bookedTickets;
 		return true;
 	}
 
 	bool registervehicle(String^ vehicleType , String^ e , String^ b) {
 		int busseats;
 		int ecoseats;
-		static int i = 0;
+		int i;
+		if (File::Exists("vehicle.txt")) {
+			array<String^>^ lines = ob.read("vehicle.txt");
+			array<String^>^ var = lines[lines->Length - 1]->Split(',');
+			i = Convert::ToInt32(var[3]) + 1;
+		}
+		else {
+			i = 0;
+		}
 		if (!String::IsNullOrWhiteSpace(vehicleType) && !String::IsNullOrWhiteSpace(e) && !String::IsNullOrWhiteSpace(b) ){
 			if (vehicleType->Length > 1 && Int32::TryParse(e, ecoseats) > 0 && Int32::TryParse(b, busseats) > 0 && ecoseats > 0 && busseats > 0) {
-				ob.insert("vehicle.txt", vehicleType + "," + ecoseats + "," + busseats + "," + i++);
+				ob.insert("vehicle.txt", vehicleType + "," + ecoseats + "," + busseats + "," + i);
 				return true;
 			}
 			else {

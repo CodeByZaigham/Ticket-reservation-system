@@ -1,7 +1,6 @@
 #pragma once
 #include "Vehicle.h"
 #include "Ticket.h"
-#include "Customer.h"
 
 ref class mapper
 {
@@ -37,19 +36,6 @@ public:
 		}
 		return ob;
 	}
-
-	/*static array<Customer^>^ mapuser(array<String^>^ rows) {
-		array<Customer^>^ ob = gcnew array<Customer^>(rows->Length);
-
-		for (int i = 0; i < rows->Length; i++) {
-			array<String^>^ temp = rows[i]->Split(',');
-			ob[i] = gcnew Customer();
-			ob[i]->setName(temp[2]);
-			ob[i]->setEmail(temp[0]);
-			ob[i]->setPhoneNumber(temp[3]);
-		}
-		return ob;
-	}*/
 	
 	
 };

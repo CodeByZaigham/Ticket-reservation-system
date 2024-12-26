@@ -1,2 +1,13 @@
 .vs/
 *.vsidx
+*.txt
+*.obj 
+*.exe
+*.dll
+*.pdb
+*.log
+*.user
+*.suo
+*.vcxproj.user
+.Debug/
+.Release/

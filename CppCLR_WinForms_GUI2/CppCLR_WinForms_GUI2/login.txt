@@ -1,3 +1,1 @@
-ffff,aaaa,dtytdtdtwd,ffffffff,Female
-asdf,1234,abcd,12345678,Male
-sp24bscs0026@maju.edu.pk,1234,_.zaigham._,02450151,Male
+asdf,1234,zaigham,12345678,Male

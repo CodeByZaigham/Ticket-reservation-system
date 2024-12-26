@@ -107,11 +107,19 @@ public:
 	}
 
 	bool registerTicket(String^ to, String^ from, String^ date, String^ time, String^ p) {
-		int price;
-		static int i = 0;
+		int price,i;
+		if (File::Exists("ticket.txt")) {
+			array<String^>^ lines = ob.read("ticket.txt");
+			array<String^>^ var = lines[lines->Length - 1]->Split(',');
+			i = Convert::ToInt32(var[5]) + 1;
+		}
+		else {
+			i=0;
+		}
+
 		if (!String::IsNullOrWhiteSpace(to) && !String::IsNullOrWhiteSpace(from) && !String::IsNullOrWhiteSpace(time) && !String::IsNullOrWhiteSpace(date) && !String::IsNullOrWhiteSpace(p)) {
 			if (to->Length > 3 && from->Length > 3 && date->Length > 1 && time->Length > 2 && Int32::TryParse(p, price) && price>0) {
-				ob.insert("ticket.txt", to + "," + from + "," + price + "," + date + "," + time + "," + i++);
+				ob.insert("ticket.txt", to + "," + from + "," + price + "," + date + "," + time + "," + i);
 				return true;
 			}
 			else {
@@ -124,32 +132,32 @@ public:
 		
 	}
 
-	/*String^ generateID(String^ ticketType) {
+	String^ generateID(String^ ticketType) {
 		String^ uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		String^ lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
 		String^ numbers = "1234567890";
-		String^ id = ticketType + "-";
-		std::random_device rd;
-		std::mt19937 generator(rd());
 
-		auto getRandomChar = [&](String^ charSet) {
-			int index = std::uniform_int_distribution<int>(0, charSet->Length - 1)(generator);
-			return charSet[index];
-			};
+		String^ id = ticketType + "-";
+
+		std::random_device rd;
+		std::mt19937 generate(rd());
 
 		for (int i = 0; i < 7; i++) {
-			if (i < 2) {
-				id += getRandomChar(uppercaseLetters);
+			if (i <= 1) {
+				std::uniform_int_distribution<> distribution(0, uppercaseLetters->Length - 1);
+				id += uppercaseLetters[distribution(generate)];
 			}
-			else if (i < 4) {
-				id += getRandomChar(lowercaseLetters);
+			else if (i >= 1 && i <= 3) {
+				std::uniform_int_distribution<> distribution(0, lowercaseLetters->Length - 1);
+				id += lowercaseLetters[distribution(generate)];
 			}
 			else {
-				id += getRandomChar(numbers);
+				std::uniform_int_distribution<> distribution(0, numbers->Length - 1);
+				id += numbers[distribution(generate)];
 			}
 		}
 
 		return id;
-	}*/
+	}
 
 };
