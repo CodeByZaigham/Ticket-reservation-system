@@ -389,6 +389,7 @@ private: System::Windows::Forms::Label^ label80;
 
 private: System::Windows::Forms::Label^ label86;
 private: System::Windows::Forms::Label^ label85;
+private: System::Windows::Forms::Button^ button40;
 
 
 
@@ -537,6 +538,20 @@ private: System::ComponentModel::IContainer^ components;
         this->button12 = (gcnew System::Windows::Forms::Button());
         this->dataGridView4 = (gcnew System::Windows::Forms::DataGridView());
         this->tabPage3 = (gcnew System::Windows::Forms::TabPage());
+        this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+        this->label86 = (gcnew System::Windows::Forms::Label());
+        this->label85 = (gcnew System::Windows::Forms::Label());
+        this->button39 = (gcnew System::Windows::Forms::Button());
+        this->textBox40 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox39 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox38 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox37 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox36 = (gcnew System::Windows::Forms::TextBox());
+        this->textBox35 = (gcnew System::Windows::Forms::TextBox());
+        this->label84 = (gcnew System::Windows::Forms::Label());
+        this->label82 = (gcnew System::Windows::Forms::Label());
+        this->label81 = (gcnew System::Windows::Forms::Label());
+        this->label80 = (gcnew System::Windows::Forms::Label());
         this->textBox32 = (gcnew System::Windows::Forms::TextBox());
         this->textBox31 = (gcnew System::Windows::Forms::TextBox());
         this->button31 = (gcnew System::Windows::Forms::Button());
@@ -619,20 +634,7 @@ private: System::ComponentModel::IContainer^ components;
         this->button34 = (gcnew System::Windows::Forms::Button());
         this->button11 = (gcnew System::Windows::Forms::Button());
         this->dataGridView2 = (gcnew System::Windows::Forms::DataGridView());
-        this->label80 = (gcnew System::Windows::Forms::Label());
-        this->label81 = (gcnew System::Windows::Forms::Label());
-        this->label82 = (gcnew System::Windows::Forms::Label());
-        this->label84 = (gcnew System::Windows::Forms::Label());
-        this->textBox35 = (gcnew System::Windows::Forms::TextBox());
-        this->textBox36 = (gcnew System::Windows::Forms::TextBox());
-        this->textBox37 = (gcnew System::Windows::Forms::TextBox());
-        this->textBox38 = (gcnew System::Windows::Forms::TextBox());
-        this->textBox39 = (gcnew System::Windows::Forms::TextBox());
-        this->textBox40 = (gcnew System::Windows::Forms::TextBox());
-        this->button39 = (gcnew System::Windows::Forms::Button());
-        this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
-        this->label85 = (gcnew System::Windows::Forms::Label());
-        this->label86 = (gcnew System::Windows::Forms::Label());
+        this->button40 = (gcnew System::Windows::Forms::Button());
         this->tabPage11->SuspendLayout();
         this->panel4->SuspendLayout();
         this->panel1->SuspendLayout();
@@ -649,6 +651,7 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage5->SuspendLayout();
         (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView4))->BeginInit();
         this->tabPage3->SuspendLayout();
+        this->groupBox1->SuspendLayout();
         (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView3))->BeginInit();
         this->tabPage2->SuspendLayout();
         (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
@@ -663,7 +666,6 @@ private: System::ComponentModel::IContainer^ components;
         this->tabControl1->SuspendLayout();
         this->tabPage4->SuspendLayout();
         (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->BeginInit();
-        this->groupBox1->SuspendLayout();
         this->SuspendLayout();
         // 
         // label6
@@ -2020,6 +2022,7 @@ private: System::ComponentModel::IContainer^ components;
         // 
         // tabPage3
         // 
+        this->tabPage3->Controls->Add(this->button40);
         this->tabPage3->Controls->Add(this->groupBox1);
         this->tabPage3->Controls->Add(this->textBox32);
         this->tabPage3->Controls->Add(this->textBox31);
@@ -2046,6 +2049,159 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage3->Text = L"Book a Ticket";
         this->tabPage3->UseVisualStyleBackColor = true;
         this->tabPage3->Click += gcnew System::EventHandler(this, &Form1::tabPage3_Click);
+        // 
+        // groupBox1
+        // 
+        this->groupBox1->BackColor = System::Drawing::Color::Gainsboro;
+        this->groupBox1->Controls->Add(this->label86);
+        this->groupBox1->Controls->Add(this->label85);
+        this->groupBox1->Controls->Add(this->button39);
+        this->groupBox1->Controls->Add(this->textBox40);
+        this->groupBox1->Controls->Add(this->textBox39);
+        this->groupBox1->Controls->Add(this->textBox38);
+        this->groupBox1->Controls->Add(this->textBox37);
+        this->groupBox1->Controls->Add(this->textBox36);
+        this->groupBox1->Controls->Add(this->textBox35);
+        this->groupBox1->Controls->Add(this->label84);
+        this->groupBox1->Controls->Add(this->label82);
+        this->groupBox1->Controls->Add(this->label81);
+        this->groupBox1->Controls->Add(this->label80);
+        this->groupBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+            static_cast<System::Byte>(0)));
+        this->groupBox1->Location = System::Drawing::Point(233, 84);
+        this->groupBox1->Name = L"groupBox1";
+        this->groupBox1->RightToLeft = System::Windows::Forms::RightToLeft::No;
+        this->groupBox1->Size = System::Drawing::Size(341, 234);
+        this->groupBox1->TabIndex = 39;
+        this->groupBox1->TabStop = false;
+        this->groupBox1->Text = L"Report Status";
+        this->groupBox1->Enter += gcnew System::EventHandler(this, &Form1::groupBox1_Enter_1);
+        // 
+        // label86
+        // 
+        this->label86->AutoSize = true;
+        this->label86->ForeColor = System::Drawing::Color::Black;
+        this->label86->Location = System::Drawing::Point(6, 163);
+        this->label86->Name = L"label86";
+        this->label86->Size = System::Drawing::Size(130, 13);
+        this->label86->TabIndex = 14;
+        this->label86->Text = L"Economy Tickets Left";
+        // 
+        // label85
+        // 
+        this->label85->AutoSize = true;
+        this->label85->ForeColor = System::Drawing::Color::Black;
+        this->label85->Location = System::Drawing::Point(9, 135);
+        this->label85->Name = L"label85";
+        this->label85->Size = System::Drawing::Size(129, 13);
+        this->label85->TabIndex = 13;
+        this->label85->Text = L"Business Tickets Left";
+        // 
+        // button39
+        // 
+        this->button39->BackColor = System::Drawing::Color::Navy;
+        this->button39->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+            static_cast<System::Byte>(0)));
+        this->button39->ForeColor = System::Drawing::Color::White;
+        this->button39->Location = System::Drawing::Point(253, 201);
+        this->button39->Name = L"button39";
+        this->button39->Size = System::Drawing::Size(80, 26);
+        this->button39->TabIndex = 12;
+        this->button39->Text = L"Okay";
+        this->button39->UseVisualStyleBackColor = false;
+        this->button39->Click += gcnew System::EventHandler(this, &Form1::button39_Click);
+        // 
+        // textBox40
+        // 
+        this->textBox40->BorderStyle = System::Windows::Forms::BorderStyle::None;
+        this->textBox40->Location = System::Drawing::Point(160, 156);
+        this->textBox40->Name = L"textBox40";
+        this->textBox40->Size = System::Drawing::Size(100, 13);
+        this->textBox40->TabIndex = 11;
+        this->textBox40->TextChanged += gcnew System::EventHandler(this, &Form1::textBox40_TextChanged);
+        // 
+        // textBox39
+        // 
+        this->textBox39->BorderStyle = System::Windows::Forms::BorderStyle::None;
+        this->textBox39->Location = System::Drawing::Point(160, 130);
+        this->textBox39->Name = L"textBox39";
+        this->textBox39->Size = System::Drawing::Size(100, 13);
+        this->textBox39->TabIndex = 10;
+        // 
+        // textBox38
+        // 
+        this->textBox38->BorderStyle = System::Windows::Forms::BorderStyle::None;
+        this->textBox38->Location = System::Drawing::Point(160, 104);
+        this->textBox38->Name = L"textBox38";
+        this->textBox38->Size = System::Drawing::Size(100, 13);
+        this->textBox38->TabIndex = 9;
+        // 
+        // textBox37
+        // 
+        this->textBox37->BorderStyle = System::Windows::Forms::BorderStyle::None;
+        this->textBox37->Location = System::Drawing::Point(160, 78);
+        this->textBox37->Name = L"textBox37";
+        this->textBox37->Size = System::Drawing::Size(100, 13);
+        this->textBox37->TabIndex = 8;
+        // 
+        // textBox36
+        // 
+        this->textBox36->BorderStyle = System::Windows::Forms::BorderStyle::None;
+        this->textBox36->Location = System::Drawing::Point(160, 50);
+        this->textBox36->Name = L"textBox36";
+        this->textBox36->Size = System::Drawing::Size(100, 13);
+        this->textBox36->TabIndex = 7;
+        // 
+        // textBox35
+        // 
+        this->textBox35->BorderStyle = System::Windows::Forms::BorderStyle::None;
+        this->textBox35->Location = System::Drawing::Point(160, 24);
+        this->textBox35->Name = L"textBox35";
+        this->textBox35->Size = System::Drawing::Size(100, 13);
+        this->textBox35->TabIndex = 6;
+        this->textBox35->TextChanged += gcnew System::EventHandler(this, &Form1::textBox35_TextChanged);
+        // 
+        // label84
+        // 
+        this->label84->AutoSize = true;
+        this->label84->ForeColor = System::Drawing::Color::Black;
+        this->label84->Location = System::Drawing::Point(11, 109);
+        this->label84->Name = L"label84";
+        this->label84->Size = System::Drawing::Size(36, 13);
+        this->label84->TabIndex = 5;
+        this->label84->Text = L"Price";
+        // 
+        // label82
+        // 
+        this->label82->AutoSize = true;
+        this->label82->ForeColor = System::Drawing::Color::Black;
+        this->label82->Location = System::Drawing::Point(11, 83);
+        this->label82->Name = L"label82";
+        this->label82->Size = System::Drawing::Size(22, 13);
+        this->label82->TabIndex = 3;
+        this->label82->Text = L"To";
+        this->label82->Click += gcnew System::EventHandler(this, &Form1::label82_Click);
+        // 
+        // label81
+        // 
+        this->label81->AutoSize = true;
+        this->label81->ForeColor = System::Drawing::Color::Black;
+        this->label81->Location = System::Drawing::Point(11, 55);
+        this->label81->Name = L"label81";
+        this->label81->Size = System::Drawing::Size(34, 13);
+        this->label81->TabIndex = 2;
+        this->label81->Text = L"From";
+        this->label81->Click += gcnew System::EventHandler(this, &Form1::label81_Click);
+        // 
+        // label80
+        // 
+        this->label80->AutoSize = true;
+        this->label80->ForeColor = System::Drawing::Color::Black;
+        this->label80->Location = System::Drawing::Point(9, 29);
+        this->label80->Name = L"label80";
+        this->label80->Size = System::Drawing::Size(81, 13);
+        this->label80->TabIndex = 1;
+        this->label80->Text = L"Vehicle Type";
         // 
         // textBox32
         // 
@@ -3096,157 +3252,19 @@ private: System::ComponentModel::IContainer^ components;
         this->dataGridView2->TabIndex = 19;
         this->dataGridView2->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Form1::dataGridView2_CellClick);
         // 
-        // label80
+        // button40
         // 
-        this->label80->AutoSize = true;
-        this->label80->ForeColor = System::Drawing::Color::Black;
-        this->label80->Location = System::Drawing::Point(9, 29);
-        this->label80->Name = L"label80";
-        this->label80->Size = System::Drawing::Size(81, 13);
-        this->label80->TabIndex = 1;
-        this->label80->Text = L"Vehicle Type";
-        // 
-        // label81
-        // 
-        this->label81->AutoSize = true;
-        this->label81->ForeColor = System::Drawing::Color::Black;
-        this->label81->Location = System::Drawing::Point(11, 55);
-        this->label81->Name = L"label81";
-        this->label81->Size = System::Drawing::Size(34, 13);
-        this->label81->TabIndex = 2;
-        this->label81->Text = L"From";
-        this->label81->Click += gcnew System::EventHandler(this, &Form1::label81_Click);
-        // 
-        // label82
-        // 
-        this->label82->AutoSize = true;
-        this->label82->ForeColor = System::Drawing::Color::Black;
-        this->label82->Location = System::Drawing::Point(11, 83);
-        this->label82->Name = L"label82";
-        this->label82->Size = System::Drawing::Size(22, 13);
-        this->label82->TabIndex = 3;
-        this->label82->Text = L"To";
-        this->label82->Click += gcnew System::EventHandler(this, &Form1::label82_Click);
-        // 
-        // label84
-        // 
-        this->label84->AutoSize = true;
-        this->label84->ForeColor = System::Drawing::Color::Black;
-        this->label84->Location = System::Drawing::Point(11, 109);
-        this->label84->Name = L"label84";
-        this->label84->Size = System::Drawing::Size(36, 13);
-        this->label84->TabIndex = 5;
-        this->label84->Text = L"Price";
-        // 
-        // textBox35
-        // 
-        this->textBox35->BorderStyle = System::Windows::Forms::BorderStyle::None;
-        this->textBox35->Location = System::Drawing::Point(160, 24);
-        this->textBox35->Name = L"textBox35";
-        this->textBox35->Size = System::Drawing::Size(100, 13);
-        this->textBox35->TabIndex = 6;
-        this->textBox35->TextChanged += gcnew System::EventHandler(this, &Form1::textBox35_TextChanged);
-        // 
-        // textBox36
-        // 
-        this->textBox36->BorderStyle = System::Windows::Forms::BorderStyle::None;
-        this->textBox36->Location = System::Drawing::Point(160, 50);
-        this->textBox36->Name = L"textBox36";
-        this->textBox36->Size = System::Drawing::Size(100, 13);
-        this->textBox36->TabIndex = 7;
-        // 
-        // textBox37
-        // 
-        this->textBox37->BorderStyle = System::Windows::Forms::BorderStyle::None;
-        this->textBox37->Location = System::Drawing::Point(160, 78);
-        this->textBox37->Name = L"textBox37";
-        this->textBox37->Size = System::Drawing::Size(100, 13);
-        this->textBox37->TabIndex = 8;
-        // 
-        // textBox38
-        // 
-        this->textBox38->BorderStyle = System::Windows::Forms::BorderStyle::None;
-        this->textBox38->Location = System::Drawing::Point(160, 104);
-        this->textBox38->Name = L"textBox38";
-        this->textBox38->Size = System::Drawing::Size(100, 13);
-        this->textBox38->TabIndex = 9;
-        // 
-        // textBox39
-        // 
-        this->textBox39->BorderStyle = System::Windows::Forms::BorderStyle::None;
-        this->textBox39->Location = System::Drawing::Point(160, 130);
-        this->textBox39->Name = L"textBox39";
-        this->textBox39->Size = System::Drawing::Size(100, 13);
-        this->textBox39->TabIndex = 10;
-        // 
-        // textBox40
-        // 
-        this->textBox40->BorderStyle = System::Windows::Forms::BorderStyle::None;
-        this->textBox40->Location = System::Drawing::Point(160, 156);
-        this->textBox40->Name = L"textBox40";
-        this->textBox40->Size = System::Drawing::Size(100, 13);
-        this->textBox40->TabIndex = 11;
-        this->textBox40->TextChanged += gcnew System::EventHandler(this, &Form1::textBox40_TextChanged);
-        // 
-        // button39
-        // 
-        this->button39->BackColor = System::Drawing::Color::Navy;
-        this->button39->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-            static_cast<System::Byte>(0)));
-        this->button39->ForeColor = System::Drawing::Color::White;
-        this->button39->Location = System::Drawing::Point(253, 201);
-        this->button39->Name = L"button39";
-        this->button39->Size = System::Drawing::Size(80, 26);
-        this->button39->TabIndex = 12;
-        this->button39->Text = L"Okay";
-        this->button39->UseVisualStyleBackColor = false;
-        // 
-        // groupBox1
-        // 
-        this->groupBox1->BackColor = System::Drawing::Color::Gainsboro;
-        this->groupBox1->Controls->Add(this->label86);
-        this->groupBox1->Controls->Add(this->label85);
-        this->groupBox1->Controls->Add(this->button39);
-        this->groupBox1->Controls->Add(this->textBox40);
-        this->groupBox1->Controls->Add(this->textBox39);
-        this->groupBox1->Controls->Add(this->textBox38);
-        this->groupBox1->Controls->Add(this->textBox37);
-        this->groupBox1->Controls->Add(this->textBox36);
-        this->groupBox1->Controls->Add(this->textBox35);
-        this->groupBox1->Controls->Add(this->label84);
-        this->groupBox1->Controls->Add(this->label82);
-        this->groupBox1->Controls->Add(this->label81);
-        this->groupBox1->Controls->Add(this->label80);
-        this->groupBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-            static_cast<System::Byte>(0)));
-        this->groupBox1->Location = System::Drawing::Point(290, 115);
-        this->groupBox1->Name = L"groupBox1";
-        this->groupBox1->RightToLeft = System::Windows::Forms::RightToLeft::No;
-        this->groupBox1->Size = System::Drawing::Size(341, 234);
-        this->groupBox1->TabIndex = 39;
-        this->groupBox1->TabStop = false;
-        this->groupBox1->Text = L"Report Status";
-        this->groupBox1->Enter += gcnew System::EventHandler(this, &Form1::groupBox1_Enter_1);
-        // 
-        // label85
-        // 
-        this->label85->AutoSize = true;
-        this->label85->ForeColor = System::Drawing::Color::Black;
-        this->label85->Location = System::Drawing::Point(9, 135);
-        this->label85->Name = L"label85";
-        this->label85->Size = System::Drawing::Size(129, 13);
-        this->label85->TabIndex = 13;
-        this->label85->Text = L"Business Tickets Left";
-        // 
-        // label86
-        // 
-        this->label86->AutoSize = true;
-        this->label86->ForeColor = System::Drawing::Color::Black;
-        this->label86->Location = System::Drawing::Point(6, 163);
-        this->label86->Name = L"label86";
-        this->label86->Size = System::Drawing::Size(130, 13);
-        this->label86->TabIndex = 14;
-        this->label86->Text = L"Economy Tickets Left";
+        this->button40->BackColor = System::Drawing::Color::Navy;
+        this->button40->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold));
+        this->button40->ForeColor = System::Drawing::Color::White;
+        this->button40->Location = System::Drawing::Point(561, 346);
+        this->button40->Margin = System::Windows::Forms::Padding(2);
+        this->button40->Name = L"button40";
+        this->button40->Size = System::Drawing::Size(125, 24);
+        this->button40->TabIndex = 40;
+        this->button40->Text = L"Generate Report";
+        this->button40->UseVisualStyleBackColor = false;
+        this->button40->Click += gcnew System::EventHandler(this, &Form1::button40_Click);
         // 
         // Form1
         // 
@@ -3283,6 +3301,8 @@ private: System::ComponentModel::IContainer^ components;
         (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView4))->EndInit();
         this->tabPage3->ResumeLayout(false);
         this->tabPage3->PerformLayout();
+        this->groupBox1->ResumeLayout(false);
+        this->groupBox1->PerformLayout();
         (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView3))->EndInit();
         this->tabPage2->ResumeLayout(false);
         this->tabPage2->PerformLayout();
@@ -3302,8 +3322,6 @@ private: System::ComponentModel::IContainer^ components;
         this->tabPage4->ResumeLayout(false);
         this->tabPage4->PerformLayout();
         (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->EndInit();
-        this->groupBox1->ResumeLayout(false);
-        this->groupBox1->PerformLayout();
         this->ResumeLayout(false);
         this->PerformLayout();
 
@@ -3548,6 +3566,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
             dataGridView3->DataSource = sharedTable;
             dataGridView2->DataSource = sharedTable2;
             button35_Click(sender, e);
+            groupBox1->Visible = false;
         }
         else {
             textBox3->ForeColor = Color::Red;
@@ -4200,6 +4219,27 @@ private: System::Void textBox40_TextChanged(System::Object^ sender, System::Even
 private: System::Void label83_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void textBox35_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button39_Click(System::Object^ sender, System::EventArgs^ e) {
+    groupBox1->Visible = false;
+}
+private: System::Void button40_Click(System::Object^ sender, System::EventArgs^ e) {
+    if (!String::IsNullOrWhiteSpace(index) && File::Exists("ticket.txt") && File::Exists("ticket.txt")) {
+        Database ob;
+        array<String^>^ lines = ob.read("ticket.txt");
+        array<String^>^ lines2 = ob.read("vehicle.txt");
+        array<String^>^ var = lines[Convert::ToInt32(index)-1]->Split(',');
+        array<String^>^ var2 = lines2[Convert::ToInt32(index)-1]->Split(',');
+
+        textBox35->Text = var2[0];
+        textBox36->Text = var[1];
+        textBox37->Text = var[0];
+        textBox38->Text = var[2];
+        textBox39->Text = var2[2];
+        textBox40->Text = var2[1];
+        groupBox1->Visible = true;
+    }
+    
 }
 }; // end of class Form1
 }// end of namespace CppCLRWinFormsProject
