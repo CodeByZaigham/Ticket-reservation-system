@@ -1,9 +1,9 @@
 ﻿  CppCLR_WinFormsProject.cpp
-C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Vehicle.h(109,50): warning C4804: '>': unsafe use of type 'bool' in operation
+E:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Vehicle.h(109,50): warning C4804: '>': unsafe use of type 'bool' in operation
   (compiling source file '/CppCLR_WinFormsProject.cpp')
   
-C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Vehicle.h(109,86): warning C4804: '>': unsafe use of type 'bool' in operation
+E:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\CppCLR_WinForms_GUI2\Vehicle.h(109,86): warning C4804: '>': unsafe use of type 'bool' in operation
   (compiling source file '/CppCLR_WinFormsProject.cpp')
   
   Admin.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  CppCLR_WinForms_GUI2.vcxproj -> C:\Users\hp\Documents\final project\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.exe
+  CppCLR_WinForms_GUI2.vcxproj -> E:\ticket reservation system\Ticket-reservation-system\CppCLR_WinForms_GUI2\x64\Debug\CppCLR_WinForms_GUI2.exe
